@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 	CT6024ADVANCEDAI_API UFunction* Z_Construct_UFunction_AToxicSpill_OnOverlapBegin();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	CT6024ADVANCEDAI_API UFunction* Z_Construct_UFunction_AToxicSpill_OnOverlapEnd();
+	ENGINE_API UClass* Z_Construct_UClass_AStaticMeshActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ATriggerBox_NoRegister();
 // End Cross Module References
@@ -149,12 +150,11 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste_MetaData[] = {
-		{ "Category", "Components" },
-		{ "EditInline", "true" },
+		{ "Category", "References" },
 		{ "ModuleRelativePath", "Public/ToxicSpill.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste = { "BarrelOfToxicWaste", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AToxicSpill, BarrelOfToxicWaste), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste_MetaData, ARRAY_COUNT(Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste = { "BarrelOfToxicWaste", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AToxicSpill, BarrelOfToxicWaste), Z_Construct_UClass_AStaticMeshActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste_MetaData, ARRAY_COUNT(Z_Construct_UClass_AToxicSpill_Statics::NewProp_BarrelOfToxicWaste_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AToxicSpill_Statics::NewProp_ToxicSpill_MetaData[] = {
 		{ "Category", "Components" },
@@ -165,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AToxicSpill_Statics::NewProp_ToxicSpill = { "ToxicSpill", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AToxicSpill, ToxicSpill), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AToxicSpill_Statics::NewProp_ToxicSpill_MetaData, ARRAY_COUNT(Z_Construct_UClass_AToxicSpill_Statics::NewProp_ToxicSpill_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AToxicSpill_Statics::NewProp_TriggerBox_MetaData[] = {
-		{ "Category", "Reference" },
+		{ "Category", "References" },
 		{ "ModuleRelativePath", "Public/ToxicSpill.h" },
 	};
 #endif
@@ -202,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AToxicSpill, 1474685639);
+	IMPLEMENT_CLASS(AToxicSpill, 3215401415);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AToxicSpill>()
 	{
 		return AToxicSpill::StaticClass();

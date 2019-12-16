@@ -4,6 +4,7 @@
 #include "Engine/TriggerBox.h"
 #include "Components/StaticMeshComponent.h" 
 #include "Humanoid.h"
+#include "Engine/StaticMeshActor.h"
 
 // Sets default values
 AToxicSpill::AToxicSpill()
@@ -11,24 +12,28 @@ AToxicSpill::AToxicSpill()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//The trigger box.
+	// The trigger box.
 	TriggerBox = CreateDefaultSubobject<ATriggerBox>("TriggerBox");
 
-	//The toxic spillage.
+	// The toxic spillage.
 	ToxicSpill = CreateDefaultSubobject<UStaticMeshComponent>("ToxicSpill");
 
-	//The barrel of toxic waste.
-	BarrelOfToxicWaste = CreateDefaultSubobject<UStaticMeshComponent>("BarrelOfToxicWaste");
+	SetRootComponent(ToxicSpill);
 
+	// The barrel of toxic waste.
+	BarrelOfToxicWaste = CreateDefaultSubobject<AStaticMeshActor>("BarrelOfToxicWaste");
+
+	// Randomize the remaining spilled time.
 	RemainingSpilledTime = FMath::RandRange(5.0f, 30.0f);
 
+	// Randomize the remaining time between spills.
 	RemainingTimeBetweenSpills = FMath::RandRange(0.0f, 50.0f);
 }
 
 // Called when the game starts or when spawned
 void AToxicSpill::BeginPlay()
 {
-	//Register Events
+	// Register Events
 	TriggerBox->OnActorBeginOverlap.AddDynamic(this, &AToxicSpill::OnOverlapBegin);
 	TriggerBox->OnActorEndOverlap.AddDynamic(this, &AToxicSpill::OnOverlapEnd);
 	Super::BeginPlay();
@@ -45,8 +50,20 @@ void AToxicSpill::Tick(float DeltaTime)
 		RemainingSpilledTime -= DeltaTime;
 
 		// Spill barrel over.
+		FRotator NewRotation = FRotator(2.0f, 0.0f, 0.0f);
+		FQuat QuatRotation = FQuat(NewRotation);
+		BarrelOfToxicWaste->AddActorLocalRotation(QuatRotation);
+		FRotator CurrentBarrelRotation = BarrelOfToxicWaste->GetActorRotation();
+		if (CurrentBarrelRotation.Pitch > 87.0f)
+		{
+			FRotator NewLeverRotation = FRotator(87.0f, 0.0f, 0.0f);
+			BarrelOfToxicWaste->SetActorRotation(NewLeverRotation);
+		}
 
 		// Rise the toxic waste.
+		FVector NewLocation = ToxicSpill->GetComponentLocation();
+		NewLocation.Z = -5.0f;
+		ToxicSpill->SetWorldLocation(NewLocation);
 
 		// For each humanoid damage health by DeltaTime.
 		for (AHumanoid* Humanoid : Humanoids)
@@ -68,8 +85,20 @@ void AToxicSpill::Tick(float DeltaTime)
 		RemainingTimeBetweenSpills -= DeltaTime;
 
 		// Unspill barrel over.
+		FRotator NewRotation = FRotator(-2.0f, 0.0f, 0.0f);
+		FQuat QuatRotation = FQuat(NewRotation);
+		BarrelOfToxicWaste->AddActorLocalRotation(QuatRotation);
+		FRotator CurrentBarrelRotation = BarrelOfToxicWaste->GetActorRotation();
+		if (CurrentBarrelRotation.Pitch < 0.0f)
+		{
+			FRotator NewLeverRotation = FRotator(0.0f, 0.0f, 0.0f);
+			BarrelOfToxicWaste->SetActorRotation(NewLeverRotation);
+		}
 
 		// Lower the toxic waste.
+		FVector NewLocation = ToxicSpill->GetComponentLocation();
+		NewLocation.Z = -15.0f;
+		ToxicSpill->SetWorldLocation(NewLocation);
 
 		// Start spilling.
 		if (RemainingTimeBetweenSpills <= 0.0f)

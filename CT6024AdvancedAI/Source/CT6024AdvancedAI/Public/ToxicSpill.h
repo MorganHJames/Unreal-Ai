@@ -19,14 +19,14 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, Category = "Reference")
+	UPROPERTY(EditAnywhere, Category = "References")
 	class ATriggerBox* TriggerBox;
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UStaticMeshComponent* ToxicSpill;
 
-	UPROPERTY(EditAnywhere, Category = "Components")
-	class UStaticMeshComponent* BarrelOfToxicWaste;
+	UPROPERTY(EditAnywhere, Category = "References")
+	class AStaticMeshActor* BarrelOfToxicWaste;
 
 	TArray<class AHumanoid*> Humanoids;
 

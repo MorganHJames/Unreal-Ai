@@ -55,6 +55,7 @@ void ANukeCountdown::Tick(float DeltaTime)
 				GM->GuardsWin();
 			}
 		}
+
 		//Sets up the text string.
 		FString RemainingTimeString = FString::FromInt((int)TimeRemaining);
 
