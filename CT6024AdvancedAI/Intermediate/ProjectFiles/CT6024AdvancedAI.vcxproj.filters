@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CT6024AdvancedAI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{89CD57B3-9D43-4331-A8D7-3BC493FFB05A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CT6024AdvancedAI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CT6024AdvancedAIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F59436D6-E89C-4571-8FF4-878E9462FEE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CT6024AdvancedAI">
+      <UniqueIdentifier>{028B1AB2-14B9-4EE2-8A97-B55C5F74B7D9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CT6024AdvancedAI\CT6024AdvancedAI.Build.cs">
+      <Filter>Source\CT6024AdvancedAI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\CT6024AdvancedAI.cpp">
+      <Filter>Source\CT6024AdvancedAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\CT6024AdvancedAI.h">
+      <Filter>Source\CT6024AdvancedAI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CT6024AdvancedAI\Private">
+      <UniqueIdentifier>{CB313AEF-2B0A-4142-BDBF-E0E14FE9DE9A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Bullet.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\ChargingArea.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GameManager.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Guard.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\HealthKit.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Humanoid.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\NukeCountdown.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Spy.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CT6024AdvancedAI\Public">
+      <UniqueIdentifier>{4F0CCADC-ED81-48D4-A64F-D886B6A1630D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Bullet.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\ChargingArea.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GameManager.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Guard.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\HealthKit.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Humanoid.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\NukeCountdown.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Spy.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\SpectateAIGameState.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\SpectateAIGameMode.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\SelfDestructLever.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GameController.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Locker.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\ToxicSpill.h">
+      <Filter>Source\CT6024AdvancedAI\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\SpectateAIGameState.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\SpectateAIGameMode.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\SelfDestructLever.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GameController.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Locker.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\ToxicSpill.cpp">
+      <Filter>Source\CT6024AdvancedAI\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

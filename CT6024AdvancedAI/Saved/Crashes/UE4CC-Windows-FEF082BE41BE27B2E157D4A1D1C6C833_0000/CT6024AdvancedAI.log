@@ -1,0 +1,1865 @@
+﻿Log file open, 12/16/19 00:26:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CT6024AdvancedAI
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.287077
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=mojoemandem -epicuserid=535e5acf315d4098a6b55e18cb49b508 -epiclocale=en-GB
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.16-00.26.43:364][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.16-00.26.43:365][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:365][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:372][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.16-00.26.43:373][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:373][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.16-00.26.43:374][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.16-00.26.43:374][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.16-00.26.43:374][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.16-00.26.43:399][  0]LogHAL: Display: Platform has ~ 16 GB [17101139968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.16-00.26.43:400][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.16-00.26.43:400][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.16-00.26.43:400][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.16-00.26.43:401][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.16-00.26.43:401][  0]LogInit: Computer: DESKTOP-718HLV6
+[2019.12.16-00.26.43:401][  0]LogInit: User: morga
+[2019.12.16-00.26.43:401][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.16-00.26.43:401][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.16-00.26.43:401][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.16-00.26.43:401][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.16-00.26.43:401][  0]LogMemory: Process Physical Memory: 97.72 MB used, 97.73 MB peak
+[2019.12.16-00.26.43:401][  0]LogMemory: Process Virtual Memory: 89.04 MB used, 89.04 MB peak
+[2019.12.16-00.26.43:401][  0]LogMemory: Physical Memory: 9874.44 MB used,  6434.48 MB free, 16308.92 MB total
+[2019.12.16-00.26.43:401][  0]LogMemory: Virtual Memory: 4642.23 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.16-00.26.43:426][  0]LogInit: Using OS detected language (en-GB).
+[2019.12.16-00.26.43:427][  0]LogInit: Using OS detected locale (en-GB).
+[2019.12.16-00.26.43:427][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.12.16-00.26.43:613][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.16-00.26.43:679][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.16-00.26.43:679][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.16-00.26.43:954][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.16-00.26.43:954][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.16-00.26.44:041][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.12.16-00.26.44:042][  0]LogD3D11RHI:       6054/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.16-00.26.44:059][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.12.16-00.26.44:059][  0]LogD3D11RHI:       128/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.16-00.26.44:062][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.16-00.26.44:062][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.16-00.26.44:062][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.16-00.26.44:128][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.16-00.26.44:128][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.16-00.26.44:128][  0]LogWindows: EnumDisplayDevices:
+[2019.12.16-00.26.44:128][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.12.16-00.26.44:128][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2019.12.16-00.26.44:129][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.12.16-00.26.44:129][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.16-00.26.44:129][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.12.16-00.26.44:129][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.16-00.26.44:129][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.16-00.26.44:129][  0]LogRHI: Texture pool is 4237 MB (70% of 6054 MB)
+[2019.12.16-00.26.44:173][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.16-00.26.44:176][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.16-00.26.44:176][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.16-00.26.44:176][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.16-00.26.44:190][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.16-00.26.44:553][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.16-00.26.44:570][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.16-00.26.44:591][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.16-00.26.44:607][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.16-00.26.44:625][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.16-00.26.44:640][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.16-00.26.44:655][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.16-00.26.44:669][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.16-00.26.44:677][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.16-00.26.44:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.16-00.26.44:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.16-00.26.44:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.16-00.26.44:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.16-00.26.44:766][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.16-00.26.44:825][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.16-00.26.44:825][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.16-00.26.44:858][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.16-00.26.44:858][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.16-00.26.44:879][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.16-00.26.44:894][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.16-00.26.44:908][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.16-00.26.44:922][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.16-00.26.44:971][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.16-00.26.44:971][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.16-00.26.44:971][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.16-00.26.44:979][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.16-00.26.45:031][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Intermediate/Shaders/WorkingDirectory/12896/).
+[2019.12.16-00.26.45:032][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/DCC054534ECECE542C96278211F67303/'.
+[2019.12.16-00.26.45:034][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.16-00.26.45:034][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.16-00.26.45:034][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.16-00.26.45:607][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.16-00.26.45:662][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.16-00.26.45:662][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.16-00.26.45:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.16-00.26.45:662][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.16-00.26.45:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.16-00.26.45:662][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.16-00.26.45:675][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.16-00.26.45:675][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.16-00.26.45:675][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.16-00.26.45:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.16-00.26.45:687][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.16-00.26.45:687][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.16-00.26.45:715][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.16-00.26.45:716][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.16-00.26.45:716][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.16-00.26.45:798][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2019.12.16-00.26.46:153][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.16-00.26.46:318][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.16-00.26.46:318][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.16-00.26.46:318][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.16-00.26.46:318][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.16-00.26.46:318][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.16-00.26.46:335][  0]LogNetVersion: CT6024AdvancedAI 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 379849778)
+[2019.12.16-00.26.46:769][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.067975 seconds
+[2019.12.16-00.26.46:778][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.16-00.26.46:778][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.16-00.26.46:778][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.16-00.26.47:602][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.16-00.26.47:616][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.16-00.26.47:759][  0]SourceControl: Source control is disabled
+[2019.12.16-00.26.47:760][  0]SourceControl: Source control is disabled
+[2019.12.16-00.26.47:761][  0]SourceControl: Source control is disabled
+[2019.12.16-00.26.47:762][  0]SourceControl: Source control is disabled
+[2019.12.16-00.26.47:834][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.16-00.26.47:940][  0]LogOcInput: OculusInput pre-init called
+[2019.12.16-00.26.48:605][  0]LogEngine: Initializing Engine...
+[2019.12.16-00.26.48:606][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.16-00.26.48:609][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.16-00.26.48:823][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.16-00.26.48:838][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.16-00.26.48:853][  0]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.16-00.26.48:867][  0]LogInit: FAudioDevice initialized.
+[2019.12.16-00.26.48:868][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.16-00.26.48:963][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.16-00.26.48:972][  0]LogInit: Texture streaming: Enabled
+[2019.12.16-00.26.48:991][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.16-00.26.49:015][  0]LogInit: Transaction tracking system initialized
+[2019.12.16-00.26.49:053][  0]BlueprintLog: New page: Editor Load
+[2019.12.16-00.26.49:151][  0]LocalizationService: Localization service is disabled
+[2019.12.16-00.26.49:270][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2019.12.16-00.26.49:270][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2019.12.16-00.26.49:270][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2019.12.16-00.26.49:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/' took 0.02s
+[2019.12.16-00.26.49:463][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.16-00.26.49:463][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.16-00.26.49:644][  0]SourceControl: Source control is disabled
+[2019.12.16-00.26.49:644][  0]Cmd: MAP LOAD FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.16-00.26.49:644][  0]LightingResults: New page: Lighting Build
+[2019.12.16-00.26.49:647][  0]MapCheck: New page: Map Check
+[2019.12.16-00.26.49:648][  0]LightingResults: New page: Lighting Build
+[2019.12.16-00.26.49:670][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.12.16-00.26.50:864][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.16-00.26.50:893][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.12.16-00.26.50:893][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.16-00.26.50:893][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.191ms to complete.
+[2019.12.16-00.26.50:893][  0]LogFileHelpers: Loading map 'NukeLaunch' took 1.250
+[2019.12.16-00.26.51:043][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.26.51:053][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.26.51:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.26.51:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.26.51:084][  0]LogCollectionManager: Loaded 0 collections in 0.001908 seconds
+[2019.12.16-00.26.51:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Collections/' took 0.01s
+[2019.12.16-00.26.51:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Developers/morga/Collections/' took 0.00s
+[2019.12.16-00.26.51:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Collections/' took 0.00s
+[2019.12.16-00.26.51:102][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.12.16-00.26.51:116][  0]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2744 classes and 662 folders.
+[2019.12.16-00.26.51:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.16-00.26.51:143][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:181][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:188][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:196][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:201][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:210][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:218][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:228][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:235][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:241][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:271][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:314][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:347][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:356][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:367][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:375][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.16-00.26.51:622][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.16-00.26.51:634][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.12.16-00.26.51:757][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.16-00.26.51:760][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.16-00.26.51:784][  0]LogSlate: Took 0.016325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.16-00.26.52:014][  0]LogRenderer: Reallocating scene render targets to support 972x484 Format 10 NumSamples 1 (Frame:1).
+[2019.12.16-00.26.52:182][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.16-00.26.52:182][  0]LogLoad: (Engine Initialization) Total time: 10.66 seconds
+[2019.12.16-00.26.52:182][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.16-00.26.52:235][  0]LogAssetRegistry: Asset discovery search completed in 6.4579 seconds
+[2019.12.16-00.26.52:237][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.12.16-00.26.52:237][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2019.12.16-00.26.52:238][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.16-00.27.11:076][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.27.11:305][ 83]Candidate modules for hot reload:
+[2019.12.16-00.27.11:305][ 83]  CT6024AdvancedAI
+[2019.12.16-00.27.11:305][ 83]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,4248 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.16-00.27.11:308][ 83]Warning: Starting HotReload took  0.0s.
+[2019.12.16-00.27.28:949][ 57]CompilerResultsLog: New page: Compilation - 16 Dec 2019 00:27:28
+[2019.12.16-00.27.28:950][ 57]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.16-00.27.28:950][ 57]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.16-00.27.28:950][ 57]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.16-00.27.28:950][ 57]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 10.6753503 seconds
+[2019.12.16-00.27.28:950][ 57]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.16-00.27.28:950][ 57]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog:   [1/4] SpectateAIGameMode.cpp
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog:   [2/4] UE4Editor-CT6024AdvancedAI-4248.lib
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-4248.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-4248.exp
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog:   [3/4] UE4Editor-CT6024AdvancedAI-4248.dll
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-4248.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-4248.suppressed.exp
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog:   [4/4] CT6024AdvancedAIEditor.target
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog: Total time in Parallel executor: 2.94 seconds
+[2019.12.16-00.27.28:951][ 57]CompilerResultsLog: Total execution time: 17.52 seconds
+[2019.12.16-00.27.28:951][ 57]LogMainFrame: MainFrame: Module compiling took 17.650 seconds
+[2019.12.16-00.27.28:989][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.12.16-00.27.29:041][ 57]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.16-00.27.29:111][ 57]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.16-00.27.29:203][ 57]LogHotReload: Re-instancing SelfDestructLever after hot-reload.
+[2019.12.16-00.27.29:308][ 57]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.16-00.27.29:402][ 57]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0004 seconds. Added 12 classes and 3 folders.
+[2019.12.16-00.27.29:405][ 57]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.12.16-00.27.29:535][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.12.16-00.27.29:560][ 57]LogContentBrowser: Native class hierarchy populated in 0.0197 seconds. Added 2745 classes and 664 folders.
+[2019.12.16-00.27.29:564][ 57]Display: HotReload took 18.3s.
+[2019.12.16-00.28.52:197][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.28.52:423][642]Candidate modules for hot reload:
+[2019.12.16-00.28.52:423][642]  CT6024AdvancedAI
+[2019.12.16-00.28.52:424][642]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,5487 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.16-00.28.52:426][642]Warning: Starting HotReload took  0.0s.
+[2019.12.16-00.29.07:490][429]CompilerResultsLog: New page: Compilation - 16 Dec 2019 00:29:07
+[2019.12.16-00.29.07:491][429]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.16-00.29.07:491][429]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 10.4354993 seconds
+[2019.12.16-00.29.07:491][429]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.16-00.29.07:491][429]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:   [1/4] SpectateAIGameMode.cpp
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:   [2/4] UE4Editor-CT6024AdvancedAI-5487.lib
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-5487.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-5487.exp
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:   [3/4] UE4Editor-CT6024AdvancedAI-5487.dll
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-5487.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-5487.suppressed.exp
+[2019.12.16-00.29.07:491][429]CompilerResultsLog:   [4/4] CT6024AdvancedAIEditor.target
+[2019.12.16-00.29.07:491][429]CompilerResultsLog: Total time in Parallel executor: 2.36 seconds
+[2019.12.16-00.29.07:491][429]CompilerResultsLog: Total execution time: 14.79 seconds
+[2019.12.16-00.29.07:491][429]LogMainFrame: MainFrame: Module compiling took 15.071 seconds
+[2019.12.16-00.29.07:520][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.12.16-00.29.07:562][429]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.16-00.29.07:678][429]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.16-00.29.07:788][429]LogHotReload: Re-instancing SelfDestructLever after hot-reload.
+[2019.12.16-00.29.07:919][429]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.16-00.29.08:015][429]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0005 seconds. Added 12 classes and 3 folders.
+[2019.12.16-00.29.08:018][429]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.12.16-00.29.08:075][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.12.16-00.29.08:089][429]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2745 classes and 664 folders.
+[2019.12.16-00.29.08:089][429]Display: HotReload took 15.7s.
+[2019.12.16-00.29.12:776][540]LogSlate: Took 0.044344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.16-00.29.13:740][591]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.16-00.29.13:765][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.29.13:765][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.16-00.29.13:766][591]PIE: New page: PIE session: NukeLaunch (16 Dec 2019 00:29:13)
+[2019.12.16-00.29.13:779][591]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.16-00.29.13:867][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087930s)
+[2019.12.16-00.29.13:868][591]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2019.12.16-00.29.13:869][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.089556s)
+[2019.12.16-00.29.13:891][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.12.16-00.29.13:900][591]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.16-00.29.13:910][591]LogInit: FAudioDevice initialized.
+[2019.12.16-00.29.13:955][591]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.16-00.29.13:963][591]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.16-00.29.13
+[2019.12.16-00.29.13:964][591]LogWorld: Bringing up level for play took: 0.007690
+[2019.12.16-00.29.14:013][591]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.12.16-00.29.14:015][591]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.853
+[2019.12.16-00.29.14:016][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.29.19:813][934]LogTemp: Warning: MyCharacter's Bool is True
+[2019.12.16-00.29.22:937][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.29.22:938][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.29.22:973][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.16-00.29.22:973][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.29.23:002][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.29.23:007][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.12.16-00.29.23:041][119]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.12.16-00.29.56:665][360]Candidate modules for hot reload:
+[2019.12.16-00.29.56:665][360]  CT6024AdvancedAI
+[2019.12.16-00.29.56:666][360]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,7121 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.16-00.29.56:670][360]Warning: Starting HotReload took  0.0s.
+[2019.12.16-00.30.15:326][422]CompilerResultsLog: New page: Compilation - 16 Dec 2019 00:30:15
+[2019.12.16-00.30.15:326][422]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.16-00.30.15:327][422]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.16-00.30.15:327][422]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.16-00.30.15:329][422]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 11.6229247 seconds
+[2019.12.16-00.30.15:329][422]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.16-00.30.15:330][422]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.12.16-00.30.15:331][422]CompilerResultsLog:   [1/5] SpectateAIGameMode.cpp
+[2019.12.16-00.30.15:331][422]CompilerResultsLog:   [2/5] GameController.cpp
+[2019.12.16-00.30.15:331][422]CompilerResultsLog:   [3/5] UE4Editor-CT6024AdvancedAI-7121.lib
+[2019.12.16-00.30.15:332][422]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7121.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7121.exp
+[2019.12.16-00.30.15:332][422]CompilerResultsLog:   [4/5] UE4Editor-CT6024AdvancedAI-7121.dll
+[2019.12.16-00.30.15:333][422]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7121.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7121.suppressed.exp
+[2019.12.16-00.30.15:333][422]CompilerResultsLog:   [5/5] CT6024AdvancedAIEditor.target
+[2019.12.16-00.30.15:333][422]CompilerResultsLog: Total time in Parallel executor: 2.96 seconds
+[2019.12.16-00.30.15:333][422]CompilerResultsLog: Total execution time: 18.50 seconds
+[2019.12.16-00.30.15:334][422]LogMainFrame: MainFrame: Module compiling took 18.673 seconds
+[2019.12.16-00.30.15:366][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.12.16-00.30.15:419][422]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.16-00.30.15:505][422]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.16-00.30.15:589][422]LogHotReload: Re-instancing SelfDestructLever after hot-reload.
+[2019.12.16-00.30.15:669][422]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.16-00.30.15:746][422]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0004 seconds. Added 12 classes and 3 folders.
+[2019.12.16-00.30.15:749][422]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.12.16-00.30.15:802][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.12.16-00.30.15:815][422]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2745 classes and 664 folders.
+[2019.12.16-00.30.15:815][422]Display: HotReload took 19.2s.
+[2019.12.16-00.30.16:554][463]LogEditor: Attempting to add actor of class 'GameController' to level at -2880.00,310.00,0.00
+[2019.12.16-00.30.17:132][491]LogEditor: Attempting to add actor of class 'GameController' to level at -3200.00,390.00,0.00
+[2019.12.16-00.30.18:701][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.30.31:306][285]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.16-00.30.31:334][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.30.31:335][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.16-00.30.31:335][285]PIE: New page: PIE session: NukeLaunch (16 Dec 2019 00:30:31)
+[2019.12.16-00.30.31:335][285]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.16-00.30.31:434][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098427s)
+[2019.12.16-00.30.31:435][285]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2019.12.16-00.30.31:435][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.099572s)
+[2019.12.16-00.30.31:460][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.12.16-00.30.31:469][285]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.16-00.30.31:481][285]LogInit: FAudioDevice initialized.
+[2019.12.16-00.30.31:509][285]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.16-00.30.31:518][285]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.16-00.30.31
+[2019.12.16-00.30.31:519][285]LogWorld: Bringing up level for play took: 0.008902
+[2019.12.16-00.30.31:534][285]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.371
+[2019.12.16-00.30.31:535][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.30.31:535][285]LogTemp: Warning: False
+[2019.12.16-00.30.31:621][286]LogTemp: Warning: False
+[2019.12.16-00.30.31:634][287]LogTemp: Warning: False
+[2019.12.16-00.30.31:668][288]LogTemp: Warning: False
+[2019.12.16-00.30.31:685][289]LogTemp: Warning: False
+[2019.12.16-00.30.31:704][290]LogTemp: Warning: False
+[2019.12.16-00.30.31:732][291]LogTemp: Warning: False
+[2019.12.16-00.30.31:752][292]LogTemp: Warning: False
+[2019.12.16-00.30.31:770][293]LogTemp: Warning: False
+[2019.12.16-00.30.31:786][294]LogTemp: Warning: False
+[2019.12.16-00.30.31:804][295]LogTemp: Warning: False
+[2019.12.16-00.30.31:822][296]LogTemp: Warning: False
+[2019.12.16-00.30.31:843][297]LogTemp: Warning: False
+[2019.12.16-00.30.31:860][298]LogTemp: Warning: False
+[2019.12.16-00.30.31:875][299]LogTemp: Warning: False
+[2019.12.16-00.30.31:891][300]LogTemp: Warning: False
+[2019.12.16-00.30.31:908][301]LogTemp: Warning: False
+[2019.12.16-00.30.31:924][302]LogTemp: Warning: False
+[2019.12.16-00.30.31:941][303]LogTemp: Warning: False
+[2019.12.16-00.30.31:958][304]LogTemp: Warning: False
+[2019.12.16-00.30.31:974][305]LogTemp: Warning: False
+[2019.12.16-00.30.31:991][306]LogTemp: Warning: False
+[2019.12.16-00.30.32:008][307]LogTemp: Warning: False
+[2019.12.16-00.30.32:024][308]LogTemp: Warning: False
+[2019.12.16-00.30.32:042][309]LogTemp: Warning: False
+[2019.12.16-00.30.32:059][310]LogTemp: Warning: False
+[2019.12.16-00.30.32:074][311]LogTemp: Warning: False
+[2019.12.16-00.30.32:091][312]LogTemp: Warning: False
+[2019.12.16-00.30.32:108][313]LogTemp: Warning: False
+[2019.12.16-00.30.32:125][314]LogTemp: Warning: False
+[2019.12.16-00.30.32:144][315]LogTemp: Warning: False
+[2019.12.16-00.30.32:162][316]LogTemp: Warning: False
+[2019.12.16-00.30.32:177][317]LogTemp: Warning: False
+[2019.12.16-00.30.32:193][318]LogTemp: Warning: False
+[2019.12.16-00.30.32:210][319]LogTemp: Warning: False
+[2019.12.16-00.30.32:226][320]LogTemp: Warning: False
+[2019.12.16-00.30.32:243][321]LogTemp: Warning: False
+[2019.12.16-00.30.32:260][322]LogTemp: Warning: False
+[2019.12.16-00.30.32:276][323]LogTemp: Warning: False
+[2019.12.16-00.30.32:293][324]LogTemp: Warning: False
+[2019.12.16-00.30.32:310][325]LogTemp: Warning: False
+[2019.12.16-00.30.32:327][326]LogTemp: Warning: False
+[2019.12.16-00.30.32:344][327]LogTemp: Warning: False
+[2019.12.16-00.30.32:360][328]LogTemp: Warning: False
+[2019.12.16-00.30.32:377][329]LogTemp: Warning: False
+[2019.12.16-00.30.32:394][330]LogTemp: Warning: False
+[2019.12.16-00.30.32:410][331]LogTemp: Warning: False
+[2019.12.16-00.30.32:427][332]LogTemp: Warning: False
+[2019.12.16-00.30.32:445][333]LogTemp: Warning: False
+[2019.12.16-00.30.32:461][334]LogTemp: Warning: False
+[2019.12.16-00.30.32:478][335]LogTemp: Warning: False
+[2019.12.16-00.30.32:494][336]LogTemp: Warning: False
+[2019.12.16-00.30.32:511][337]LogTemp: Warning: False
+[2019.12.16-00.30.32:528][338]LogTemp: Warning: False
+[2019.12.16-00.30.32:544][339]LogTemp: Warning: False
+[2019.12.16-00.30.32:561][340]LogTemp: Warning: False
+[2019.12.16-00.30.32:578][341]LogTemp: Warning: False
+[2019.12.16-00.30.32:594][342]LogTemp: Warning: False
+[2019.12.16-00.30.32:612][343]LogTemp: Warning: False
+[2019.12.16-00.30.32:627][344]LogTemp: Warning: False
+[2019.12.16-00.30.32:644][345]LogTemp: Warning: False
+[2019.12.16-00.30.32:661][346]LogTemp: Warning: False
+[2019.12.16-00.30.32:678][347]LogTemp: Warning: False
+[2019.12.16-00.30.32:694][348]LogTemp: Warning: False
+[2019.12.16-00.30.32:711][349]LogTemp: Warning: False
+[2019.12.16-00.30.32:728][350]LogTemp: Warning: False
+[2019.12.16-00.30.32:746][351]LogTemp: Warning: False
+[2019.12.16-00.30.32:763][352]LogTemp: Warning: False
+[2019.12.16-00.30.32:780][353]LogTemp: Warning: False
+[2019.12.16-00.30.32:796][354]LogTemp: Warning: False
+[2019.12.16-00.30.32:813][355]LogTemp: Warning: False
+[2019.12.16-00.30.32:830][356]LogTemp: Warning: False
+[2019.12.16-00.30.32:845][357]LogTemp: Warning: False
+[2019.12.16-00.30.32:862][358]LogTemp: Warning: False
+[2019.12.16-00.30.32:879][359]LogTemp: Warning: False
+[2019.12.16-00.30.32:896][360]LogTemp: Warning: False
+[2019.12.16-00.30.32:912][361]LogTemp: Warning: False
+[2019.12.16-00.30.32:929][362]LogTemp: Warning: False
+[2019.12.16-00.30.32:945][363]LogTemp: Warning: False
+[2019.12.16-00.30.32:962][364]LogTemp: Warning: False
+[2019.12.16-00.30.32:980][365]LogTemp: Warning: False
+[2019.12.16-00.30.32:996][366]LogTemp: Warning: False
+[2019.12.16-00.30.33:014][367]LogTemp: Warning: False
+[2019.12.16-00.30.33:031][368]LogTemp: Warning: False
+[2019.12.16-00.30.33:050][369]LogTemp: Warning: False
+[2019.12.16-00.30.33:066][370]LogTemp: Warning: False
+[2019.12.16-00.30.33:082][371]LogTemp: Warning: False
+[2019.12.16-00.30.33:099][372]LogTemp: Warning: False
+[2019.12.16-00.30.33:116][373]LogTemp: Warning: False
+[2019.12.16-00.30.33:139][374]LogTemp: Warning: False
+[2019.12.16-00.30.33:151][375]LogTemp: Warning: False
+[2019.12.16-00.30.33:168][376]LogTemp: Warning: False
+[2019.12.16-00.30.33:184][377]LogTemp: Warning: False
+[2019.12.16-00.30.33:200][378]LogTemp: Warning: False
+[2019.12.16-00.30.33:222][379]LogTemp: Warning: False
+[2019.12.16-00.30.33:236][380]LogTemp: Warning: False
+[2019.12.16-00.30.33:251][381]LogTemp: Warning: False
+[2019.12.16-00.30.33:268][382]LogTemp: Warning: False
+[2019.12.16-00.30.33:284][383]LogTemp: Warning: False
+[2019.12.16-00.30.33:303][384]LogTemp: Warning: False
+[2019.12.16-00.30.33:322][385]LogTemp: Warning: False
+[2019.12.16-00.30.33:344][386]LogTemp: Warning: False
+[2019.12.16-00.30.33:363][387]LogTemp: Warning: False
+[2019.12.16-00.30.33:381][388]LogTemp: Warning: False
+[2019.12.16-00.30.33:396][389]LogTemp: Warning: False
+[2019.12.16-00.30.33:414][390]LogTemp: Warning: False
+[2019.12.16-00.30.33:435][391]LogTemp: Warning: False
+[2019.12.16-00.30.33:455][392]LogTemp: Warning: False
+[2019.12.16-00.30.33:470][393]LogTemp: Warning: False
+[2019.12.16-00.30.33:487][394]LogTemp: Warning: False
+[2019.12.16-00.30.33:503][395]LogTemp: Warning: False
+[2019.12.16-00.30.33:519][396]LogTemp: Warning: False
+[2019.12.16-00.30.33:536][397]LogTemp: Warning: False
+[2019.12.16-00.30.33:552][398]LogTemp: Warning: False
+[2019.12.16-00.30.33:569][399]LogTemp: Warning: False
+[2019.12.16-00.30.33:589][400]LogTemp: Warning: False
+[2019.12.16-00.30.33:608][401]LogTemp: Warning: False
+[2019.12.16-00.30.33:638][402]LogTemp: Warning: False
+[2019.12.16-00.30.33:656][403]LogTemp: Warning: False
+[2019.12.16-00.30.33:674][404]LogTemp: Warning: False
+[2019.12.16-00.30.33:688][405]LogTemp: Warning: False
+[2019.12.16-00.30.33:705][406]LogTemp: Warning: False
+[2019.12.16-00.30.33:722][407]LogTemp: Warning: False
+[2019.12.16-00.30.33:739][408]LogTemp: Warning: False
+[2019.12.16-00.30.33:755][409]LogTemp: Warning: False
+[2019.12.16-00.30.33:776][410]LogTemp: Warning: False
+[2019.12.16-00.30.33:793][411]LogTemp: Warning: False
+[2019.12.16-00.30.33:910][418]LogTemp: Warning: False
+[2019.12.16-00.30.33:931][419]LogTemp: Warning: False
+[2019.12.16-00.30.33:949][420]LogTemp: Warning: False
+[2019.12.16-00.30.33:964][421]LogTemp: Warning: False
+[2019.12.16-00.30.33:981][422]LogTemp: Warning: False
+[2019.12.16-00.30.33:998][423]LogTemp: Warning: False
+[2019.12.16-00.30.34:015][424]LogTemp: Warning: False
+[2019.12.16-00.30.34:030][425]LogTemp: Warning: False
+[2019.12.16-00.30.34:047][426]LogTemp: Warning: False
+[2019.12.16-00.30.34:064][427]LogTemp: Warning: False
+[2019.12.16-00.30.34:080][428]LogTemp: Warning: False
+[2019.12.16-00.30.34:098][429]LogTemp: Warning: False
+[2019.12.16-00.30.34:115][430]LogTemp: Warning: False
+[2019.12.16-00.30.34:131][431]LogTemp: Warning: False
+[2019.12.16-00.30.34:148][432]LogTemp: Warning: False
+[2019.12.16-00.30.34:164][433]LogTemp: Warning: False
+[2019.12.16-00.30.34:181][434]LogTemp: Warning: False
+[2019.12.16-00.30.34:198][435]LogTemp: Warning: False
+[2019.12.16-00.30.34:215][436]LogTemp: Warning: False
+[2019.12.16-00.30.34:232][437]LogTemp: Warning: False
+[2019.12.16-00.30.34:252][438]LogTemp: Warning: False
+[2019.12.16-00.30.34:284][439]LogTemp: Warning: False
+[2019.12.16-00.30.34:301][440]LogTemp: Warning: False
+[2019.12.16-00.30.34:318][441]LogTemp: Warning: False
+[2019.12.16-00.30.34:329][442]LogTemp: Warning: False
+[2019.12.16-00.30.34:351][443]LogTemp: Warning: False
+[2019.12.16-00.30.34:363][444]LogTemp: Warning: False
+[2019.12.16-00.30.34:381][445]LogTemp: Warning: False
+[2019.12.16-00.30.34:394][446]LogTemp: Warning: False
+[2019.12.16-00.30.34:412][447]LogTemp: Warning: False
+[2019.12.16-00.30.34:426][448]LogTemp: Warning: False
+[2019.12.16-00.30.34:443][449]LogTemp: Warning: False
+[2019.12.16-00.30.34:460][450]LogTemp: Warning: False
+[2019.12.16-00.30.34:476][451]LogTemp: Warning: False
+[2019.12.16-00.30.34:493][452]LogTemp: Warning: False
+[2019.12.16-00.30.34:510][453]LogTemp: Warning: False
+[2019.12.16-00.30.34:528][454]LogTemp: Warning: False
+[2019.12.16-00.30.34:546][455]LogTemp: Warning: False
+[2019.12.16-00.30.34:562][456]LogTemp: Warning: False
+[2019.12.16-00.30.34:578][457]LogTemp: Warning: False
+[2019.12.16-00.30.34:595][458]LogTemp: Warning: False
+[2019.12.16-00.30.34:613][459]LogTemp: Warning: False
+[2019.12.16-00.30.34:629][460]LogTemp: Warning: False
+[2019.12.16-00.30.34:650][461]LogTemp: Warning: False
+[2019.12.16-00.30.34:663][462]LogTemp: Warning: False
+[2019.12.16-00.30.34:680][463]LogTemp: Warning: False
+[2019.12.16-00.30.34:698][464]LogTemp: Warning: False
+[2019.12.16-00.30.34:713][465]LogTemp: Warning: False
+[2019.12.16-00.30.34:733][466]LogTemp: Warning: False
+[2019.12.16-00.30.34:749][467]LogTemp: Warning: False
+[2019.12.16-00.30.34:766][468]LogTemp: Warning: False
+[2019.12.16-00.30.34:781][469]LogTemp: Warning: False
+[2019.12.16-00.30.34:798][470]LogTemp: Warning: False
+[2019.12.16-00.30.34:815][471]LogTemp: Warning: False
+[2019.12.16-00.30.34:831][472]LogTemp: Warning: False
+[2019.12.16-00.30.34:849][473]LogTemp: Warning: False
+[2019.12.16-00.30.34:864][474]LogTemp: Warning: False
+[2019.12.16-00.30.34:881][475]LogTemp: Warning: False
+[2019.12.16-00.30.34:898][476]LogTemp: Warning: False
+[2019.12.16-00.30.34:914][477]LogTemp: Warning: False
+[2019.12.16-00.30.34:931][478]LogTemp: Warning: False
+[2019.12.16-00.30.34:948][479]LogTemp: Warning: False
+[2019.12.16-00.30.34:965][480]LogTemp: Warning: False
+[2019.12.16-00.30.34:981][481]LogTemp: Warning: False
+[2019.12.16-00.30.34:998][482]LogTemp: Warning: False
+[2019.12.16-00.30.35:014][483]LogTemp: Warning: False
+[2019.12.16-00.30.35:031][484]LogTemp: Warning: False
+[2019.12.16-00.30.35:048][485]LogTemp: Warning: False
+[2019.12.16-00.30.35:065][486]LogTemp: Warning: False
+[2019.12.16-00.30.35:081][487]LogTemp: Warning: False
+[2019.12.16-00.30.35:098][488]LogTemp: Warning: False
+[2019.12.16-00.30.35:115][489]LogTemp: Warning: False
+[2019.12.16-00.30.35:132][490]LogTemp: Warning: False
+[2019.12.16-00.30.35:148][491]LogTemp: Warning: False
+[2019.12.16-00.30.35:165][492]LogTemp: Warning: False
+[2019.12.16-00.30.35:182][493]LogTemp: Warning: False
+[2019.12.16-00.30.35:199][494]LogTemp: Warning: False
+[2019.12.16-00.30.35:215][495]LogTemp: Warning: False
+[2019.12.16-00.30.35:230][496]LogTemp: Warning: False
+[2019.12.16-00.30.35:248][497]LogTemp: Warning: False
+[2019.12.16-00.30.35:265][498]LogTemp: Warning: False
+[2019.12.16-00.30.35:282][499]LogTemp: Warning: False
+[2019.12.16-00.30.35:299][500]LogTemp: Warning: False
+[2019.12.16-00.30.35:315][501]LogTemp: Warning: False
+[2019.12.16-00.30.35:332][502]LogTemp: Warning: False
+[2019.12.16-00.30.35:348][503]LogTemp: Warning: False
+[2019.12.16-00.30.35:364][504]LogTemp: Warning: False
+[2019.12.16-00.30.35:381][505]LogTemp: Warning: False
+[2019.12.16-00.30.35:398][506]LogTemp: Warning: False
+[2019.12.16-00.30.35:415][507]LogTemp: Warning: False
+[2019.12.16-00.30.35:430][508]LogTemp: Warning: False
+[2019.12.16-00.30.35:448][509]LogTemp: Warning: False
+[2019.12.16-00.30.35:464][510]LogTemp: Warning: False
+[2019.12.16-00.30.35:481][511]LogTemp: Warning: False
+[2019.12.16-00.30.35:498][512]LogTemp: Warning: False
+[2019.12.16-00.30.35:515][513]LogTemp: Warning: False
+[2019.12.16-00.30.35:531][514]LogTemp: Warning: False
+[2019.12.16-00.30.35:548][515]LogTemp: Warning: False
+[2019.12.16-00.30.35:565][516]LogTemp: Warning: False
+[2019.12.16-00.30.35:581][517]LogTemp: Warning: False
+[2019.12.16-00.30.35:598][518]LogTemp: Warning: False
+[2019.12.16-00.30.35:615][519]LogTemp: Warning: False
+[2019.12.16-00.30.35:632][520]LogTemp: Warning: False
+[2019.12.16-00.30.35:648][521]LogTemp: Warning: False
+[2019.12.16-00.30.35:665][522]LogTemp: Warning: False
+[2019.12.16-00.30.35:682][523]LogTemp: Warning: False
+[2019.12.16-00.30.35:699][524]LogTemp: Warning: False
+[2019.12.16-00.30.35:716][525]LogTemp: Warning: False
+[2019.12.16-00.30.35:732][526]LogTemp: Warning: False
+[2019.12.16-00.30.35:747][527]LogTemp: Warning: False
+[2019.12.16-00.30.35:764][528]LogTemp: Warning: False
+[2019.12.16-00.30.35:781][529]LogTemp: Warning: False
+[2019.12.16-00.30.35:798][530]LogTemp: Warning: False
+[2019.12.16-00.30.35:815][531]LogTemp: Warning: False
+[2019.12.16-00.30.35:831][532]LogTemp: Warning: False
+[2019.12.16-00.30.35:849][533]LogTemp: Warning: False
+[2019.12.16-00.30.35:865][534]LogTemp: Warning: False
+[2019.12.16-00.30.35:881][535]LogTemp: Warning: False
+[2019.12.16-00.30.35:898][536]LogTemp: Warning: False
+[2019.12.16-00.30.35:915][537]LogTemp: Warning: False
+[2019.12.16-00.30.35:931][538]LogTemp: Warning: False
+[2019.12.16-00.30.35:948][539]LogTemp: Warning: False
+[2019.12.16-00.30.35:965][540]LogTemp: Warning: False
+[2019.12.16-00.30.35:981][541]LogTemp: Warning: False
+[2019.12.16-00.30.36:000][542]LogTemp: Warning: False
+[2019.12.16-00.30.36:015][543]LogTemp: Warning: False
+[2019.12.16-00.30.36:031][544]LogTemp: Warning: False
+[2019.12.16-00.30.36:048][545]LogTemp: Warning: False
+[2019.12.16-00.30.36:065][546]LogTemp: Warning: False
+[2019.12.16-00.30.36:082][547]LogTemp: Warning: False
+[2019.12.16-00.30.36:099][548]LogTemp: Warning: False
+[2019.12.16-00.30.36:114][549]LogTemp: Warning: False
+[2019.12.16-00.30.36:131][550]LogTemp: Warning: False
+[2019.12.16-00.30.36:148][551]LogTemp: Warning: False
+[2019.12.16-00.30.36:166][552]LogTemp: Warning: False
+[2019.12.16-00.30.36:181][553]LogTemp: Warning: False
+[2019.12.16-00.30.36:197][554]LogTemp: Warning: False
+[2019.12.16-00.30.36:214][555]LogTemp: Warning: False
+[2019.12.16-00.30.36:231][556]LogTemp: Warning: False
+[2019.12.16-00.30.36:248][557]LogTemp: Warning: False
+[2019.12.16-00.30.36:265][558]LogTemp: Warning: False
+[2019.12.16-00.30.36:282][559]LogTemp: Warning: False
+[2019.12.16-00.30.36:298][560]LogTemp: Warning: False
+[2019.12.16-00.30.36:315][561]LogTemp: Warning: False
+[2019.12.16-00.30.36:332][562]LogTemp: Warning: False
+[2019.12.16-00.30.36:348][563]LogTemp: Warning: False
+[2019.12.16-00.30.36:364][564]LogTemp: Warning: False
+[2019.12.16-00.30.36:382][565]LogTemp: Warning: False
+[2019.12.16-00.30.36:399][566]LogTemp: Warning: False
+[2019.12.16-00.30.36:415][567]LogTemp: Warning: False
+[2019.12.16-00.30.36:432][568]LogTemp: Warning: False
+[2019.12.16-00.30.36:450][569]LogTemp: Warning: False
+[2019.12.16-00.30.36:465][570]LogTemp: Warning: False
+[2019.12.16-00.30.36:480][571]LogTemp: Warning: False
+[2019.12.16-00.30.36:498][572]LogTemp: Warning: False
+[2019.12.16-00.30.36:514][573]LogTemp: Warning: False
+[2019.12.16-00.30.36:531][574]LogTemp: Warning: False
+[2019.12.16-00.30.36:550][575]LogTemp: Warning: False
+[2019.12.16-00.30.36:565][576]LogTemp: Warning: False
+[2019.12.16-00.30.36:581][577]LogTemp: Warning: False
+[2019.12.16-00.30.36:600][578]LogTemp: Warning: False
+[2019.12.16-00.30.36:616][579]LogTemp: Warning: False
+[2019.12.16-00.30.36:632][580]LogTemp: Warning: False
+[2019.12.16-00.30.36:649][581]LogTemp: Warning: False
+[2019.12.16-00.30.36:664][582]LogTemp: Warning: False
+[2019.12.16-00.30.36:682][583]LogTemp: Warning: False
+[2019.12.16-00.30.36:700][584]LogTemp: Warning: False
+[2019.12.16-00.30.36:715][585]LogTemp: Warning: False
+[2019.12.16-00.30.36:732][586]LogTemp: Warning: False
+[2019.12.16-00.30.36:751][587]LogTemp: Warning: False
+[2019.12.16-00.30.36:767][588]LogTemp: Warning: False
+[2019.12.16-00.30.36:782][589]LogTemp: Warning: False
+[2019.12.16-00.30.36:799][590]LogTemp: Warning: False
+[2019.12.16-00.30.36:815][591]LogTemp: Warning: False
+[2019.12.16-00.30.36:834][592]LogTemp: Warning: False
+[2019.12.16-00.30.36:849][593]LogTemp: Warning: False
+[2019.12.16-00.30.36:866][594]LogTemp: Warning: False
+[2019.12.16-00.30.36:884][595]LogTemp: Warning: False
+[2019.12.16-00.30.36:902][596]LogTemp: Warning: False
+[2019.12.16-00.30.36:917][597]LogTemp: Warning: False
+[2019.12.16-00.30.36:933][598]LogTemp: Warning: False
+[2019.12.16-00.30.36:950][599]LogTemp: Warning: False
+[2019.12.16-00.30.36:967][600]LogTemp: Warning: False
+[2019.12.16-00.30.36:983][601]LogTemp: Warning: False
+[2019.12.16-00.30.37:000][602]LogTemp: Warning: False
+[2019.12.16-00.30.37:017][603]LogTemp: Warning: False
+[2019.12.16-00.30.37:034][604]LogTemp: Warning: False
+[2019.12.16-00.30.37:051][605]LogTemp: Warning: False
+[2019.12.16-00.30.37:066][606]LogTemp: Warning: False
+[2019.12.16-00.30.37:083][607]LogTemp: Warning: False
+[2019.12.16-00.30.37:100][608]LogTemp: Warning: False
+[2019.12.16-00.30.37:116][609]LogTemp: Warning: False
+[2019.12.16-00.30.37:133][610]LogTemp: Warning: False
+[2019.12.16-00.30.37:150][611]LogTemp: Warning: False
+[2019.12.16-00.30.37:167][612]LogTemp: Warning: False
+[2019.12.16-00.30.37:184][613]LogTemp: Warning: False
+[2019.12.16-00.30.37:199][614]LogTemp: Warning: False
+[2019.12.16-00.30.37:217][615]LogTemp: Warning: False
+[2019.12.16-00.30.37:233][616]LogTemp: Warning: False
+[2019.12.16-00.30.37:250][617]LogTemp: Warning: False
+[2019.12.16-00.30.37:266][618]LogTemp: Warning: False
+[2019.12.16-00.30.37:283][619]LogTemp: Warning: False
+[2019.12.16-00.30.37:300][620]LogTemp: Warning: False
+[2019.12.16-00.30.37:316][621]LogTemp: Warning: False
+[2019.12.16-00.30.37:334][622]LogTemp: Warning: False
+[2019.12.16-00.30.37:353][623]LogTemp: Warning: False
+[2019.12.16-00.30.37:369][624]LogTemp: Warning: False
+[2019.12.16-00.30.37:385][625]LogTemp: Warning: False
+[2019.12.16-00.30.37:402][626]LogTemp: Warning: False
+[2019.12.16-00.30.37:419][627]LogTemp: Warning: False
+[2019.12.16-00.30.37:435][628]LogTemp: Warning: False
+[2019.12.16-00.30.37:454][629]LogTemp: Warning: False
+[2019.12.16-00.30.37:471][630]LogTemp: Warning: False
+[2019.12.16-00.30.37:487][631]LogTemp: Warning: False
+[2019.12.16-00.30.37:488][631]LogTemp: Warning: REEEEEEEEEEEEEEEEE True
+[2019.12.16-00.30.37:504][632]LogTemp: Warning: True
+[2019.12.16-00.30.37:505][632]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:505][632]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:521][633]LogTemp: Warning: True
+[2019.12.16-00.30.37:521][633]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:521][633]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:537][634]LogTemp: Warning: True
+[2019.12.16-00.30.37:538][634]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:538][634]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:554][635]LogTemp: Warning: True
+[2019.12.16-00.30.37:554][635]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:554][635]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:571][636]LogTemp: Warning: True
+[2019.12.16-00.30.37:571][636]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:571][636]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:587][637]LogTemp: Warning: True
+[2019.12.16-00.30.37:588][637]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:588][637]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:604][638]LogTemp: Warning: True
+[2019.12.16-00.30.37:604][638]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:604][638]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:621][639]LogTemp: Warning: True
+[2019.12.16-00.30.37:621][639]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:621][639]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:639][640]LogTemp: Warning: True
+[2019.12.16-00.30.37:639][640]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:639][640]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:655][641]LogTemp: Warning: True
+[2019.12.16-00.30.37:655][641]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:655][641]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:671][642]LogTemp: Warning: True
+[2019.12.16-00.30.37:671][642]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:672][642]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:688][643]LogTemp: Warning: True
+[2019.12.16-00.30.37:689][643]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:689][643]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:704][644]LogTemp: Warning: True
+[2019.12.16-00.30.37:705][644]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:705][644]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:722][645]LogTemp: Warning: True
+[2019.12.16-00.30.37:722][645]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:722][645]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:739][646]LogTemp: Warning: True
+[2019.12.16-00.30.37:739][646]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:740][646]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:755][647]LogTemp: Warning: True
+[2019.12.16-00.30.37:755][647]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:755][647]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:770][648]LogTemp: Warning: True
+[2019.12.16-00.30.37:771][648]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:771][648]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:788][649]LogTemp: Warning: True
+[2019.12.16-00.30.37:789][649]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:789][649]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:810][650]LogTemp: Warning: True
+[2019.12.16-00.30.37:810][650]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:810][650]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:828][651]LogTemp: Warning: True
+[2019.12.16-00.30.37:829][651]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:829][651]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:845][652]LogTemp: Warning: True
+[2019.12.16-00.30.37:846][652]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:846][652]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:865][653]LogTemp: Warning: True
+[2019.12.16-00.30.37:865][653]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:865][653]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:880][654]LogTemp: Warning: True
+[2019.12.16-00.30.37:881][654]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:881][654]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:897][655]LogTemp: Warning: True
+[2019.12.16-00.30.37:897][655]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:897][655]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:913][656]LogTemp: Warning: True
+[2019.12.16-00.30.37:914][656]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:914][656]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:930][657]LogTemp: Warning: True
+[2019.12.16-00.30.37:930][657]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:930][657]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:947][658]LogTemp: Warning: True
+[2019.12.16-00.30.37:948][658]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:948][658]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:963][659]LogTemp: Warning: True
+[2019.12.16-00.30.37:964][659]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:964][659]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:980][660]LogTemp: Warning: True
+[2019.12.16-00.30.37:980][660]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:980][660]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:997][661]LogTemp: Warning: True
+[2019.12.16-00.30.37:997][661]LogTemp: Warning: Guards win
+[2019.12.16-00.30.37:997][661]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:014][662]LogTemp: Warning: True
+[2019.12.16-00.30.38:014][662]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:014][662]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:030][663]LogTemp: Warning: True
+[2019.12.16-00.30.38:031][663]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:031][663]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:046][664]LogTemp: Warning: True
+[2019.12.16-00.30.38:046][664]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:047][664]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:064][665]LogTemp: Warning: True
+[2019.12.16-00.30.38:064][665]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:064][665]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:079][666]LogTemp: Warning: True
+[2019.12.16-00.30.38:080][666]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:080][666]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:096][667]LogTemp: Warning: True
+[2019.12.16-00.30.38:097][667]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:097][667]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:113][668]LogTemp: Warning: True
+[2019.12.16-00.30.38:113][668]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:113][668]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:130][669]LogTemp: Warning: True
+[2019.12.16-00.30.38:130][669]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:130][669]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:147][670]LogTemp: Warning: True
+[2019.12.16-00.30.38:148][670]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:148][670]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:163][671]LogTemp: Warning: True
+[2019.12.16-00.30.38:163][671]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:163][671]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:180][672]LogTemp: Warning: True
+[2019.12.16-00.30.38:180][672]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:181][672]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:197][673]LogTemp: Warning: True
+[2019.12.16-00.30.38:197][673]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:197][673]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:213][674]LogTemp: Warning: True
+[2019.12.16-00.30.38:214][674]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:214][674]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:230][675]LogTemp: Warning: True
+[2019.12.16-00.30.38:231][675]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:231][675]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:247][676]LogTemp: Warning: True
+[2019.12.16-00.30.38:247][676]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:248][676]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:263][677]LogTemp: Warning: True
+[2019.12.16-00.30.38:263][677]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:263][677]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:280][678]LogTemp: Warning: True
+[2019.12.16-00.30.38:280][678]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:280][678]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:297][679]LogTemp: Warning: True
+[2019.12.16-00.30.38:297][679]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:297][679]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:314][680]LogTemp: Warning: True
+[2019.12.16-00.30.38:314][680]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:314][680]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:330][681]LogTemp: Warning: True
+[2019.12.16-00.30.38:331][681]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:331][681]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:348][682]LogTemp: Warning: True
+[2019.12.16-00.30.38:349][682]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:349][682]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:364][683]LogTemp: Warning: True
+[2019.12.16-00.30.38:364][683]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:364][683]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:380][684]LogTemp: Warning: True
+[2019.12.16-00.30.38:380][684]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:380][684]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:398][685]LogTemp: Warning: True
+[2019.12.16-00.30.38:398][685]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:399][685]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:414][686]LogTemp: Warning: True
+[2019.12.16-00.30.38:414][686]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:414][686]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:429][687]LogTemp: Warning: True
+[2019.12.16-00.30.38:429][687]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:429][687]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:446][688]LogTemp: Warning: True
+[2019.12.16-00.30.38:447][688]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:447][688]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:463][689]LogTemp: Warning: True
+[2019.12.16-00.30.38:463][689]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:464][689]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:480][690]LogTemp: Warning: True
+[2019.12.16-00.30.38:480][690]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:480][690]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:497][691]LogTemp: Warning: True
+[2019.12.16-00.30.38:497][691]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:497][691]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:513][692]LogTemp: Warning: True
+[2019.12.16-00.30.38:513][692]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:514][692]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:530][693]LogTemp: Warning: True
+[2019.12.16-00.30.38:530][693]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:530][693]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:548][694]LogTemp: Warning: True
+[2019.12.16-00.30.38:548][694]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:548][694]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:564][695]LogTemp: Warning: True
+[2019.12.16-00.30.38:564][695]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:564][695]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:581][696]LogTemp: Warning: True
+[2019.12.16-00.30.38:581][696]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:581][696]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:597][697]LogTemp: Warning: True
+[2019.12.16-00.30.38:598][697]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:598][697]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:614][698]LogTemp: Warning: True
+[2019.12.16-00.30.38:614][698]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:614][698]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:631][699]LogTemp: Warning: True
+[2019.12.16-00.30.38:631][699]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:631][699]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:646][700]LogTemp: Warning: True
+[2019.12.16-00.30.38:646][700]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:647][700]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:663][701]LogTemp: Warning: True
+[2019.12.16-00.30.38:663][701]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:663][701]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:680][702]LogTemp: Warning: True
+[2019.12.16-00.30.38:680][702]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:680][702]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:698][703]LogTemp: Warning: True
+[2019.12.16-00.30.38:698][703]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:698][703]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:713][704]LogTemp: Warning: True
+[2019.12.16-00.30.38:713][704]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:713][704]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:730][705]LogTemp: Warning: True
+[2019.12.16-00.30.38:730][705]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:730][705]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:747][706]LogTemp: Warning: True
+[2019.12.16-00.30.38:747][706]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:747][706]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:763][707]LogTemp: Warning: True
+[2019.12.16-00.30.38:764][707]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:764][707]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:780][708]LogTemp: Warning: True
+[2019.12.16-00.30.38:780][708]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:780][708]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:797][709]LogTemp: Warning: True
+[2019.12.16-00.30.38:797][709]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:797][709]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:814][710]LogTemp: Warning: True
+[2019.12.16-00.30.38:814][710]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:814][710]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:831][711]LogTemp: Warning: True
+[2019.12.16-00.30.38:832][711]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:832][711]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:848][712]LogTemp: Warning: True
+[2019.12.16-00.30.38:848][712]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:849][712]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:863][713]LogTemp: Warning: True
+[2019.12.16-00.30.38:864][713]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:864][713]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:881][714]LogTemp: Warning: True
+[2019.12.16-00.30.38:881][714]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:881][714]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:897][715]LogTemp: Warning: True
+[2019.12.16-00.30.38:897][715]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:897][715]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:914][716]LogTemp: Warning: True
+[2019.12.16-00.30.38:915][716]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:915][716]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:930][717]LogTemp: Warning: True
+[2019.12.16-00.30.38:930][717]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:930][717]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:947][718]LogTemp: Warning: True
+[2019.12.16-00.30.38:947][718]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:947][718]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:964][719]LogTemp: Warning: True
+[2019.12.16-00.30.38:964][719]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:965][719]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:984][720]LogTemp: Warning: True
+[2019.12.16-00.30.38:984][720]LogTemp: Warning: Guards win
+[2019.12.16-00.30.38:984][720]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:003][721]LogTemp: Warning: True
+[2019.12.16-00.30.39:003][721]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:003][721]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:014][722]LogTemp: Warning: True
+[2019.12.16-00.30.39:014][722]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:014][722]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:033][723]LogTemp: Warning: True
+[2019.12.16-00.30.39:033][723]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:033][723]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:052][724]LogTemp: Warning: True
+[2019.12.16-00.30.39:052][724]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:052][724]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:066][725]LogTemp: Warning: True
+[2019.12.16-00.30.39:066][725]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:066][725]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:081][726]LogTemp: Warning: True
+[2019.12.16-00.30.39:081][726]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:081][726]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:099][727]LogTemp: Warning: True
+[2019.12.16-00.30.39:099][727]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:099][727]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:114][728]LogTemp: Warning: True
+[2019.12.16-00.30.39:114][728]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:115][728]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:132][729]LogTemp: Warning: True
+[2019.12.16-00.30.39:132][729]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:132][729]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:149][730]LogTemp: Warning: True
+[2019.12.16-00.30.39:150][730]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:150][730]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:164][731]LogTemp: Warning: True
+[2019.12.16-00.30.39:164][731]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:164][731]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:181][732]LogTemp: Warning: True
+[2019.12.16-00.30.39:181][732]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:181][732]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:201][733]LogTemp: Warning: True
+[2019.12.16-00.30.39:202][733]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:202][733]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:218][734]LogTemp: Warning: True
+[2019.12.16-00.30.39:218][734]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:218][734]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:236][735]LogTemp: Warning: True
+[2019.12.16-00.30.39:236][735]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:236][735]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:254][736]LogTemp: Warning: True
+[2019.12.16-00.30.39:254][736]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:254][736]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:271][737]LogTemp: Warning: True
+[2019.12.16-00.30.39:271][737]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:271][737]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:284][738]LogTemp: Warning: True
+[2019.12.16-00.30.39:284][738]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:284][738]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:307][739]LogTemp: Warning: True
+[2019.12.16-00.30.39:307][739]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:307][739]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:322][740]LogTemp: Warning: True
+[2019.12.16-00.30.39:323][740]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:323][740]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:343][741]LogTemp: Warning: True
+[2019.12.16-00.30.39:343][741]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:343][741]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:365][742]LogTemp: Warning: True
+[2019.12.16-00.30.39:365][742]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:365][742]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:386][743]LogTemp: Warning: True
+[2019.12.16-00.30.39:386][743]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:386][743]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:404][744]LogTemp: Warning: True
+[2019.12.16-00.30.39:404][744]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:404][744]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:423][745]LogTemp: Warning: True
+[2019.12.16-00.30.39:423][745]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:423][745]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:446][746]LogTemp: Warning: True
+[2019.12.16-00.30.39:446][746]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:446][746]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:462][747]LogTemp: Warning: True
+[2019.12.16-00.30.39:462][747]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:462][747]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:479][748]LogTemp: Warning: True
+[2019.12.16-00.30.39:479][748]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:479][748]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:496][749]LogTemp: Warning: True
+[2019.12.16-00.30.39:496][749]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:496][749]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:513][750]LogTemp: Warning: True
+[2019.12.16-00.30.39:513][750]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:513][750]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:530][751]LogTemp: Warning: True
+[2019.12.16-00.30.39:530][751]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:530][751]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:546][752]LogTemp: Warning: True
+[2019.12.16-00.30.39:546][752]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:546][752]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:564][753]LogTemp: Warning: True
+[2019.12.16-00.30.39:565][753]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:565][753]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:582][754]LogTemp: Warning: True
+[2019.12.16-00.30.39:582][754]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:582][754]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:605][755]LogTemp: Warning: True
+[2019.12.16-00.30.39:606][755]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:606][755]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:626][756]LogTemp: Warning: True
+[2019.12.16-00.30.39:626][756]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:626][756]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:644][757]LogTemp: Warning: True
+[2019.12.16-00.30.39:645][757]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:645][757]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:660][758]LogTemp: Warning: True
+[2019.12.16-00.30.39:660][758]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:660][758]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:679][759]LogTemp: Warning: True
+[2019.12.16-00.30.39:679][759]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:680][759]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:692][760]LogTemp: Warning: True
+[2019.12.16-00.30.39:692][760]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:692][760]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:709][761]LogTemp: Warning: True
+[2019.12.16-00.30.39:709][761]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:709][761]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:726][762]LogTemp: Warning: True
+[2019.12.16-00.30.39:726][762]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:726][762]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:744][763]LogTemp: Warning: True
+[2019.12.16-00.30.39:745][763]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:746][763]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:764][764]LogTemp: Warning: True
+[2019.12.16-00.30.39:765][764]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:765][764]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:783][765]LogTemp: Warning: True
+[2019.12.16-00.30.39:784][765]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:784][765]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:800][766]LogTemp: Warning: True
+[2019.12.16-00.30.39:801][766]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:801][766]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:819][767]LogTemp: Warning: True
+[2019.12.16-00.30.39:820][767]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:820][767]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:835][768]LogTemp: Warning: True
+[2019.12.16-00.30.39:835][768]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:835][768]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:851][769]LogTemp: Warning: True
+[2019.12.16-00.30.39:851][769]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:851][769]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:866][770]LogTemp: Warning: True
+[2019.12.16-00.30.39:867][770]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:867][770]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:883][771]LogTemp: Warning: True
+[2019.12.16-00.30.39:883][771]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:883][771]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:900][772]LogTemp: Warning: True
+[2019.12.16-00.30.39:900][772]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:900][772]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:917][773]LogTemp: Warning: True
+[2019.12.16-00.30.39:917][773]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:917][773]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:933][774]LogTemp: Warning: True
+[2019.12.16-00.30.39:933][774]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:933][774]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:950][775]LogTemp: Warning: True
+[2019.12.16-00.30.39:950][775]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:950][775]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:967][776]LogTemp: Warning: True
+[2019.12.16-00.30.39:967][776]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:968][776]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:984][777]LogTemp: Warning: True
+[2019.12.16-00.30.39:985][777]LogTemp: Warning: Guards win
+[2019.12.16-00.30.39:985][777]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:001][778]LogTemp: Warning: True
+[2019.12.16-00.30.40:002][778]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:002][778]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:019][779]LogTemp: Warning: True
+[2019.12.16-00.30.40:019][779]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:019][779]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:037][780]LogTemp: Warning: True
+[2019.12.16-00.30.40:037][780]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:038][780]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:056][781]LogTemp: Warning: True
+[2019.12.16-00.30.40:057][781]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:057][781]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:069][782]LogTemp: Warning: True
+[2019.12.16-00.30.40:069][782]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:069][782]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:093][783]LogTemp: Warning: True
+[2019.12.16-00.30.40:093][783]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:093][783]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:111][784]LogTemp: Warning: True
+[2019.12.16-00.30.40:111][784]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:111][784]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:125][785]LogTemp: Warning: True
+[2019.12.16-00.30.40:125][785]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:125][785]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:140][786]LogTemp: Warning: True
+[2019.12.16-00.30.40:141][786]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:141][786]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:156][787]LogTemp: Warning: True
+[2019.12.16-00.30.40:156][787]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:156][787]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:173][788]LogTemp: Warning: True
+[2019.12.16-00.30.40:173][788]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:173][788]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:190][789]LogTemp: Warning: True
+[2019.12.16-00.30.40:191][789]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:191][789]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:207][790]LogTemp: Warning: True
+[2019.12.16-00.30.40:207][790]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:207][790]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:224][791]LogTemp: Warning: True
+[2019.12.16-00.30.40:224][791]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:224][791]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:240][792]LogTemp: Warning: True
+[2019.12.16-00.30.40:240][792]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:240][792]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:256][793]LogTemp: Warning: True
+[2019.12.16-00.30.40:256][793]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:257][793]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:273][794]LogTemp: Warning: True
+[2019.12.16-00.30.40:273][794]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:273][794]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:290][795]LogTemp: Warning: True
+[2019.12.16-00.30.40:290][795]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:290][795]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:306][796]LogTemp: Warning: True
+[2019.12.16-00.30.40:307][796]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:307][796]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:440][804]LogTemp: Warning: True
+[2019.12.16-00.30.40:441][804]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:441][804]LogTemp: Warning: Guards win
+[2019.12.16-00.30.40:442][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.30.40:442][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.30.40:478][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.16-00.30.40:479][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.30.40:511][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.30.40:514][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.12.16-00.30.40:548][806]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.16-00.31.11:421][632]Candidate modules for hot reload:
+[2019.12.16-00.31.11:421][632]  CT6024AdvancedAI
+[2019.12.16-00.31.11:422][632]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,1212 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.16-00.31.11:425][632]Warning: Starting HotReload took  0.0s.
+[2019.12.16-00.31.17:189][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.12.16-00.31.17:206][928]LogSlate: Took 0.010426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.16-00.31.17:272][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.12.16-00.31.18:044][928]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/NukeLaunchC6B3D09449492ADA160E569651F07A46.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap'
+[2019.12.16-00.31.18:164][928]LogFileHelpers: Saving map 'NukeLaunch' took 0.929
+[2019.12.16-00.31.32:491][727]CompilerResultsLog: New page: Compilation - 16 Dec 2019 00:31:32
+[2019.12.16-00.31.32:492][727]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.16-00.31.32:492][727]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.16-00.31.32:492][727]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.16-00.31.32:493][727]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 12.4780456 seconds
+[2019.12.16-00.31.32:493][727]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.16-00.31.32:493][727]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.12.16-00.31.32:493][727]CompilerResultsLog:   [1/5] GameController.cpp
+[2019.12.16-00.31.32:494][727]CompilerResultsLog:   [2/5] SpectateAIGameMode.cpp
+[2019.12.16-00.31.32:494][727]CompilerResultsLog:   [3/5] UE4Editor-CT6024AdvancedAI-1212.lib
+[2019.12.16-00.31.32:494][727]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1212.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1212.exp
+[2019.12.16-00.31.32:494][727]CompilerResultsLog:   [4/5] UE4Editor-CT6024AdvancedAI-1212.dll
+[2019.12.16-00.31.32:495][727]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1212.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1212.suppressed.exp
+[2019.12.16-00.31.32:495][727]CompilerResultsLog:   [5/5] CT6024AdvancedAIEditor.target
+[2019.12.16-00.31.32:495][727]CompilerResultsLog: Total time in Parallel executor: 3.86 seconds
+[2019.12.16-00.31.32:495][727]CompilerResultsLog: Total execution time: 20.89 seconds
+[2019.12.16-00.31.32:496][727]LogMainFrame: MainFrame: Module compiling took 21.080 seconds
+[2019.12.16-00.31.32:530][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.12.16-00.31.32:604][727]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.16-00.31.32:701][727]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.16-00.31.32:798][727]LogHotReload: Re-instancing SelfDestructLever after hot-reload.
+[2019.12.16-00.31.32:882][727]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.16-00.31.32:966][727]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0005 seconds. Added 12 classes and 3 folders.
+[2019.12.16-00.31.32:969][727]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.12.16-00.31.33:024][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.12.16-00.31.33:039][727]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2745 classes and 664 folders.
+[2019.12.16-00.31.33:040][727]Display: HotReload took 21.6s.
+[2019.12.16-00.32.01:674][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.32.01:837][889]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.16-00.32.01:870][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.32.01:871][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.16-00.32.01:871][889]PIE: New page: PIE session: NukeLaunch (16 Dec 2019 00:32:01)
+[2019.12.16-00.32.01:871][889]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.16-00.32.01:966][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094505s)
+[2019.12.16-00.32.01:966][889]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2019.12.16-00.32.01:967][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.095520s)
+[2019.12.16-00.32.01:987][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.12.16-00.32.01:998][889]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.16-00.32.02:010][889]LogInit: FAudioDevice initialized.
+[2019.12.16-00.32.02:041][889]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.16-00.32.02:050][889]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 0) at 2019.12.16-00.32.02
+[2019.12.16-00.32.02:051][889]LogWorld: Bringing up level for play took: 0.008227
+[2019.12.16-00.32.02:065][889]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.902
+[2019.12.16-00.32.02:065][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.32.07:886][232]LogTemp: Warning: Guards win
+[2019.12.16-00.32.07:902][233]LogTemp: Warning: Guards win
+[2019.12.16-00.32.07:918][234]LogTemp: Warning: Guards win
+[2019.12.16-00.32.07:935][235]LogTemp: Warning: Guards win
+[2019.12.16-00.32.07:952][236]LogTemp: Warning: Guards win
+[2019.12.16-00.32.07:968][237]LogTemp: Warning: Guards win
+[2019.12.16-00.32.07:985][238]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:002][239]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:019][240]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:036][241]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:059][242]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:077][243]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:093][244]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:109][245]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:125][246]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:143][247]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:158][248]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:176][249]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:193][250]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:209][251]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:226][252]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:243][253]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:259][254]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:276][255]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:293][256]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:309][257]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:326][258]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:343][259]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:359][260]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:375][261]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:392][262]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:409][263]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:427][264]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:443][265]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:460][266]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:476][267]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:493][268]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:509][269]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:530][270]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:545][271]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:561][272]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:579][273]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:596][274]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:617][275]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:633][276]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:648][277]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:663][278]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:681][279]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:698][280]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:715][281]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:731][282]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:746][283]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:761][284]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:779][285]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:794][286]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:811][287]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:828][288]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:844][289]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:862][290]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:885][291]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:911][292]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:931][293]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:942][294]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:962][295]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:975][296]LogTemp: Warning: Guards win
+[2019.12.16-00.32.08:992][297]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:009][298]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:024][299]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:040][300]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:058][301]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:074][302]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:091][303]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:108][304]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:124][305]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:141][306]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:159][307]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:191][308]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:206][309]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:221][310]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:238][311]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:254][312]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:275][313]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:297][314]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:313][315]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:328][316]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:345][317]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:360][318]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:377][319]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:394][320]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:410][321]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:428][322]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:444][323]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:462][324]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:482][325]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:500][326]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:515][327]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:529][328]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:546][329]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:563][330]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:582][331]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:600][332]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:618][333]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:632][334]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:649][335]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:665][336]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:681][337]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:698][338]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:715][339]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:731][340]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:749][341]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:764][342]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:782][343]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:799][344]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:814][345]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:831][346]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:848][347]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:864][348]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:881][349]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:899][350]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:915][351]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:931][352]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:948][353]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:965][354]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:981][355]LogTemp: Warning: Guards win
+[2019.12.16-00.32.09:998][356]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:015][357]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:031][358]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:048][359]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:065][360]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:081][361]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:098][362]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:114][363]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:131][364]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:148][365]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:164][366]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:182][367]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:201][368]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:218][369]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:234][370]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:251][371]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:267][372]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:283][373]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:300][374]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:317][375]LogTemp: Warning: Guards win
+[2019.12.16-00.32.10:318][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.32.10:319][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.32.10:354][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.16-00.32.10:355][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.32.10:386][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.32.10:391][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.12.16-00.32.10:417][376]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.12.16-00.32.51:420][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.32.51:696][573]Candidate modules for hot reload:
+[2019.12.16-00.32.51:697][573]  CT6024AdvancedAI
+[2019.12.16-00.32.51:697][573]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,1530 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.16-00.32.51:700][573]Warning: Starting HotReload took  0.0s.
+[2019.12.16-00.33.11:217][697]CompilerResultsLog: New page: Compilation - 16 Dec 2019 00:33:11
+[2019.12.16-00.33.11:218][697]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.16-00.33.11:218][697]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.16-00.33.11:219][697]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.16-00.33.11:220][697]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 11.9457899 seconds
+[2019.12.16-00.33.11:220][697]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.16-00.33.11:221][697]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.16-00.33.11:221][697]CompilerResultsLog:   [1/4] GameController.cpp
+[2019.12.16-00.33.11:221][697]CompilerResultsLog:   [2/4] UE4Editor-CT6024AdvancedAI-1530.lib
+[2019.12.16-00.33.11:221][697]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1530.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1530.exp
+[2019.12.16-00.33.11:222][697]CompilerResultsLog:   [3/4] UE4Editor-CT6024AdvancedAI-1530.dll
+[2019.12.16-00.33.11:222][697]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1530.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1530.suppressed.exp
+[2019.12.16-00.33.11:223][697]CompilerResultsLog:   [4/4] CT6024AdvancedAIEditor.target
+[2019.12.16-00.33.11:223][697]CompilerResultsLog: Total time in Parallel executor: 3.15 seconds
+[2019.12.16-00.33.11:223][697]CompilerResultsLog: Total execution time: 19.39 seconds
+[2019.12.16-00.33.11:223][697]LogMainFrame: MainFrame: Module compiling took 19.531 seconds
+[2019.12.16-00.33.11:255][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.12.16-00.33.11:313][697]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.16-00.33.11:405][697]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.16-00.33.11:492][697]LogHotReload: Re-instancing SelfDestructLever after hot-reload.
+[2019.12.16-00.33.11:582][697]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.16-00.33.11:663][697]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0005 seconds. Added 12 classes and 3 folders.
+[2019.12.16-00.33.11:666][697]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.12.16-00.33.11:727][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.12.16-00.33.11:740][697]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2745 classes and 664 folders.
+[2019.12.16-00.33.11:740][697]Display: HotReload took 20.1s.
+[2019.12.16-00.33.13:199][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.33.13:280][779]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.16-00.33.13:305][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.33.13:306][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.16-00.33.13:306][779]PIE: New page: PIE session: NukeLaunch (16 Dec 2019 00:33:13)
+[2019.12.16-00.33.13:306][779]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.16-00.33.13:408][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100956s)
+[2019.12.16-00.33.13:408][779]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2019.12.16-00.33.13:409][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.102017s)
+[2019.12.16-00.33.13:433][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.12.16-00.33.13:441][779]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.16-00.33.13:453][779]LogInit: FAudioDevice initialized.
+[2019.12.16-00.33.13:488][779]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.16-00.33.13:507][779]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.16-00.33.13
+[2019.12.16-00.33.13:509][779]LogWorld: Bringing up level for play took: 0.017047
+[2019.12.16-00.33.13:522][779]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.359
+[2019.12.16-00.33.13:523][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.33.26:717][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.33.26:718][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.33.26:753][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.16-00.33.26:754][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.33.26:784][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.16-00.33.26:790][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.12.16-00.33.26:821][561]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.12.16-00.34.00:298][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.34.00:476][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.12.16-00.34.01:086][546]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/NukeLaunch2BA0EDDC43C7F4C68E8C768334A5EAD9.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap'
+[2019.12.16-00.34.01:462][546]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/NukeLaunch_BuiltData3F5C47EA42C81F4F731BE6A4C9374E3A.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch_BuiltData.uasset'
+[2019.12.16-00.34.03:555][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.12.16-00.50.37:353][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.50.37:530][606]Candidate modules for hot reload:
+[2019.12.16-00.50.37:530][606]  CT6024AdvancedAI
+[2019.12.16-00.50.37:530][606]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,7265 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.16-00.50.37:532][606]Warning: Starting HotReload took  0.1s.
+[2019.12.16-00.50.56:214][674]CompilerResultsLog: New page: Compilation - 16 Dec 2019 00:50:56
+[2019.12.16-00.50.56:215][674]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.16-00.50.56:215][674]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.16-00.50.56:215][674]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.16-00.50.56:216][674]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 10.9593712 seconds
+[2019.12.16-00.50.56:216][674]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.16-00.50.56:216][674]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.16-00.50.56:216][674]CompilerResultsLog:   [1/6] SpectateAIGameMode.cpp
+[2019.12.16-00.50.56:216][674]CompilerResultsLog:   [2/6] GameController.cpp
+[2019.12.16-00.50.56:216][674]CompilerResultsLog:   [3/6] GameController.gen.cpp
+[2019.12.16-00.50.56:217][674]CompilerResultsLog:   [4/6] UE4Editor-CT6024AdvancedAI-7265.lib
+[2019.12.16-00.50.56:217][674]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7265.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7265.exp
+[2019.12.16-00.50.56:217][674]CompilerResultsLog:   [5/6] UE4Editor-CT6024AdvancedAI-7265.dll
+[2019.12.16-00.50.56:217][674]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7265.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7265.suppressed.exp
+[2019.12.16-00.50.56:218][674]CompilerResultsLog:   [6/6] CT6024AdvancedAIEditor.target
+[2019.12.16-00.50.56:218][674]CompilerResultsLog: Total time in Parallel executor: 3.37 seconds
+[2019.12.16-00.50.56:218][674]CompilerResultsLog: Total execution time: 18.51 seconds
+[2019.12.16-00.50.56:218][674]LogMainFrame: MainFrame: Module compiling took 18.743 seconds
+[2019.12.16-00.50.56:250][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.12.16-00.50.56:318][674]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.16-00.50.56:397][674]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.16-00.50.56:477][674]LogHotReload: Re-instancing SelfDestructLever after hot-reload.
+[2019.12.16-00.50.56:556][674]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.16-00.50.56:643][674]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0005 seconds. Added 12 classes and 3 folders.
+[2019.12.16-00.50.56:645][674]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.12.16-00.50.56:703][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.12.16-00.50.56:715][674]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2745 classes and 664 folders.
+[2019.12.16-00.50.56:715][674]Display: HotReload took 19.3s.
+[2019.12.16-00.50.57:954][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.16-00.50.58:052][741]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.16-00.50.58:077][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.16-00.50.58:077][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.16-00.50.58:077][741]PIE: New page: PIE session: NukeLaunch (16 Dec 2019 00:50:58)
+[2019.12.16-00.50.58:078][741]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.16-00.50.58:180][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101981s)
+[2019.12.16-00.50.58:181][741]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2019.12.16-00.50.58:181][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.102997s)
+[2019.12.16-00.50.58:203][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.12.16-00.50.58:212][741]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.16-00.50.58:223][741]LogInit: FAudioDevice initialized.
+[2019.12.16-00.50.58:251][741]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.16-00.50.58:259][741]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.16-00.50.58
+[2019.12.16-00.50.58:260][741]LogWorld: Bringing up level for play took: 0.008211
+[2019.12.16-00.50.58:274][741]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 1.111
+[2019.12.16-00.50.58:274][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'

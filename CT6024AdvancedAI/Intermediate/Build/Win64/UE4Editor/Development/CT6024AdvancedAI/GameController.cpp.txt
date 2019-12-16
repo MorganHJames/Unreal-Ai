@@ -1,0 +1,15 @@
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Definitions.CT6024AdvancedAI.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\GameController.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Inc\CT6024AdvancedAI\GameController.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\NukeCountdown.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Inc\CT6024AdvancedAI\NukeCountdown.generated.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\SpectateAIGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Inc\CT6024AdvancedAI\SpectateAIGameMode.generated.h

@@ -1,0 +1,1186 @@
+﻿Log file open, 12/15/19 03:37:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CT6024AdvancedAI
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.583773
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:106][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.15-03.37.37:106][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.15-03.37.37:107][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:107][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:118][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.15-03.37.37:118][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.15-03.37.37:119][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.15-03.37.37:119][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.15-03.37.37:119][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.15-03.37.37:188][  0]LogHAL: Display: Platform has ~ 16 GB [17101139968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.15-03.37.37:188][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.15-03.37.37:188][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.15-03.37.37:188][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.15-03.37.37:189][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.15-03.37.37:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.15-03.37.37:191][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.15-03.37.37:192][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.15-03.37.37:192][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-03.37.37:192][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.15-03.37.37:192][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.15-03.37.37:192][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.15-03.37.37:192][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.15-03.37.37:192][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.15-03.37.37:192][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.15-03.37.37:192][  0]LogInit: Computer: DESKTOP-718HLV6
+[2019.12.15-03.37.37:192][  0]LogInit: User: morga
+[2019.12.15-03.37.37:192][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.15-03.37.37:192][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.15-03.37.37:193][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.15-03.37.37:193][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.15-03.37.37:193][  0]LogMemory: Process Physical Memory: 97.48 MB used, 97.48 MB peak
+[2019.12.15-03.37.37:193][  0]LogMemory: Process Virtual Memory: 89.05 MB used, 89.05 MB peak
+[2019.12.15-03.37.37:193][  0]LogMemory: Physical Memory: 10673.47 MB used,  5635.45 MB free, 16308.92 MB total
+[2019.12.15-03.37.37:193][  0]LogMemory: Virtual Memory: 4642.23 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.15-03.37.37:271][  0]LogInit: Using OS detected language (en-GB).
+[2019.12.15-03.37.37:271][  0]LogInit: Using OS detected locale (en-GB).
+[2019.12.15-03.37.37:273][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.12.15-03.37.37:910][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.15-03.37.38:035][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.15-03.37.38:035][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.15-03.37.43:755][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.15-03.37.43:755][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.15-03.37.43:878][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.12.15-03.37.43:878][  0]LogD3D11RHI:       6054/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.15-03.37.43:906][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.12.15-03.37.43:906][  0]LogD3D11RHI:       128/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.15-03.37.43:916][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.15-03.37.43:916][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.15-03.37.43:916][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.15-03.37.43:979][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.15-03.37.43:979][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.15-03.37.43:979][  0]LogWindows: EnumDisplayDevices:
+[2019.12.15-03.37.43:979][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.12.15-03.37.43:980][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2019.12.15-03.37.43:980][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.12.15-03.37.43:981][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.15-03.37.43:981][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.12.15-03.37.43:981][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.15-03.37.43:981][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.15-03.37.43:981][  0]LogRHI: Texture pool is 4237 MB (70% of 6054 MB)
+[2019.12.15-03.37.44:068][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.15-03.37.44:089][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.15-03.37.44:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.15-03.37.44:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.15-03.37.44:109][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.15-03.37.44:879][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.15-03.37.44:905][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.15-03.37.44:940][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.15-03.37.44:972][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.15-03.37.45:038][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.15-03.37.45:074][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.15-03.37.45:107][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.15-03.37.45:137][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.15-03.37.45:153][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.15-03.37.45:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.15-03.37.45:392][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.15-03.37.45:501][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.15-03.37.45:501][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.15-03.37.45:569][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.15-03.37.45:569][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.15-03.37.45:613][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.15-03.37.45:656][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.15-03.37.45:681][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.15-03.37.45:736][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.15-03.37.45:845][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.15-03.37.45:845][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.15-03.37.45:845][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.15-03.37.45:861][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.15-03.37.45:996][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Intermediate/Shaders/WorkingDirectory/19716/).
+[2019.12.15-03.37.45:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/1253E0774F1C3AA7027C8BAFA7EC66ED/'.
+[2019.12.15-03.37.46:004][  0]LogXGEController: Cleaning working directory: C:/Users/morga/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.15-03.37.46:005][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.15-03.37.46:005][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.15-03.37.46:005][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.15-03.37.50:776][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.15-03.37.50:933][  0]LogDerivedDataCache: Loaded boot cache 0.16s 71MB C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.15-03.37.50:934][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.15-03.37.50:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.15-03.37.50:934][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.15-03.37.50:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.15-03.37.50:935][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.15-03.37.50:958][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.15-03.37.50:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.15-03.37.50:958][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.15-03.37.50:971][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.15-03.37.50:971][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.15-03.37.50:971][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.15-03.37.51:021][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.15-03.37.51:023][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.15-03.37.51:024][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.15-03.37.51:228][  0]LogAssetRegistry: FAssetRegistry took 0.0446 seconds to start up
+[2019.12.15-03.37.52:008][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.15-03.37.52:309][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.15-03.37.52:309][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.15-03.37.52:309][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.15-03.37.52:309][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.15-03.37.52:310][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.15-03.37.52:343][  0]LogNetVersion: CT6024AdvancedAI 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 379849778)
+[2019.12.15-03.37.53:416][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.142343 seconds
+[2019.12.15-03.37.53:430][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.15-03.37.53:430][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.15-03.37.53:430][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.15-03.38.01:143][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.15-03.38.01:159][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.15-03.38.01:402][  0]SourceControl: Source control is disabled
+[2019.12.15-03.38.01:402][  0]SourceControl: Source control is disabled
+[2019.12.15-03.38.01:410][  0]SourceControl: Source control is disabled
+[2019.12.15-03.38.01:413][  0]SourceControl: Source control is disabled
+[2019.12.15-03.38.01:674][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.15-03.38.01:928][  0]LogOcInput: OculusInput pre-init called
+[2019.12.15-03.38.03:188][  0]LogEngine: Initializing Engine...
+[2019.12.15-03.38.03:191][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.15-03.38.03:194][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.12.15-03.38.03:692][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.15-03.38.03:724][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.15-03.38.03:754][  0]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.15-03.38.03:785][  0]LogInit: FAudioDevice initialized.
+[2019.12.15-03.38.03:785][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.15-03.38.03:917][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.15-03.38.03:936][  0]LogInit: Texture streaming: Enabled
+[2019.12.15-03.38.03:978][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.15-03.38.03:979][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={AA74C9B1-4CEE-374C-3435-118223947757}
+[2019.12.15-03.38.04:029][  0]LogInit: Transaction tracking system initialized
+[2019.12.15-03.38.04:103][  0]BlueprintLog: New page: Editor Load
+[2019.12.15-03.38.04:363][  0]LocalizationService: Localization service is disabled
+[2019.12.15-03.38.04:591][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2019.12.15-03.38.04:592][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2019.12.15-03.38.04:592][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2019.12.15-03.38.05:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/' took 0.02s
+[2019.12.15-03.38.05:151][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.15-03.38.05:151][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.15-03.38.05:977][  0]SourceControl: Source control is disabled
+[2019.12.15-03.38.05:977][  0]Cmd: MAP LOAD FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.15-03.38.05:978][  0]LightingResults: New page: Lighting Build
+[2019.12.15-03.38.05:987][  0]MapCheck: New page: Map Check
+[2019.12.15-03.38.05:987][  0]LightingResults: New page: Lighting Build
+[2019.12.15-03.38.06:031][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2019.12.15-03.38.07:223][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.15-03.38.07:270][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.12.15-03.38.07:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.15-03.38.07:271][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.507ms to complete.
+[2019.12.15-03.38.07:271][  0]LogFileHelpers: Loading map 'NukeLaunch' took 1.294
+[2019.12.15-03.38.07:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-03.38.07:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-03.38.07:582][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-03.38.07:598][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-03.38.07:629][  0]LogCollectionManager: Loaded 0 collections in 0.003047 seconds
+[2019.12.15-03.38.07:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/Collections/' took 0.01s
+[2019.12.15-03.38.07:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Developers/morga/Collections/' took 0.01s
+[2019.12.15-03.38.07:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Collections/' took 0.01s
+[2019.12.15-03.38.07:686][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.12.15-03.38.07:711][  0]LogContentBrowser: Native class hierarchy populated in 0.0226 seconds. Added 2738 classes and 662 folders.
+[2019.12.15-03.38.07:732][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.12.15-03.38.07:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:859][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:900][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:942][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:955][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:978][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.07:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:080][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:113][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:131][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:181][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:212][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.15-03.38.08:654][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.15-03.38.08:665][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.12.15-03.38.08:862][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.15-03.38.08:866][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.15-03.38.08:914][  0]LogSlate: Took 0.032646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.15-03.38.09:299][  0]LogRenderer: Reallocating scene render targets to support 944x588 Format 10 NumSamples 1 (Frame:1).
+[2019.12.15-03.38.09:615][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.15-03.38.09:615][  0]LogLoad: (Engine Initialization) Total time: 36.16 seconds
+[2019.12.15-03.38.09:615][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.15-03.38.09:688][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.15-03.38.09:806][  1]LogAssetRegistry: Asset discovery search completed in 18.6022 seconds
+[2019.12.15-03.38.09:813][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.15-03.38.09:813][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000136 seconds (updated 0 objects)
+[2019.12.15-03.38.10:749][ 26]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.15-03.38.16:439][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.38.20:222][322]Cmd: DELETE
+[2019.12.15-03.38.20:222][322]Cmd: ACTOR DELETE
+[2019.12.15-03.38.20:297][322]LogEditorActor: Deleted Actor: AGuard_C
+[2019.12.15-03.38.20:300][322]LogEditorActor: Deleted Actor: AGuard_C
+[2019.12.15-03.38.20:305][322]LogEditorActor: Deleted Actor: AGuard_C
+[2019.12.15-03.38.20:307][322]LogEditorActor: Deleted Actor: AGuard_C
+[2019.12.15-03.38.20:343][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.12.15-03.38.20:344][322]LogEditorActor: Deleted 4 Actors (0.121 secs)
+[2019.12.15-03.38.25:799][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.38.26:737][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.38.27:029][512]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/AGuard.AGuard
+[2019.12.15-03.38.27:964][512]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.12.15-03.38.33:259][600]LogSlate: Window 'AGuard' being destroyed
+[2019.12.15-03.38.33:466][600]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/AGuard.AGuard
+[2019.12.15-03.38.34:199][600]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.15-03.38.38:642][751]LogSlate: Window 'AGuard' being destroyed
+[2019.12.15-03.38.40:297][822]LogRenderer: Reallocating scene render targets to support 944x900 Format 10 NumSamples 1 (Frame:1).
+[2019.12.15-03.38.41:542][872]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.15-03.38.56:982][587]BlueprintLog: New page: Compile AGuard
+[2019.12.15-03.38.57:486][587]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2019.12.15-03.39.01:022][732]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-03.39.04:031][794]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.39.04:235][794]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-03.46.34:239][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.46.36:662][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.46.38:797][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.46.38:911][457]BlueprintLog: New page: Compile ASpy
+[2019.12.15-03.46.39:260][457]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.12.15-03.46.41:160][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-03.46.41:221][522]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpy5E0D87EB4F640F94C0FC6DAAF07359A3.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-03.49.49:447][ 72]BlueprintLog: New page: Compile ASpy
+[2019.12.15-03.49.49:656][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.12.15-03.49.52:285][181]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.49.52:295][181]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.49.53:986][260]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-03.50.15:929][194]BlueprintLog: New page: Compile ASpy
+[2019.12.15-03.50.16:121][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.12.15-03.51.15:061][604]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.51.15:070][604]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.51.30:753][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.51.33:864][646]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.15-03.51.34:030][656]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.15-03.51.43:021][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.52.03:369][269]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.15-03.52.29:273][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.12.15-03.52.35:793][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.52.45:335][559]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy)
+[2019.12.15-03.52.46:794][631]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.12.15-03.52.47:706][679]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.12.15-03.52.48:320][711]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy2)
+[2019.12.15-03.52.48:948][742]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy2)
+[2019.12.15-03.52.49:676][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.52.52:137][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.52.54:944][ 55]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy)
+[2019.12.15-03.52.57:610][196]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy3)
+[2019.12.15-03.52.58:640][252]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.12.15-03.52.59:737][313]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy2)
+[2019.12.15-03.53.01:036][384]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy)
+[2019.12.15-03.53.02:777][481]Cmd: DELETE
+[2019.12.15-03.53.02:777][481]Cmd: ACTOR DELETE
+[2019.12.15-03.53.02:809][481]LogEditorActor: Deleted Actor: ASpy_C
+[2019.12.15-03.53.02:842][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.12.15-03.53.02:843][481]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.12.15-03.53.03:905][543]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy2)
+[2019.12.15-03.53.04:186][555]Cmd: DELETE
+[2019.12.15-03.53.04:186][555]Cmd: ACTOR DELETE
+[2019.12.15-03.53.04:213][555]LogEditorActor: Deleted Actor: ASpy_C
+[2019.12.15-03.53.04:244][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.12.15-03.53.04:244][555]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.12.15-03.53.04:654][578]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (ASpy3)
+[2019.12.15-03.53.04:806][583]Cmd: DELETE
+[2019.12.15-03.53.04:806][583]Cmd: ACTOR DELETE
+[2019.12.15-03.53.04:832][583]LogEditorActor: Deleted Actor: ASpy_C
+[2019.12.15-03.53.04:858][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.12.15-03.53.04:858][583]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2019.12.15-03.53.10:568][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.53.20:906][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.53.26:011][786]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-03.54.37:120][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.54.38:928][712]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.54.38:941][712]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.54.44:912][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.12.15-03.54.47:245][996]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-03.54.47:285][996]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/ASpy.ASpy
+[2019.12.15-03.54.48:121][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.12.15-03.54.48:344][996]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.12.15-03.54.48:376][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.12.15-03.54.48:406][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.12.15-03.55.09:157][100]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-03.55.09:642][100]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.12.15-03.55.41:162][135]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.15-03.55.55:170][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.55.58:403][736]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.56.05:072][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.56.09:561][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.56.31:026][743]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.15-03.56.38:845][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.56.49:211][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.56.52:964][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-03.56.57:114][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.57.07:571][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.57.07:650][912]BlueprintLog: New page: Compile ASpy
+[2019.12.15-03.57.07:928][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.12.15-03.57.09:796][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-03.57.09:841][977]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpyF53B855845552E48670D24A46370AFFD.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-03.57.19:072][289]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.15-03.57.22:892][420]BlueprintLog: New page: Compile ASpy
+[2019.12.15-03.57.23:157][420]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.12.15-03.57.23:878][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-03.57.23:924][436]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpy9BD702074CD4F916EB879096C5DCFAF7.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-03.57.24:712][463]BlueprintLog: New page: Compile ASpy
+[2019.12.15-03.57.25:003][463]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2019.12.15-03.57.32:131][714]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.57.32:153][714]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-03.57.35:067][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.59.11:286][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-03.59.30:398][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.00.39:902][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.00.40:164][223]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-04.01.10:170][558]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.01.10:312][558]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-04.15.48:400][395]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.15.48:410][395]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.15.59:270][959]Cmd: DELETE
+[2019.12.15-04.15.59:270][959]Cmd: ACTOR DELETE
+[2019.12.15-04.15.59:295][959]LogEditorActor: Deleted Actor: ASpy_C
+[2019.12.15-04.15.59:329][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.12.15-04.15.59:329][959]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2019.12.15-04.16.00:010][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.16.00:209][  4]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-04.17.25:227][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.18.33:961][944]BlueprintLog: New page: Compile ASpy
+[2019.12.15-04.18.34:157][944]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.12.15-04.18.34:944][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-04.18.34:996][971]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpy73DAD7D04B41CEE03C476996CB7A8E03.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-04.18.35:926][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-04.18.35:951][ 12]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpyA4C533BC4E1D8EA277A2038AB0DDE294.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-04.18.56:738][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.18.56:837][791]BlueprintLog: New page: Compile ASpy
+[2019.12.15-04.18.57:098][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.12.15-04.18.57:734][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-04.18.57:808][813]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpyBC977F6C4BDB497327F0ADB35A7F2A9F.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-04.19.06:369][111]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.19.06:386][111]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.19.27:969][199]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.20.04:871][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.20.05:053][267]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-04.21.31:495][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.21.31:614][707]BlueprintLog: New page: Compile ASpy
+[2019.12.15-04.21.31:890][707]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2019.12.15-04.21.32:813][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-04.21.32:846][739]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpy85CEB1184133C3990056B5AE707DF629.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-04.21.35:942][854]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.21.35:957][854]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.21.38:646][997]Cmd: DELETE
+[2019.12.15-04.21.38:646][997]Cmd: ACTOR DELETE
+[2019.12.15-04.21.38:668][997]LogEditorActor: Deleted Actor: ASpy_C
+[2019.12.15-04.21.38:695][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.12.15-04.21.38:695][997]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2019.12.15-04.21.52:917][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.21.55:306][868]Cmd: DELETE
+[2019.12.15-04.21.55:306][868]Cmd: ACTOR DELETE
+[2019.12.15-04.21.55:335][868]LogEditorActor: Deleted Actor: ASpy_C
+[2019.12.15-04.21.55:369][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.12.15-04.21.55:370][868]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2019.12.15-04.21.56:233][917]LogEditorViewport: Clicking on Actor (LMB): ASpy_C (Spy)
+[2019.12.15-04.21.57:863][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.22.04:480][362]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2019.12.15-04.22.13:077][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.22.24:220][442]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.12.15-04.22.28:993][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.22.39:236][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.22.49:067][775]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.15-04.24.08:447][365]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.24.25:540][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.24.25:627][280]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.15-04.24.25:662][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.24.25:663][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.15-04.24.25:664][280]PIE: New page: PIE session: NukeLaunch (15 Dec 2019 04:24:25)
+[2019.12.15-04.24.25:683][280]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.15-04.24.25:889][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205613s)
+[2019.12.15-04.24.25:893][280]LogPlayLevel: PIE: World Init took: (0.002934s)
+[2019.12.15-04.24.25:893][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.209814s)
+[2019.12.15-04.24.25:922][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.12.15-04.24.25:935][280]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.15-04.24.25:946][280]LogInit: FAudioDevice initialized.
+[2019.12.15-04.24.25:997][280]LogLoad: Game class is 'SpectateAI_C'
+[2019.12.15-04.24.26:006][280]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.15-04.24.26
+[2019.12.15-04.24.26:019][280]LogWorld: Bringing up level for play took: 0.019670
+[2019.12.15-04.24.26:045][280]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.12.15-04.24.26:050][280]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.12.15-04.24.26:050][280]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.12.15-04.24.26:061][280]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.897
+[2019.12.15-04.24.26:061][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.24.34:969][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.24.34:972][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.24.35:017][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.15-04.24.35:018][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.24.35:096][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.24.35:149][760]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2019.12.15-04.24.35:238][761]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.12.15-04.25.11:348][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.25.13:417][300]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/ASpy.ASpy
+[2019.12.15-04.25.34:573][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ASpy" FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset" SILENT=true
+[2019.12.15-04.25.34:605][178]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/ASpy0FBFEBE246B4C0853642C5B37612101A.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Blueprints/ASpy.uasset'
+[2019.12.15-04.25.35:341][210]BlueprintLog: New page: Compile ASpy
+[2019.12.15-04.25.35:585][210]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.12.15-04.25.37:516][294]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.25.37:524][294]LogSlate: Window 'ASpy' being destroyed
+[2019.12.15-04.25.40:996][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.25.41:134][491]Candidate modules for hot reload:
+[2019.12.15-04.25.41:134][491]  CT6024AdvancedAI
+[2019.12.15-04.25.41:135][491]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,1999 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.25.41:139][491]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.26.22:297][ 10]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:26:22
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 26.9015587 seconds
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(89): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   [2/4] UE4Editor-CT6024AdvancedAI-1999.lib
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1999.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1999.exp
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   [3/4] UE4Editor-CT6024AdvancedAI-1999.dll
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1999.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-1999.suppressed.exp
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog:   [4/4] CT6024AdvancedAIEditor.target
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Total time in Parallel executor: 7.33 seconds
+[2019.12.15-04.26.22:298][ 10]CompilerResultsLog: Total execution time: 40.79 seconds
+[2019.12.15-04.26.22:298][ 10]LogMainFrame: MainFrame: Module compiling took 41.170 seconds
+[2019.12.15-04.26.22:328][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.12.15-04.26.22:328][ 10]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (unloaded)
+[2019.12.15-04.26.22:380][ 10]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.15-04.26.22:678][ 10]LogHotReload: Re-instancing Humanoid after hot-reload.
+[2019.12.15-04.26.22:836][ 10]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (loaded)
+[2019.12.15-04.26.22:837][ 10]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2019.12.15-04.26.22:841][ 10]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.15-04.26.23:010][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.12.15-04.26.23:010][ 10]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.15-04.26.23:032][ 10]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2739 classes and 664 folders.
+[2019.12.15-04.26.23:037][ 10]Display: HotReload took 41.9s.
+[2019.12.15-04.26.25:766][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.15-04.26.25:797][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.26.25:797][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.15-04.26.25:798][ 19]PIE: New page: PIE session: NukeLaunch (15 Dec 2019 04:26:25)
+[2019.12.15-04.26.25:798][ 19]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.15-04.26.25:903][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104969s)
+[2019.12.15-04.26.25:904][ 19]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2019.12.15-04.26.25:904][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.105743s)
+[2019.12.15-04.26.26:016][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2019.12.15-04.26.26:024][ 19]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.15-04.26.26:036][ 19]LogInit: FAudioDevice initialized.
+[2019.12.15-04.26.26:071][ 19]LogLoad: Game class is 'SpectateAI_C'
+[2019.12.15-04.26.26:082][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.15-04.26.26
+[2019.12.15-04.26.26:083][ 19]LogWorld: Bringing up level for play took: 0.011379
+[2019.12.15-04.26.26:096][ 19]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.933
+[2019.12.15-04.26.26:097][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.26.35:673][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.26.35:674][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.26.35:713][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.15-04.26.35:714][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.26.35:791][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.26.35:810][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.12.15-04.26.35:833][570]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.12.15-04.27.41:189][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.27.42:362][917]Candidate modules for hot reload:
+[2019.12.15-04.27.42:362][917]  CT6024AdvancedAI
+[2019.12.15-04.27.42:362][917]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,1735 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.27.42:366][917]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.27.56:090][544]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:27:56
+[2019.12.15-04.27.56:091][544]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.15-04.27.56:091][544]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.27.56:091][544]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.27.56:091][544]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 9.3905131 seconds
+[2019.12.15-04.27.56:092][544]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.27.56:092][544]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.27.56:092][544]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.27.56:092][544]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(88): fatal error C1057: unexpected end of file in macro expansion
+[2019.12.15-04.27.56:092][544]LogMainFrame: MainFrame: Module compiling took 13.734 seconds
+[2019.12.15-04.27.56:092][544]Warning: HotReload failed, recompile failed
+[2019.12.15-04.28.59:276][798]Candidate modules for hot reload:
+[2019.12.15-04.28.59:276][798]  CT6024AdvancedAI
+[2019.12.15-04.28.59:276][798]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,5111 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.28.59:286][798]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.29.09:224][345]LogSlate: Took 0.013437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.15-04.29.12:267][522]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:29:12
+[2019.12.15-04.29.12:267][522]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.29.12:267][522]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.29.12:268][522]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 9.4999149 seconds
+[2019.12.15-04.29.12:268][522]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.29.12:268][522]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.29.12:268][522]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.29.12:269][522]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(91): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-04.29.12:269][522]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-04.29.12:270][522]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(58) : error C2338: Invalid argument(s) passed to FMsg::Logf_Internal
+[2019.12.15-04.29.12:270][522]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(88): note: see reference to function template instantiation 'void FMsg::Logf_Internal<wchar_t[3],FString>(const ANSICHAR *,int32,const FName &,ELogVerbosity::Type,const FmtType (&),FString)' being compiled
+[2019.12.15-04.29.12:271][522]CompilerResultsLog:           with
+[2019.12.15-04.29.12:271][522]CompilerResultsLog:           [
+[2019.12.15-04.29.12:271][522]CompilerResultsLog:               FmtType=wchar_t [3]
+[2019.12.15-04.29.12:271][522]CompilerResultsLog:           ]
+[2019.12.15-04.29.12:271][522]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60) : error C4840: non-portable use of class 'FString' as an argument to a variadic function
+[2019.12.15-04.29.12:271][522]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: 'FString::FString' is non-trivial
+[2019.12.15-04.29.12:272][522]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(73): note: see declaration of 'FString::FString'
+[2019.12.15-04.29.12:272][522]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+[2019.12.15-04.29.12:272][522]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h(9): note: see declaration of 'FString'
+[2019.12.15-04.29.12:273][522]LogMainFrame: MainFrame: Module compiling took 13.000 seconds
+[2019.12.15-04.29.12:273][522]Warning: HotReload failed, recompile failed
+[2019.12.15-04.32.35:876][958]LogSlate: Window 'Message Log' being destroyed
+[2019.12.15-04.32.52:851][ 76]Candidate modules for hot reload:
+[2019.12.15-04.32.52:851][ 76]  CT6024AdvancedAI
+[2019.12.15-04.32.52:851][ 76]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,2584 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.32.52:860][ 76]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.33.03:551][354]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:33:03
+[2019.12.15-04.33.03:551][354]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.33.03:551][354]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.33.03:552][354]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 7.7208975 seconds
+[2019.12.15-04.33.03:552][354]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.33.03:552][354]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.33.03:552][354]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.33.03:552][354]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(91): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-04.33.03:553][354]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-04.33.03:553][354]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(58) : error C2338: Invalid argument(s) passed to FMsg::Logf_Internal
+[2019.12.15-04.33.03:554][354]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(88): note: see reference to function template instantiation 'void FMsg::Logf_Internal<wchar_t[8],FString>(const ANSICHAR *,int32,const FName &,ELogVerbosity::Type,const FmtType (&),FString)' being compiled
+[2019.12.15-04.33.03:554][354]CompilerResultsLog:           with
+[2019.12.15-04.33.03:554][354]CompilerResultsLog:           [
+[2019.12.15-04.33.03:554][354]CompilerResultsLog:               FmtType=wchar_t [8]
+[2019.12.15-04.33.03:554][354]CompilerResultsLog:           ]
+[2019.12.15-04.33.03:554][354]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60) : error C4840: non-portable use of class 'FString' as an argument to a variadic function
+[2019.12.15-04.33.03:555][354]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: 'FString::FString' is non-trivial
+[2019.12.15-04.33.03:555][354]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(73): note: see declaration of 'FString::FString'
+[2019.12.15-04.33.03:555][354]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+[2019.12.15-04.33.03:556][354]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h(9): note: see declaration of 'FString'
+[2019.12.15-04.33.03:556][354]LogMainFrame: MainFrame: Module compiling took 10.712 seconds
+[2019.12.15-04.33.03:556][354]Warning: HotReload failed, recompile failed
+[2019.12.15-04.33.20:896][470]Candidate modules for hot reload:
+[2019.12.15-04.33.20:897][470]  CT6024AdvancedAI
+[2019.12.15-04.33.20:897][470]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,3206 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.33.20:901][470]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.33.35:305][180]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:33:35
+[2019.12.15-04.33.35:305][180]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.33.35:305][180]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.33.35:306][180]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 10.0103372 seconds
+[2019.12.15-04.33.35:306][180]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.33.35:307][180]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.33.35:307][180]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.33.35:307][180]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(91): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-04.33.35:308][180]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-04.33.35:308][180]CompilerResultsLog:   [2/4] UE4Editor-CT6024AdvancedAI-3206.lib
+[2019.12.15-04.33.35:308][180]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3206.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3206.exp
+[2019.12.15-04.33.35:309][180]CompilerResultsLog:   [3/4] UE4Editor-CT6024AdvancedAI-3206.dll
+[2019.12.15-04.33.35:309][180]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3206.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3206.suppressed.exp
+[2019.12.15-04.33.35:309][180]CompilerResultsLog:   [4/4] CT6024AdvancedAIEditor.target
+[2019.12.15-04.33.35:309][180]CompilerResultsLog: Total time in Parallel executor: 1.90 seconds
+[2019.12.15-04.33.35:309][180]CompilerResultsLog: Total execution time: 14.03 seconds
+[2019.12.15-04.33.35:310][180]LogMainFrame: MainFrame: Module compiling took 14.422 seconds
+[2019.12.15-04.33.35:347][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.12.15-04.33.35:347][180]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (unloaded)
+[2019.12.15-04.33.35:399][180]LogHotReload: Re-instancing Humanoid after hot-reload.
+[2019.12.15-04.33.35:525][180]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (loaded)
+[2019.12.15-04.33.35:526][180]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2019.12.15-04.33.35:530][180]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.15-04.33.35:613][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.12.15-04.33.35:614][180]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.15-04.33.35:637][180]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2739 classes and 664 folders.
+[2019.12.15-04.33.35:637][180]Display: HotReload took 14.8s.
+[2019.12.15-04.34.44:526][581]Candidate modules for hot reload:
+[2019.12.15-04.34.44:526][581]  CT6024AdvancedAI
+[2019.12.15-04.34.44:527][581]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,2782 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.34.44:531][581]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.34.57:651][339]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:34:57
+[2019.12.15-04.34.57:652][339]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.34.57:653][339]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.34.57:654][339]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 9.4210504 seconds
+[2019.12.15-04.34.57:654][339]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.34.57:655][339]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.34.57:655][339]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.34.57:655][339]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(91): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-04.34.57:656][339]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-04.34.57:656][339]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(58) : error C2338: Invalid argument(s) passed to FMsg::Logf_Internal
+[2019.12.15-04.34.57:656][339]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(88): note: see reference to function template instantiation 'void FMsg::Logf_Internal<wchar_t[13],FString>(const ANSICHAR *,int32,const FName &,ELogVerbosity::Type,const FmtType (&),FString)' being compiled
+[2019.12.15-04.34.57:657][339]CompilerResultsLog:           with
+[2019.12.15-04.34.57:657][339]CompilerResultsLog:           [
+[2019.12.15-04.34.57:657][339]CompilerResultsLog:               FmtType=wchar_t [13]
+[2019.12.15-04.34.57:657][339]CompilerResultsLog:           ]
+[2019.12.15-04.34.57:657][339]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60) : error C4840: non-portable use of class 'FString' as an argument to a variadic function
+[2019.12.15-04.34.57:657][339]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: 'FString::FString' is non-trivial
+[2019.12.15-04.34.57:658][339]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(73): note: see declaration of 'FString::FString'
+[2019.12.15-04.34.57:658][339]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(60): note: the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
+[2019.12.15-04.34.57:658][339]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h(9): note: see declaration of 'FString'
+[2019.12.15-04.34.57:658][339]LogMainFrame: MainFrame: Module compiling took 13.137 seconds
+[2019.12.15-04.34.57:659][339]Warning: HotReload failed, recompile failed
+[2019.12.15-04.35.54:581][569]Candidate modules for hot reload:
+[2019.12.15-04.35.54:581][569]  CT6024AdvancedAI
+[2019.12.15-04.35.54:582][569]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,9339 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.35.54:587][569]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.35.58:061][658]LogSlate: Window 'Message Log' being destroyed
+[2019.12.15-04.36.10:056][355]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:36:10
+[2019.12.15-04.36.10:057][355]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.36.10:057][355]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.36.10:058][355]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 9.541538 seconds
+[2019.12.15-04.36.10:058][355]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.36.10:059][355]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.15-04.36.10:059][355]CompilerResultsLog:   [1/4] Humanoid.cpp
+[2019.12.15-04.36.10:059][355]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(91): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-04.36.10:059][355]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-04.36.10:059][355]CompilerResultsLog:   [2/4] UE4Editor-CT6024AdvancedAI-9339.lib
+[2019.12.15-04.36.10:059][355]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-9339.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-9339.exp
+[2019.12.15-04.36.10:060][355]CompilerResultsLog:   [3/4] UE4Editor-CT6024AdvancedAI-9339.dll
+[2019.12.15-04.36.10:060][355]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-9339.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-9339.suppressed.exp
+[2019.12.15-04.36.10:060][355]CompilerResultsLog:   [4/4] CT6024AdvancedAIEditor.target
+[2019.12.15-04.36.10:060][355]CompilerResultsLog: Total time in Parallel executor: 3.92 seconds
+[2019.12.15-04.36.10:061][355]CompilerResultsLog: Total execution time: 15.25 seconds
+[2019.12.15-04.36.10:061][355]LogMainFrame: MainFrame: Module compiling took 15.485 seconds
+[2019.12.15-04.36.10:140][355]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2019.12.15-04.36.10:141][355]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (unloaded)
+[2019.12.15-04.36.10:197][355]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (loaded)
+[2019.12.15-04.36.10:198][355]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0005 seconds. Added 6 classes and 3 folders.
+[2019.12.15-04.36.10:202][355]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.15-04.36.10:306][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.12.15-04.36.10:306][355]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.15-04.36.10:321][355]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2739 classes and 664 folders.
+[2019.12.15-04.36.10:322][355]Display: HotReload took 15.8s.
+[2019.12.15-04.36.13:521][517]Candidate modules for hot reload:
+[2019.12.15-04.36.13:521][517]  CT6024AdvancedAI
+[2019.12.15-04.36.13:521][517]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,6881 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.36.13:525][517]Warning: Starting HotReload took  0.0s.
+[2019.12.15-04.36.16:160][658]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:36:16
+[2019.12.15-04.36.16:160][658]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.36.16:160][658]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.36.16:161][658]LogMainFrame: MainFrame: Module compiling took 2.647 seconds
+[2019.12.15-04.36.16:161][658]Warning: HotReload failed, recompile failed
+[2019.12.15-04.36.17:224][715]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.15-04.36.17:276][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.36.17:276][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.15-04.36.17:277][715]PIE: New page: PIE session: NukeLaunch (15 Dec 2019 04:36:17)
+[2019.12.15-04.36.17:277][715]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.15-04.36.17:392][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115607s)
+[2019.12.15-04.36.17:393][715]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2019.12.15-04.36.17:393][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.116877s)
+[2019.12.15-04.36.17:462][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.12.15-04.36.17:471][715]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.15-04.36.17:482][715]LogInit: FAudioDevice initialized.
+[2019.12.15-04.36.17:511][715]LogLoad: Game class is 'SpectateAI_C'
+[2019.12.15-04.36.17:524][715]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.15-04.36.17
+[2019.12.15-04.36.17:526][715]LogWorld: Bringing up level for play took: 0.014344
+[2019.12.15-04.36.17:541][715]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.378
+[2019.12.15-04.36.17:541][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.36.17:561][716]LogTemp: Error: Begin Play75
+[2019.12.15-04.36.19:355][821]LogTemp: Error: Begin Play50
+[2019.12.15-04.36.21:358][937]LogTemp: Error: Begin Play25
+[2019.12.15-04.36.23:364][ 54]LogTemp: Error: Begin Play0
+[2019.12.15-04.36.25:364][172]LogTemp: Error: Begin Play-25
+[2019.12.15-04.36.35:879][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.36.35:879][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.36.35:913][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.15-04.36.35:915][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.36.36:016][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.36.36:036][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.12.15-04.36.36:061][786]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.12.15-04.38.46:943][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.38.47:091][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.12.15-04.38.47:712][457]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/NukeLaunch5BB6492149EAE5BAD487BD8D3ABA8C3F.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap'
+[2019.12.15-04.38.48:022][457]LogSavePackage: Moving '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Saved/NukeLaunch_BuiltData5C28851B4E55208420F1689111559E9C.tmp' to '../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/Content/Levels/NukeLaunch_BuiltData.uasset'
+[2019.12.15-04.39.00:862][180]LogEditor: Attempting to add actor of class 'Spy' to level at -3230.00,-750.00,88.00
+[2019.12.15-04.39.01:602][216]LogEditor: Attempting to add actor of class 'Spy' to level at -3550.00,-750.00,88.00
+[2019.12.15-04.39.03:921][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.39.14:828][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.39.33:878][908]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.15-04.39.57:073][128]LogSlate: Window 'Color Picker' being destroyed
+[2019.12.15-04.40.18:026][270]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.40.22:494][515]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.12.15-04.40.26:435][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.40.30:047][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.40.53:142][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.41.12:586][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.41.20:900][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.41.29:603][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.15-04.41.36:096][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.41.38:135][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.12.15-04.41.40:622][685]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-04.41.40:662][685]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/ASpy.ASpy
+[2019.12.15-04.41.40:869][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2019.12.15-04.41.41:052][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.12.15-04.41.41:081][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.12.15-04.41.41:106][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.12.15-04.41.46:132][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.41.46:253][921]Candidate modules for hot reload:
+[2019.12.15-04.41.46:253][921]  CT6024AdvancedAI
+[2019.12.15-04.41.46:254][921]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,409 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-04.41.46:262][921]Warning: Starting HotReload took  0.1s.
+[2019.12.15-04.42.05:472][738]CompilerResultsLog: New page: Compilation - 15 Dec 2019 04:42:05
+[2019.12.15-04.42.05:473][738]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.15-04.42.05:473][738]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-04.42.05:473][738]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-04.42.05:474][738]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 11.5402622 seconds
+[2019.12.15-04.42.05:474][738]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-04.42.05:474][738]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.12.15-04.42.05:474][738]CompilerResultsLog:   [1/3] UE4Editor-CT6024AdvancedAI-0409.lib
+[2019.12.15-04.42.05:474][738]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-0409.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-0409.exp
+[2019.12.15-04.42.05:475][738]CompilerResultsLog:   [2/3] UE4Editor-CT6024AdvancedAI-0409.dll
+[2019.12.15-04.42.05:475][738]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-0409.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-0409.suppressed.exp
+[2019.12.15-04.42.05:476][738]CompilerResultsLog:   [3/3] CT6024AdvancedAIEditor.target
+[2019.12.15-04.42.05:477][738]CompilerResultsLog: Total time in Parallel executor: 2.26 seconds
+[2019.12.15-04.42.05:477][738]CompilerResultsLog: Total execution time: 18.66 seconds
+[2019.12.15-04.42.05:477][738]LogMainFrame: MainFrame: Module compiling took 19.229 seconds
+[2019.12.15-04.42.05:523][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.12.15-04.42.05:524][738]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.15-04.42.05:549][738]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2739 classes and 664 folders.
+[2019.12.15-04.42.05:549][738]Display: HotReload took 19.4s.
+[2019.12.15-04.42.07:785][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.42.07:884][843]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.15-04.42.07:916][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.42.07:917][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.15-04.42.07:917][843]PIE: New page: PIE session: NukeLaunch (15 Dec 2019 04:42:07)
+[2019.12.15-04.42.07:917][843]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.15-04.42.08:012][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093872s)
+[2019.12.15-04.42.08:013][843]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2019.12.15-04.42.08:014][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.095362s)
+[2019.12.15-04.42.08:099][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.12.15-04.42.08:108][843]LogInit: XAudio2 using 'Speaker (SB X-Fi Go! Pro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.15-04.42.08:121][843]LogInit: FAudioDevice initialized.
+[2019.12.15-04.42.08:157][843]LogLoad: Game class is 'SpectateAI_C'
+[2019.12.15-04.42.08:182][843]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.15-04.42.08
+[2019.12.15-04.42.08:184][843]LogWorld: Bringing up level for play took: 0.024333
+[2019.12.15-04.42.08:199][843]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 1.036
+[2019.12.15-04.42.08:199][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.42.08:228][844]LogTemp: Error: Begin Play75
+[2019.12.15-04.42.09:958][935]LogTemp: Error: Begin Play50
+[2019.12.15-04.42.11:948][ 49]LogTemp: Error: Begin Play25
+[2019.12.15-04.42.13:955][166]LogTemp: Error: Begin Play0
+[2019.12.15-04.42.15:966][283]LogTemp: Error: Begin Play-25
+[2019.12.15-04.42.16:722][323]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.42.16:722][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.42.16:757][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.15-04.42.16:758][323]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.15-04.42.16:811][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-04.42.16:830][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.12.15-04.42.16:898][324]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.12.15-04.42.31:873][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.42.45:128][349]LogEditorViewport: Clicking on Actor (LMB): AGuard_C (AGuard)
+[2019.12.15-04.42.49:133][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-04.42.56:900][988]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.12.15-04.42.59:123][988]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-04.42.59:129][988]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/AGuard.AGuard
+[2019.12.15-04.42.59:364][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.12.15-04.42.59:571][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.12.15-04.42.59:600][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.12.15-04.42.59:625][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.12.15-04.43.05:663][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.12.15-04.43.07:179][320]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-04.43.07:345][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.12.15-04.43.07:378][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.12.15-04.43.07:404][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.12.15-04.43.18:346][943]LogEditor: Attempting to add actor of class 'Guard' to level at -3190.00,-440.00,88.00
+[2019.12.15-04.43.19:214][986]LogEditor: Attempting to add actor of class 'Guard' to level at -3390.00,-720.00,88.00
+[2019.12.15-05.29.56:380][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.15-05.29.56:554][633]Candidate modules for hot reload:
+[2019.12.15-05.29.56:554][633]  CT6024AdvancedAI
+[2019.12.15-05.29.56:555][633]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,9737 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-05.29.56:559][633]Warning: Starting HotReload took  0.0s.
+[2019.12.15-05.30.14:092][595]CompilerResultsLog: New page: Compilation - 15 Dec 2019 05:30:14
+[2019.12.15-05.30.14:093][595]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.15-05.30.14:093][595]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-05.30.14:093][595]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-05.30.14:094][595]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 10.059053 seconds
+[2019.12.15-05.30.14:095][595]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-05.30.14:096][595]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.12.15-05.30.14:096][595]CompilerResultsLog:   [1/7] Guard.cpp
+[2019.12.15-05.30.14:096][595]CompilerResultsLog:    C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Guard.cpp(28) : error C2027: use of undefined type 'UTextRenderComponent'
+[2019.12.15-05.30.14:097][595]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Humanoid.h(28): note: see declaration of 'UTextRenderComponent'
+[2019.12.15-05.30.14:097][595]CompilerResultsLog:   [2/7] CT6024AdvancedAI.init.gen.cpp
+[2019.12.15-05.30.14:097][595]CompilerResultsLog:   [3/7] Humanoid.cpp
+[2019.12.15-05.30.14:098][595]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Humanoid.cpp(89): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-05.30.14:098][595]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-05.30.14:098][595]CompilerResultsLog:   [4/7] Guard.gen.cpp
+[2019.12.15-05.30.14:099][595]LogMainFrame: MainFrame: Module compiling took 17.547 seconds
+[2019.12.15-05.30.14:099][595]Warning: HotReload failed, recompile failed
+[2019.12.15-05.33.26:327][405]Candidate modules for hot reload:
+[2019.12.15-05.33.26:327][405]  CT6024AdvancedAI
+[2019.12.15-05.33.26:328][405]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,2055 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.15-05.33.26:332][405]Warning: Starting HotReload took  0.0s.
+[2019.12.15-05.33.43:451][327]CompilerResultsLog: New page: Compilation - 15 Dec 2019 05:33:43
+[2019.12.15-05.33.43:452][327]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.15-05.33.43:452][327]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.15-05.33.43:452][327]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 10.7458297 seconds
+[2019.12.15-05.33.43:453][327]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.15-05.33.43:453][327]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.15-05.33.43:453][327]CompilerResultsLog:   [1/6] NukeCountdown.cpp
+[2019.12.15-05.33.43:453][327]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\NukeCountdown.cpp(40): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-05.33.43:454][327]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-05.33.43:454][327]CompilerResultsLog:   [2/6] Guard.cpp
+[2019.12.15-05.33.43:454][327]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Guard.cpp(29): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.15-05.33.43:455][327]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.15-05.33.43:455][327]CompilerResultsLog:   [3/6] Bullet.cpp
+[2019.12.15-05.33.43:455][327]CompilerResultsLog:   [4/6] UE4Editor-CT6024AdvancedAI-2055.lib
+[2019.12.15-05.33.43:455][327]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-2055.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-2055.exp
+[2019.12.15-05.33.43:456][327]CompilerResultsLog:   [5/6] UE4Editor-CT6024AdvancedAI-2055.dll
+[2019.12.15-05.33.43:456][327]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-2055.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-2055.suppressed.exp
+[2019.12.15-05.33.43:456][327]CompilerResultsLog:   [6/6] CT6024AdvancedAIEditor.target
+[2019.12.15-05.33.43:456][327]CompilerResultsLog: Total time in Parallel executor: 3.95 seconds
+[2019.12.15-05.33.43:456][327]CompilerResultsLog: Total execution time: 16.96 seconds
+[2019.12.15-05.33.43:456][327]LogMainFrame: MainFrame: Module compiling took 17.132 seconds
+[2019.12.15-05.33.43:493][327]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.12.15-05.33.43:494][327]LogBlueprintActionDatabase: Requesting refresh due to module change: CT6024AdvancedAI (unloaded)
+[2019.12.15-05.33.43:526][327]LogClass: Could not find existing class Guard in package /Script/CT6024AdvancedAI for HotReload, assuming new class
+[2019.12.15-05.33.43:532][327]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.12.15-05.33.43:532][327]LogWindows: Windows GetLastError: The operation completed successfully. (0)
