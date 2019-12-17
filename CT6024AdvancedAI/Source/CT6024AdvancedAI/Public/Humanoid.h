@@ -27,6 +27,12 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UTextRenderComponent* HealthText;
 
+	UPROPERTY(EditAnywhere, Category = "References")
+	class ATriggerBox* VisionBox;
+
+	TArray<class AActor*> ActorsInVisonBox;
+	TArray<class AActor*> ActorsInVison;
+
 	float Health = 100.0f;
 	float MaxHealth = 100.0f;
 	float CurrentChargeTimeRemaining = 0.0f;
@@ -43,4 +49,15 @@ public:
 	void ChangeHealth(float HealthChange);
 
 	virtual void Die();
+
+	// declare overlap begin function.
+	UFUNCTION()
+	void OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor);
+
+	// declare overlap end function.
+	UFUNCTION()
+	void OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor);
+
+	static bool Trace(UWorld* world, AActor* actorToIgnore, const FVector& start, const FVector& dir, float length, FHitResult& hit, ECollisionChannel CollisionChannel = ECC_Pawn, bool ReturnPhysMat = false);
+	static bool Trace(UWorld* world, AActor* actorToIgnore, const FVector& start, const FVector& end, FHitResult& hit, ECollisionChannel CollisionChannel = ECC_Pawn, bool ReturnPhysMat = false);
 };

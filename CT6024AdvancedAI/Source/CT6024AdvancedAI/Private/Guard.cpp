@@ -3,7 +3,7 @@
 #include "Guard.h"
 #include "Components/TextRenderComponent.h"
 
-// Sets default values
+// Sets default values.
 AGuard::AGuard()
 {
 	// The energy text for the guard.
@@ -41,4 +41,60 @@ void AGuard::Tick(float DeltaTime)
 
 	//Sets the text.
 	EnergyText->SetText(EnergyRemaining);
+
+	// Updates the AI.
+	UpdateAI();
 }
+
+// Holds the state machine for the guard AI.
+void AGuard::UpdateAI()
+{
+	switch (CurrentState)
+	{
+	case AGuard::Wander:
+		WanderBehaviour();
+		break;
+	case AGuard::Charge:
+		ChargeBehaviour();
+		break;
+	case AGuard::Heal:
+		HealBehaviour();
+		break;
+	case AGuard::Attack:
+		AttackBehaviour();
+		break;
+	case AGuard::Wait:
+		WaitBehaviour();
+		break;
+	default:
+		WanderBehaviour();
+		break;
+	}
+}
+
+// The functionality of wandering.
+void AGuard::WanderBehaviour()
+{
+}
+
+// The functionality of charging.
+void AGuard::ChargeBehaviour()
+{
+}
+
+// The functionality of healing.
+void AGuard::HealBehaviour()
+{
+}
+
+// The functionality of attacking.
+void AGuard::AttackBehaviour()
+{
+}
+
+// The functionality of waiting.
+void AGuard::WaitBehaviour()
+{
+}
+
+

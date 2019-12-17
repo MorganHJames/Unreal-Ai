@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeCT6024AdvancedAI_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x483688C8,
-				0x5322E337,
+				0xA1DA7684,
+				0x102AAEFE,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

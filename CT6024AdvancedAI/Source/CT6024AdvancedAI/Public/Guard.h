@@ -26,5 +26,17 @@ protected:
 	float Energy = 100.0f;
 	float MaxEnergy = 100.0f;
 
+	void UpdateAI();
+
 	virtual void Tick(float DeltaTime) override;
+
+	enum States { Wander, Charge, Heal, Attack, Wait };
+
+	States CurrentState = States::Wander;
+
+	void WanderBehaviour();
+	void ChargeBehaviour();
+	void HealBehaviour();
+	void AttackBehaviour();
+	void WaitBehaviour();
 };

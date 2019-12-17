@@ -40,11 +40,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// declare overlap begin function
+	// declare overlap begin function.
 	UFUNCTION()
 	void OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor);
 
-	// declare overlap end function
+	// declare overlap end function.
 	UFUNCTION()
 	void OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor);
 };

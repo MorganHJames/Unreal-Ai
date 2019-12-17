@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpy, 3871074651);
+	IMPLEMENT_CLASS(ASpy, 3334701373);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<ASpy>()
 	{
 		return ASpy::StaticClass();

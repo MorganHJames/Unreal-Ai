@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AToxicSpill_OnOverlapBegin_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/ToxicSpill.h" },
-		{ "ToolTip", "declare overlap begin function" },
+		{ "ToolTip", "declare overlap begin function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AToxicSpill_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AToxicSpill, nullptr, "OnOverlapBegin", sizeof(ToxicSpill_eventOnOverlapBegin_Parms), Z_Construct_UFunction_AToxicSpill_OnOverlapBegin_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AToxicSpill_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AToxicSpill_OnOverlapBegin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AToxicSpill_OnOverlapBegin_Statics::Function_MetaDataParams)) };
@@ -94,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AToxicSpill_OnOverlapEnd_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/ToxicSpill.h" },
-		{ "ToolTip", "declare overlap end function" },
+		{ "ToolTip", "declare overlap end function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AToxicSpill_OnOverlapEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AToxicSpill, nullptr, "OnOverlapEnd", sizeof(ToxicSpill_eventOnOverlapEnd_Parms), Z_Construct_UFunction_AToxicSpill_OnOverlapEnd_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AToxicSpill_OnOverlapEnd_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AToxicSpill_OnOverlapEnd_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AToxicSpill_OnOverlapEnd_Statics::Function_MetaDataParams)) };
@@ -139,8 +139,8 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AToxicSpill_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AToxicSpill_OnOverlapBegin, "OnOverlapBegin" }, // 2237326630
-		{ &Z_Construct_UFunction_AToxicSpill_OnOverlapEnd, "OnOverlapEnd" }, // 3571568899
+		{ &Z_Construct_UFunction_AToxicSpill_OnOverlapBegin, "OnOverlapBegin" }, // 238996288
+		{ &Z_Construct_UFunction_AToxicSpill_OnOverlapEnd, "OnOverlapEnd" }, // 1420542543
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AToxicSpill_Statics::Class_MetaDataParams[] = {
@@ -202,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicSpill() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AToxicSpill, 3215401415);
+	IMPLEMENT_CLASS(AToxicSpill, 3359198948);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AToxicSpill>()
 	{
 		return AToxicSpill::StaticClass();

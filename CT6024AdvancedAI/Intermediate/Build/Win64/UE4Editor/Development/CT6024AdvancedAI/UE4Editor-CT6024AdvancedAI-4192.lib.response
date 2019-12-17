@@ -1,0 +1,42 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CT6024AdvancedAI-4192.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Bullet.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\ChargingArea.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\GameController.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\GameManager.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Guard.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\HealthKit.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Humanoid.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Locker.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\NukeCountdown.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\SelfDestructLever.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\SpectateAIGameMode.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\SpectateAIGameState.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Spy.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\ToxicSpill.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\CT6024AdvancedAI.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Bullet.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\ChargingArea.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\CT6024AdvancedAI.init.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\GameController.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\GameManager.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Guard.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\HealthKit.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Humanoid.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Locker.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\NukeCountdown.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\SelfDestructLever.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\SpectateAIGameMode.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\SpectateAIGameState.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Spy.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\ToxicSpill.gen.cpp.obj"
+"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\Default.rc2.res"
+/OUT:"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-4192.lib"
+/INCLUDE:IMPLEMENT_MODULE_CT6024AdvancedAI

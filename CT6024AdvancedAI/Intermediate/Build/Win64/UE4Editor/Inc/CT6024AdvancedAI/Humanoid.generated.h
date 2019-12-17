@@ -8,13 +8,58 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef CT6024ADVANCEDAI_Humanoid_generated_h
 #error "Humanoid.generated.h already included, missing '#pragma once' in Humanoid.h"
 #endif
 #define CT6024ADVANCEDAI_Humanoid_generated_h
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnOverlapEnd) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapEnd(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapBegin(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	}
+
+
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnOverlapEnd) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapEnd(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapBegin(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	}
+
+
 #define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHumanoid(); \
@@ -59,7 +104,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHumanoid); \
 
 #define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BulletClass() { return STRUCT_OFFSET(AHumanoid, BulletClass); } \
-	FORCEINLINE static uint32 __PPO__HealthText() { return STRUCT_OFFSET(AHumanoid, HealthText); }
+	FORCEINLINE static uint32 __PPO__HealthText() { return STRUCT_OFFSET(AHumanoid, HealthText); } \
+	FORCEINLINE static uint32 __PPO__VisionBox() { return STRUCT_OFFSET(AHumanoid, VisionBox); }
 
 
 #define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_9_PROLOG

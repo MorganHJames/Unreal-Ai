@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeGuard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGuard, 3417166649);
+	IMPLEMENT_CLASS(AGuard, 3692091660);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AGuard>()
 	{
 		return AGuard::StaticClass();
