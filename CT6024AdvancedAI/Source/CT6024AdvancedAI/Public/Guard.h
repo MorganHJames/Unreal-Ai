@@ -20,8 +20,21 @@ public:
 	bool Charging = false;
 
 protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UTextRenderComponent* EnergyText;
+
+	UPROPERTY(EditAnywhere, Category = "Locations")
+	TArray<class AActor*> Locations;
+	FVector CurrentPositionHeadingTo;
+
+	UPROPERTY(EditAnywhere, Category = "Locations")
+	class AActor* ChargingLocation;
+
+	FVector ree = FVector(0.f, 0.f, 0.f);
+	FVector vRandLoc[1];
 
 	float Energy = 100.0f;
 	float MaxEnergy = 100.0f;
@@ -29,6 +42,9 @@ protected:
 	void UpdateAI();
 
 	virtual void Tick(float DeltaTime) override;
+
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	enum States { Wander, Charge, Heal, Attack, Wait };
 

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGuard() {}
 	CT6024ADVANCEDAI_API UClass* Z_Construct_UClass_AGuard();
 	CT6024ADVANCEDAI_API UClass* Z_Construct_UClass_AHumanoid();
 	UPackage* Z_Construct_UPackage__Script_CT6024AdvancedAI();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 // End Cross Module References
 	void AGuard::StaticRegisterNativesAGuard()
@@ -32,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeGuard() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ChargingLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ChargingLocation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Locations_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Locations;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Locations_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnergyText_MetaData[];
 #endif
@@ -52,6 +62,21 @@ void EmptyLinkFunctionForGeneratedCodeGuard() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGuard_Statics::NewProp_ChargingLocation_MetaData[] = {
+		{ "Category", "Locations" },
+		{ "ModuleRelativePath", "Public/Guard.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGuard_Statics::NewProp_ChargingLocation = { "ChargingLocation", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGuard, ChargingLocation), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGuard_Statics::NewProp_ChargingLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGuard_Statics::NewProp_ChargingLocation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGuard_Statics::NewProp_Locations_MetaData[] = {
+		{ "Category", "Locations" },
+		{ "ModuleRelativePath", "Public/Guard.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGuard_Statics::NewProp_Locations = { "Locations", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGuard, Locations), METADATA_PARAMS(Z_Construct_UClass_AGuard_Statics::NewProp_Locations_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGuard_Statics::NewProp_Locations_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGuard_Statics::NewProp_Locations_Inner = { "Locations", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGuard_Statics::NewProp_EnergyText_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
@@ -60,6 +85,9 @@ void EmptyLinkFunctionForGeneratedCodeGuard() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGuard_Statics::NewProp_EnergyText = { "EnergyText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGuard, EnergyText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGuard_Statics::NewProp_EnergyText_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGuard_Statics::NewProp_EnergyText_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGuard_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGuard_Statics::NewProp_ChargingLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGuard_Statics::NewProp_Locations,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGuard_Statics::NewProp_Locations_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGuard_Statics::NewProp_EnergyText,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGuard_Statics::StaticCppClassTypeInfo = {
@@ -89,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeGuard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGuard, 3692091660);
+	IMPLEMENT_CLASS(AGuard, 1256079334);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AGuard>()
 	{
 		return AGuard::StaticClass();

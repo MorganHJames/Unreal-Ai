@@ -13,7 +13,7 @@ AHumanoid::AHumanoid()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//The health text for the humanoid.
+	// The health text for the humanoid.
 	HealthText = CreateDefaultSubobject<UTextRenderComponent>("HealthText"); 
 
 	// The humanoids vision box.
