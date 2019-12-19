@@ -94,6 +94,7 @@
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\UMG\UE4Editor-UMG.lib"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
 "C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\AIModule\UE4Editor-AIModule.lib"
 /OUT:"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Binaries\Win64\UE4Editor-CT6024AdvancedAI.dll"
 /IMPLIB:"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI.suppressed.lib"
 /PDB:"C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Binaries\Win64\UE4Editor-CT6024AdvancedAI.pdb"

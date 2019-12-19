@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai).
+  Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+  Parsing headers for CT6024AdvancedAIEditor
+    Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\DebugGame\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CT6024AdvancedAIEditor in 7.9687873 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] Guard.cpp
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Guard.cpp(63): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+    [2/4] UE4Editor-CT6024AdvancedAI-Win64-DebugGame.lib
+       Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\DebugGame\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-Win64-DebugGame.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\DebugGame\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-Win64-DebugGame.exp
+    [3/4] UE4Editor-CT6024AdvancedAI-Win64-DebugGame.dll
+       Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\DebugGame\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-Win64-DebugGame.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\DebugGame\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-Win64-DebugGame.suppressed.exp
+    [4/4] CT6024AdvancedAIEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 2.08 seconds
+  Total execution time: 12.52 seconds

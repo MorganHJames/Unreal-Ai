@@ -1,0 +1,5 @@
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\DebugGame\CT6024AdvancedAI\Definitions.CT6024AdvancedAI.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Locker.h
+C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Inc\CT6024AdvancedAI\Locker.generated.h

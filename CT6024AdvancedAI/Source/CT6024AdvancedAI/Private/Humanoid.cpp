@@ -6,6 +6,9 @@
 #include "Components/TextRenderComponent.h"
 #include "Engine/TriggerBox.h"
 #include "DrawDebugHelpers.h"
+#include "Classes/Blueprint/AIBlueprintHelperLibrary.h"
+#include "GameFramework/Controller.h"
+
 
 // Sets default values
 AHumanoid::AHumanoid()
@@ -54,7 +57,7 @@ void AHumanoid::Shoot()
 	}
 }
 
-// Called every frame
+// Called every frame.
 void AHumanoid::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -89,12 +92,6 @@ void AHumanoid::Tick(float DeltaTime)
 	}
 }
 
-// Called to bind functionality to input
-void AHumanoid::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-}
-
 // Changes the health of the humanoid.
 void AHumanoid::ChangeHealth(float HealthChange)
 {
@@ -121,6 +118,13 @@ void AHumanoid::ChangeHealth(float HealthChange)
 void AHumanoid::Die()
 {
 	Destroy();
+}
+
+// Moves the humanoid to the specified location.
+void AHumanoid::MoveToLocation(FVector LocationToGoTo)
+{
+	AController* pController = this->GetController();
+	UAIBlueprintHelperLibrary::SimpleMoveToLocation(pController, LocationToGoTo);
 }
 
 // Called when an actor starts overlapping.
@@ -158,7 +162,6 @@ void AHumanoid::OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherA
 		}
 	}
 }
-
 
 // Trace functionality found at https://forums.unrealengine.com/development-discussion/c-gameplay-programming/66176-anyone-know-where-i-can-find-a-simple-raycast-with-trace-example-in-c.
 // Trace using start point, direction, and length.

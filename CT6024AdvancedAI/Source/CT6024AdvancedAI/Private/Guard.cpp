@@ -2,14 +2,6 @@
 
 #include "Guard.h"
 #include "Components/TextRenderComponent.h"
-#include "AIController.h"
-#include "Blueprint/AIBlueprintHelperLibrary.h"
-//#include "Math/Vector.h"
-//#include "GameFramework/Actor.h"
-//#include "Containers/Array.h"
-//#include "AIController.h"
-//#include "Classes/Blueprint/AIBlueprintHelperLibrary.h"
-
 
 // Sets default values.
 AGuard::AGuard()
@@ -21,11 +13,10 @@ AGuard::AGuard()
 // Called when the game starts or when spawned.
 void AGuard::BeginPlay()
 {
-	Super::BeginPlay();
 	// Set a random position to go to.
-	//CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
-	vRandLoc[0] = FVector(350, 350, 270);
-	UAIBlueprintHelperLibrary::SimpleMoveToLocation(this->GetController(), vRandLoc[0]);
+	CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
+	MoveToLocation(CurrentPositionHeadingTo);
+	AHumanoid::BeginPlay();
 }
 
 // Changes the guards charge.
@@ -95,8 +86,8 @@ void AGuard::WanderBehaviour()
 {
 	if (FVector::Dist(CurrentPositionHeadingTo, this->GetActorLocation()) < 100.0f)
 	{
-		//CurrentPositionHeadingTo = LocationPositions[FMath::RandRange(0, LocationPositions.IndexOfByKey(LocationPositions.Last()))];
-		//UAIBlueprintHelperLibrary::SimpleMoveToLocation(this->GetController(), CurrentPositionHeadingTo);
+		CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
+		MoveToLocation(CurrentPositionHeadingTo);
 	}
 }
 

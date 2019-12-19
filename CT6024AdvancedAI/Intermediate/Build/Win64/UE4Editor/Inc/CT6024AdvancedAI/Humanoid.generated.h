@@ -14,7 +14,7 @@ class AActor;
 #endif
 #define CT6024ADVANCEDAI_Humanoid_generated_h
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
@@ -37,7 +37,7 @@ class AActor;
 	}
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
@@ -60,7 +60,7 @@ class AActor;
 	}
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_INCLASS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHumanoid(); \
 	friend struct Z_Construct_UClass_AHumanoid_Statics; \
@@ -69,7 +69,7 @@ public: \
 	DECLARE_SERIALIZER(AHumanoid)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_INCLASS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAHumanoid(); \
 	friend struct Z_Construct_UClass_AHumanoid_Statics; \
@@ -78,7 +78,7 @@ public: \
 	DECLARE_SERIALIZER(AHumanoid)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_STANDARD_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHumanoid(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHumanoid) \
@@ -91,7 +91,7 @@ private: \
 public:
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_ENHANCED_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AHumanoid(AHumanoid&&); \
@@ -102,31 +102,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHumanoid); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHumanoid)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_PRIVATE_PROPERTY_OFFSET \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BulletClass() { return STRUCT_OFFSET(AHumanoid, BulletClass); } \
 	FORCEINLINE static uint32 __PPO__HealthText() { return STRUCT_OFFSET(AHumanoid, HealthText); } \
 	FORCEINLINE static uint32 __PPO__VisionBox() { return STRUCT_OFFSET(AHumanoid, VisionBox); }
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_9_PROLOG
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_GENERATED_BODY_LEGACY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_10_PROLOG
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_INCLASS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_STANDARD_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_GENERATED_BODY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_INCLASS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_12_ENHANCED_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

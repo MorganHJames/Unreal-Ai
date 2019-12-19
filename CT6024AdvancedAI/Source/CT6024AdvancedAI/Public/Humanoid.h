@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include <list>
 #include "Humanoid.generated.h"
 
 UCLASS()
@@ -43,12 +44,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 	void ChangeHealth(float HealthChange);
 
 	virtual void Die();
+
+	void MoveToLocation(FVector LocationToGoTo);
 
 	// declare overlap begin function.
 	UFUNCTION()
