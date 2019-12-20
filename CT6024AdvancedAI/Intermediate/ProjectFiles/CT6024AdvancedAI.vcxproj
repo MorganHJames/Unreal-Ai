@@ -379,7 +379,6 @@
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\ChargingArea.cpp"/>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GameController.cpp"/>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GameManager.cpp"/>
-    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GOAPPlanner.cpp"/>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Guard.cpp"/>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\HealthKit.cpp"/>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Humanoid.cpp"/>
@@ -394,7 +393,6 @@
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\ChargingArea.h"/>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GameController.h"/>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GameManager.h"/>
-    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GOAPPlanner.h"/>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Guard.h"/>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\HealthKit.h"/>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Humanoid.h"/>

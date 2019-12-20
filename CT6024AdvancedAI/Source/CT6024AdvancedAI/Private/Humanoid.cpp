@@ -49,7 +49,7 @@ void AHumanoid::Shoot()
 
 		// Set up bullet transform.
 		FTransform BulletSpawnTransform;
-		BulletSpawnTransform.SetLocation(GetActorForwardVector() * 50.0f + GetActorLocation() + FVector(0.f,0.f, 75.0f));
+		BulletSpawnTransform.SetLocation(GetActorForwardVector() * 75.0f + GetActorLocation() + FVector(0.f,0.f, 75.0f));
 		BulletSpawnTransform.SetRotation(GetActorRotation().Quaternion());
 
 		// Spawn the bullet.
@@ -80,6 +80,11 @@ void AHumanoid::Tick(float DeltaTime)
 			if (!ActorsInVison.Contains(Actor))
 			{
 				ActorsInVison.Add(Actor);
+
+				if (!ActorsSeen.Contains(Actor))
+				{
+					ActorsSeen.Add(Actor);
+				}
 			}
 		}
 		else
@@ -142,6 +147,7 @@ void AHumanoid::OnOverlapBegin(class AActor* OverlappedActor, class AActor* Othe
 		if (hit.Actor == OtherActor)
 		{
 			ActorsInVison.Add(OtherActor);
+			ActorsSeen.Add(OtherActor);
 		}
 	}
 }

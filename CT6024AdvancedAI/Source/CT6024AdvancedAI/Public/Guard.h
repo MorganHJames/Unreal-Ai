@@ -27,8 +27,7 @@ protected:
 	class UTextRenderComponent* EnergyText;
 
 	UPROPERTY(EditAnywhere, Category = "Locations")
-	TArray<class AActor*> Locations;
-	FVector CurrentPositionHeadingTo;
+	TArray<class AActor*> healthKitLocations;
 
 	UPROPERTY(EditAnywhere, Category = "Locations")
 	class AActor* ChargingLocation;
@@ -43,13 +42,17 @@ protected:
 
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 	enum States { Wander, Charge, Heal, Attack, Wait };
 
 	States CurrentState = States::Wander;
 
+	bool CheckTransitionToWanderFromChargeBehaviour();
+	bool CheckTransitionToWanderFromAttackBehaviour();
+	bool CheckTransitionToWanderFromHealBehaviour();
+	bool CheckTransitionToChargeBehaviour(int energyUnder);
+	bool CheckTransitionToHealBehaviour(int healthUnder);
+	bool CheckTransitionToAttackBehaviour();
+	bool CheckTransitionToWaitBehaviour();
 	void WanderBehaviour();
 	void ChargeBehaviour();
 	void HealBehaviour();

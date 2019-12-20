@@ -17,65 +17,227 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	virtual void Tick(float DeltaTime) override;
+
 public:
 	bool CanHide = false;
 	bool IsHiding = false;
 	virtual void Die() override;
 
 private:
+	enum ActionState
+	{
+		Succeeded,
+		Running,
+		Failed
+	};
+
 	class Action
 	{
 	public:
-		virtual bool Succeeded() = 0;
+		virtual ActionState Update() = 0;
 	};
 
 	class MultipleActions : public Action
 	{
 	private:
-		std::list<Action*> Actions;
+		TArray<Action*> Actions;
 	public:
-		const std::list<Action*>& GetActions() const
+		int currentIndex = 0;
+		void Reset()
+		{
+			currentIndex = 0;
+		}
+		const TArray<Action*>& GetActions() const
 		{
 			return Actions;
 		}
 
 		void AddAction(Action* Action)
 		{
-			Actions.emplace_back(Action);
+			Actions.Add(Action);
 		}
 	};
 
 	class Selector : public MultipleActions
 	{
 	public:
-		virtual bool Succeeded() override
+		virtual ActionState Update() override
 		{
-			for (Action* Action : GetActions())
+			Action* currentAction = GetActions()[currentIndex];
+
+			if (currentAction)
 			{
-				if (Action->Succeeded())
+				ActionState actionState = currentAction->Update();
+
+				if (actionState == ActionState::Failed)
 				{
-					return true;
+					if (currentIndex == GetActions().IndexOfByKey(GetActions().Last()))
+					{
+						Reset();
+						return ActionState::Failed;
+					}
+					else
+					{
+						currentIndex++;
+						return ActionState::Running;
+					}
+				}
+				else if (actionState == ActionState::Running)
+				{
+					return ActionState::Running;
+				}
+				else if (actionState == ActionState::Succeeded)
+				{
+					Reset();
+					return ActionState::Succeeded;
 				}
 			}
-			return false;
+
+			return ActionState::Failed;
 		}
 	};
-
-	Selector* Root;
 
 	class Sequence : public MultipleActions
 	{
 	public:
-		virtual bool Succeeded() override
+		virtual ActionState Update() override
 		{
-			for (Action* Action : GetActions())
+			Action* currentAction = GetActions()[currentIndex];
+
+			if (currentAction)
 			{
-				if (!Action->Succeeded())
+				ActionState actionState = currentAction->Update();
+
+				if (actionState == ActionState::Succeeded)
 				{
-					return false;
+					if (currentIndex == GetActions().IndexOfByKey(GetActions().Last()))
+					{
+						Reset();
+						return ActionState::Succeeded;
+					}
+					else
+					{
+						currentIndex++;
+						return ActionState::Running;
+					}
+				}
+				else if (actionState == ActionState::Running)
+				{
+					return ActionState::Running;
+				}
+				else if (actionState == ActionState::Failed)
+				{
+					Reset();
+					return ActionState::Failed;
 				}
 			}
-			return true;
+
+			return ActionState::Failed;
+		}
+	};
+
+	Sequence* Root;
+
+	class DecoratorNode : public Action 
+	{  
+	public:
+		Action* action;
+
+		void SetAction(Action* newAction) 
+		{
+			action = newAction; 
+		}
+	};
+
+	class Succeeder : public DecoratorNode 
+	{ 
+	private:
+		virtual ActionState Update() override
+		{ 
+			action->Update();
+			return ActionState::Succeeded;
+		}
+	};
+
+	class Failer : public DecoratorNode 
+	{
+	private:
+		virtual ActionState Update() override
+		{
+			action->Update();
+			return ActionState::Failed;
+		}
+	};
+
+	class Repeater : public DecoratorNode 
+	{
+	private:
+		int numberOfRepitions;
+		int currentIndex = 0;
+		static const int NoRepititions = -1;
+
+		Repeater(int numberOfRepitions = NoRepititions) : numberOfRepitions(numberOfRepitions)
+		{
+		
+		}
+
+		virtual ActionState Update() override
+		{
+			if (numberOfRepitions == NoRepititions)
+			{
+				action->Update();
+				return ActionState::Running;
+			}
+			else
+			{
+				if (currentIndex < numberOfRepitions)
+				{
+					action->Update();
+					currentIndex++;
+					return ActionState::Running;
+				}
+
+				currentIndex = 0;
+
+				return ActionState::Succeeded;
+			}
+		}
+	};
+
+	class RepeatUntilFail : public DecoratorNode 
+	{ 
+	private:
+		virtual ActionState Update() override
+		{
+			ActionState actionState = action->Update();
+
+			if (actionState == ActionState::Failed)
+			{
+				return ActionState::Failed;
+			}
+			else
+			{
+				return ActionState::Running;
+			}
+		}
+	};
+
+	class RepeatUntilSucceed : public DecoratorNode
+	{
+	private:
+		virtual ActionState Update() override
+		{
+			ActionState actionState = action->Update();
+
+			if (actionState == ActionState::Succeeded)
+			{
+				return ActionState::Succeeded;
+			}
+			else
+			{
+				return ActionState::Running;
+			}
 		}
 	};
 
@@ -91,17 +253,62 @@ private:
 
 		}
 
-		virtual bool Succeeded() override
+		virtual ActionState Update() override
 		{
 			if (!knowsWhereLeverIs)
 			{
-				return false;
+				return ActionState::Failed;
 			}
 			else
 			{
-				spy->MoveToLocation(leverLocation);
-				return true;
+				if (FVector::Dist(leverLocation, spy->GetActorLocation()) < 10.0f)
+				{
+					return ActionState::Succeeded;
+				}
+				else
+				{
+					if (spy->CurrentPositionHeadingTo != leverLocation)
+					{
+						spy->CurrentPositionHeadingTo = leverLocation;
+						spy->MoveToLocation(leverLocation);
+					}
+					return ActionState::Running;
+				}
 			}
 		}
 	};
+
+	class SearchForLeverAction : public Action
+	{
+	private:
+		bool knowsWhereLeverIs;
+		ASpy* spy;
+	public:
+		SearchForLeverAction(bool knowsWhereLeverIs, ASpy* spy) : knowsWhereLeverIs(knowsWhereLeverIs), spy(spy)
+		{
+
+		}
+
+		virtual ActionState Update() override
+		{
+			if (knowsWhereLeverIs)
+			{
+				return ActionState::Succeeded;
+			}
+			else
+			{
+				if (FVector::Dist(spy->CurrentPositionHeadingTo, spy->GetActorLocation()) < 100.0f)
+				{
+					spy->CurrentPositionHeadingTo = spy->Locations[FMath::RandRange(0, spy->Locations.IndexOfByKey(spy->Locations.Last()))]->GetActorLocation();
+					spy->MoveToLocation(spy->CurrentPositionHeadingTo);
+				}
+
+				return ActionState::Running;
+			}
+		}
+	};
+
+	bool DoesSpyKnowLeverLocation();
+
+	FVector GetLeverLocation();
 };

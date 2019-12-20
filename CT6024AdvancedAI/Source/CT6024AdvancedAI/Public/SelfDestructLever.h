@@ -3,21 +3,25 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Engine/TriggerBox.h"
 #include "SelfDestructLever.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CT6024ADVANCEDAI_API ASelfDestructLever : public ATriggerBox
+class CT6024ADVANCEDAI_API ASelfDestructLever : public AActor
 {
 	GENERATED_BODY()
 
 protected:
-
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere, Category = "Components")
+	class UStaticMeshComponent* LeverBase;
+
+	UPROPERTY(EditAnywhere, Category = "Reference")
+	class ATriggerBox* TriggerBox;
 
 public:
 

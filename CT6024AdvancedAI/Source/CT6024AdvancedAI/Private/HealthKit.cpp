@@ -63,10 +63,7 @@ void AHealthKit::OnHealthKitHit(AActor* SelfActor, AActor* OtherActor, FVector N
 		if (humanoid)
 		{
 			// Increase the hit humans health.
-			humanoid->ChangeHealth(+50.0f);
-
-			// Destroy the health kit.
-			Destroy();
+			humanoid->ChangeHealth(100.0f);
 		}
 	}
 }

@@ -124,6 +124,11 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VisionBox;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Locations_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Locations;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Locations_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthText_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthText;
@@ -131,6 +136,11 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BulletClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorsSeen_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ActorsSeen;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorsSeen_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -158,6 +168,14 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox = { "VisionBox", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, VisionBox), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_MetaData[] = {
+		{ "Category", "Locations" },
+		{ "ModuleRelativePath", "Public/Humanoid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations = { "Locations", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, Locations), METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_Inner = { "Locations", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
@@ -172,10 +190,22 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass = { "BulletClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, BulletClass), Z_Construct_UClass_ABullet_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_MetaData[] = {
+		{ "Category", "References" },
+		{ "ModuleRelativePath", "Public/Humanoid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen = { "ActorsSeen", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, ActorsSeen), METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_Inner = { "ActorsSeen", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHumanoid_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHumanoid_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHumanoid>::IsAbstract,
@@ -204,7 +234,7 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHumanoid, 577283540);
+	IMPLEMENT_CLASS(AHumanoid, 3118576393);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AHumanoid>()
 	{
 		return AHumanoid::StaticClass();

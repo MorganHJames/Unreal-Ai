@@ -3,17 +3,26 @@
 
 #include "SelfDestructLever.h"
 #include "Spy.h"
+#include "Engine/TriggerBox.h"
 #include "SpectateAIGameMode.h"
+#include "Components/StaticMeshComponent.h" 
 
 ASelfDestructLever::ASelfDestructLever()
 {
+	//The lever base.
+	LeverBase = CreateDefaultSubobject<UStaticMeshComponent>("LeverBase");
+
+	SetRootComponent(LeverBase);
+
+	//The trigger box.
+	TriggerBox = CreateDefaultSubobject<ATriggerBox>("TriggerBox");
 }
 
 // Called when the game starts or when spawned
 void ASelfDestructLever::BeginPlay()
 {
 	//Register Events
-	OnActorBeginOverlap.AddDynamic(this, &ASelfDestructLever::OnOverlapBegin);
+	TriggerBox->OnActorBeginOverlap.AddDynamic(this, &ASelfDestructLever::OnOverlapBegin);
 	Super::BeginPlay();
 }
 

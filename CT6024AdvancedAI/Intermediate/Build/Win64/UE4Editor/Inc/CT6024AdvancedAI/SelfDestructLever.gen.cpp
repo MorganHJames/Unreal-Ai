@@ -15,10 +15,12 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 // Cross Module References
 	CT6024ADVANCEDAI_API UClass* Z_Construct_UClass_ASelfDestructLever_NoRegister();
 	CT6024ADVANCEDAI_API UClass* Z_Construct_UClass_ASelfDestructLever();
-	ENGINE_API UClass* Z_Construct_UClass_ATriggerBox();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CT6024AdvancedAI();
 	CT6024ADVANCEDAI_API UFunction* Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_ATriggerBox_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ASelfDestructLever::StaticRegisterNativesASelfDestructLever()
 	{
@@ -76,11 +78,20 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerBox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerBox;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LeverBase_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LeverBase;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ASelfDestructLever_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_ATriggerBox,
+		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASelfDestructLever_Statics::FuncInfo[] = {
@@ -92,6 +103,25 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 		{ "ModuleRelativePath", "Public/SelfDestructLever.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox_MetaData[] = {
+		{ "Category", "Reference" },
+		{ "ModuleRelativePath", "Public/SelfDestructLever.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox = { "TriggerBox", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASelfDestructLever, TriggerBox), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase_MetaData[] = {
+		{ "Category", "Components" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/SelfDestructLever.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase = { "LeverBase", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASelfDestructLever, LeverBase), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASelfDestructLever_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASelfDestructLever_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASelfDestructLever>::IsAbstract,
 	};
@@ -101,11 +131,11 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_ASelfDestructLever_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		ARRAY_COUNT(FuncInfo),
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::Class_MetaDataParams))
@@ -119,7 +149,7 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASelfDestructLever, 4014678494);
+	IMPLEMENT_CLASS(ASelfDestructLever, 2169620672);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<ASelfDestructLever>()
 	{
 		return ASelfDestructLever::StaticClass();

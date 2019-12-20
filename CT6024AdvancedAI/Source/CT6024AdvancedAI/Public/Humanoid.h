@@ -16,6 +16,8 @@ public:
 	// Sets default values for this character's properties
 	AHumanoid();
 
+	UPROPERTY(EditAnywhere, Category = "References")
+	TArray<class AActor*> ActorsSeen;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override; 
@@ -27,6 +29,11 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UTextRenderComponent* HealthText;
+
+	UPROPERTY(EditAnywhere, Category = "Locations")
+	TArray<class AActor*> Locations;
+
+	FVector CurrentPositionHeadingTo;
 
 	UPROPERTY(EditAnywhere, Category = "References")
 	class ATriggerBox* VisionBox;

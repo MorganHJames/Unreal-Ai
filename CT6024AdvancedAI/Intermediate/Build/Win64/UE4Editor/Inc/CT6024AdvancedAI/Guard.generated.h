@@ -59,7 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGuard); \
 
 #define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__EnergyText() { return STRUCT_OFFSET(AGuard, EnergyText); } \
-	FORCEINLINE static uint32 __PPO__Locations() { return STRUCT_OFFSET(AGuard, Locations); } \
+	FORCEINLINE static uint32 __PPO__healthKitLocations() { return STRUCT_OFFSET(AGuard, healthKitLocations); } \
 	FORCEINLINE static uint32 __PPO__ChargingLocation() { return STRUCT_OFFSET(AGuard, ChargingLocation); }
 
 

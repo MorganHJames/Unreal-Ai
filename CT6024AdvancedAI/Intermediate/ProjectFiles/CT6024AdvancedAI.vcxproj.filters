@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CT6024AdvancedAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E13A5B6A-31EF-45B4-8F47-D2061F8F02BF}</UniqueIdentifier>
+      <UniqueIdentifier>{D03EB2CF-87BB-4576-A4F9-8691189DCC0F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CT6024AdvancedAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1CA364D8-1CD6-493E-A962-5F245D3261D1}</UniqueIdentifier>
+      <UniqueIdentifier>{61100603-4CDC-449B-8D46-21E55DF7BC19}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CT6024AdvancedAI">
-      <UniqueIdentifier>{13ECA059-D916-4888-92EE-253F9AC89F41}</UniqueIdentifier>
+      <UniqueIdentifier>{7FE4DA38-0D5B-46B3-97E2-387A974E0E0B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CT6024AdvancedAI\CT6024AdvancedAI.Build.cs">
       <Filter>Source\CT6024AdvancedAI</Filter>
@@ -42,7 +42,7 @@
       <Filter>Source\CT6024AdvancedAI</Filter>
     </ClInclude>
     <Filter Include="Source\CT6024AdvancedAI\Private">
-      <UniqueIdentifier>{A18EDD93-674D-4053-A649-E190BCA777A4}</UniqueIdentifier>
+      <UniqueIdentifier>{D05285F7-35F9-4D6F-ABBB-8DE45EEA5346}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Bullet.cpp">
       <Filter>Source\CT6024AdvancedAI\Private</Filter>
@@ -54,9 +54,6 @@
       <Filter>Source\CT6024AdvancedAI\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GameManager.cpp">
-      <Filter>Source\CT6024AdvancedAI\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\GOAPPlanner.cpp">
       <Filter>Source\CT6024AdvancedAI\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CT6024AdvancedAI\Private\Guard.cpp">
@@ -90,7 +87,7 @@
       <Filter>Source\CT6024AdvancedAI\Private</Filter>
     </ClCompile>
     <Filter Include="Source\CT6024AdvancedAI\Public">
-      <UniqueIdentifier>{38E3A7DC-AEDD-4D5E-8B01-7B90A9A484EA}</UniqueIdentifier>
+      <UniqueIdentifier>{E0F6AE0A-1A71-4696-AF4D-E547467C95E2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Bullet.h">
       <Filter>Source\CT6024AdvancedAI\Public</Filter>
@@ -102,9 +99,6 @@
       <Filter>Source\CT6024AdvancedAI\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GameManager.h">
-      <Filter>Source\CT6024AdvancedAI\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\GOAPPlanner.h">
       <Filter>Source\CT6024AdvancedAI\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CT6024AdvancedAI\Public\Guard.h">
