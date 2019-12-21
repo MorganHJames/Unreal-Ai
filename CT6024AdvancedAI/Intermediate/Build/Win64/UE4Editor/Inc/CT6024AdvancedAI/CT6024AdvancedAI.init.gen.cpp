@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCT6024AdvancedAI_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB6CDB518,
+				0xF2E8FA9B,
 				0xBA3F0615,
 				METADATA_PARAMS(nullptr, 0)
 			};

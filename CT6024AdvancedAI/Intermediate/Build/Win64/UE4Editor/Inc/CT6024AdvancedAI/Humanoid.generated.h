@@ -104,6 +104,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHumanoid); \
 
 #define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BulletClass() { return STRUCT_OFFSET(AHumanoid, BulletClass); } \
+	FORCEINLINE static uint32 __PPO__ActorsSeen() { return STRUCT_OFFSET(AHumanoid, ActorsSeen); } \
 	FORCEINLINE static uint32 __PPO__HealthText() { return STRUCT_OFFSET(AHumanoid, HealthText); } \
 	FORCEINLINE static uint32 __PPO__Locations() { return STRUCT_OFFSET(AHumanoid, Locations); } \
 	FORCEINLINE static uint32 __PPO__VisionBox() { return STRUCT_OFFSET(AHumanoid, VisionBox); }

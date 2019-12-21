@@ -15,9 +15,6 @@ class CT6024ADVANCEDAI_API AHumanoid : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AHumanoid();
-
-	UPROPERTY(EditAnywhere, Category = "References")
-	TArray<class AActor*> ActorsSeen;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override; 
@@ -26,6 +23,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Shooting")
 	TSubclassOf<class ABullet> BulletClass;
+
+	UPROPERTY(EditAnywhere, Category = "References")
+	TArray<class AActor*> ActorsSeen;
 
 	UPROPERTY(EditAnywhere, Category = "Components")
 	class UTextRenderComponent* HealthText;

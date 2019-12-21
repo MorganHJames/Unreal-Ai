@@ -244,33 +244,31 @@ private:
 	class GoToLeverAction : public Action
 	{
 	private:
-		bool knowsWhereLeverIs;
-		FVector leverLocation;
 		ASpy* spy;
 	public:
-		GoToLeverAction(bool knowsWhereLeverIs, FVector leverLocation, ASpy* spy) : knowsWhereLeverIs(knowsWhereLeverIs), leverLocation(leverLocation), spy(spy)
+		GoToLeverAction(ASpy* spy) : spy(spy)
 		{
 
 		}
 
 		virtual ActionState Update() override
 		{
-			if (!knowsWhereLeverIs)
+			if (!spy->DoesSpyKnowLeverLocation())
 			{
 				return ActionState::Failed;
 			}
 			else
 			{
-				if (FVector::Dist(leverLocation, spy->GetActorLocation()) < 10.0f)
+				if (FVector::Dist(spy->GetLeverLocation(), spy->GetActorLocation()) < 10.0f)
 				{
 					return ActionState::Succeeded;
 				}
 				else
 				{
-					if (spy->CurrentPositionHeadingTo != leverLocation)
+					if (spy->CurrentPositionHeadingTo != spy->GetLeverLocation())
 					{
-						spy->CurrentPositionHeadingTo = leverLocation;
-						spy->MoveToLocation(leverLocation);
+						spy->CurrentPositionHeadingTo = spy->GetLeverLocation();
+						spy->MoveToLocation(spy->GetLeverLocation());
 					}
 					return ActionState::Running;
 				}
@@ -281,17 +279,16 @@ private:
 	class SearchForLeverAction : public Action
 	{
 	private:
-		bool knowsWhereLeverIs;
 		ASpy* spy;
 	public:
-		SearchForLeverAction(bool knowsWhereLeverIs, ASpy* spy) : knowsWhereLeverIs(knowsWhereLeverIs), spy(spy)
+		SearchForLeverAction(ASpy* spy) : spy(spy)
 		{
 
 		}
 
 		virtual ActionState Update() override
 		{
-			if (knowsWhereLeverIs)
+			if (spy->DoesSpyKnowLeverLocation())
 			{
 				return ActionState::Succeeded;
 			}

@@ -9,8 +9,8 @@ void ASpy::BeginPlay()
 {
 	CurrentPositionHeadingTo = GetActorLocation();
 	Root = new Sequence;// Setup root node.
-	GoToLeverAction* goToLever = new GoToLeverAction(DoesSpyKnowLeverLocation(), GetLeverLocation(), this);
-	SearchForLeverAction* searchForLever = new SearchForLeverAction(DoesSpyKnowLeverLocation(), this);
+	GoToLeverAction* goToLever = new GoToLeverAction(this);
+	SearchForLeverAction* searchForLever = new SearchForLeverAction(this);
 	Root->AddAction(searchForLever);
 	Root->AddAction(goToLever);
 	Super::BeginPlay();

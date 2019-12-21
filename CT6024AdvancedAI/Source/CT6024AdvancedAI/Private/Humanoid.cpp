@@ -204,7 +204,8 @@ bool AHumanoid::Trace(UWorld* world, AActor* actorToIgnore, const FVector& start
 	);
 
 	// Draw a square at the impact point.
-	if (hitSomething) DrawDebugPoint(world, hit.ImpactPoint, 10, FColor(255, 255, 0), false, -1);
+	if (hitSomething) 
+		DrawDebugPoint(world, hit.ImpactPoint, 10, FColor(255, 255, 0), false, -1);
 
 	// Draw the trace line. Red if something was hit, green if nothing was hit.
 	DrawDebugLine(world, start, end, (hitSomething ? FColor(255, 0, 0) : FColor(0, 255, 0)), false, -1, 0, 1.5);

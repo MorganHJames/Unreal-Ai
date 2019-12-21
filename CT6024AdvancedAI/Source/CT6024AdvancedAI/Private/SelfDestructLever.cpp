@@ -12,8 +12,6 @@ ASelfDestructLever::ASelfDestructLever()
 	//The lever base.
 	LeverBase = CreateDefaultSubobject<UStaticMeshComponent>("LeverBase");
 
-	SetRootComponent(LeverBase);
-
 	//The trigger box.
 	TriggerBox = CreateDefaultSubobject<ATriggerBox>("TriggerBox");
 }
