@@ -42,20 +42,21 @@ protected:
 
 	virtual void Tick(float DeltaTime) override;
 
-	enum States { Wander, Charge, Heal, Attack, Wait };
+	enum States { Wander, Charge, Heal, Attack, AvoidToixc };
 
 	States CurrentState = States::Wander;
 
 	bool CheckTransitionToWanderFromChargeBehaviour();
 	bool CheckTransitionToWanderFromAttackBehaviour();
 	bool CheckTransitionToWanderFromHealBehaviour();
+	bool CheckTransitionToWanderFromAvoidToxicBehaviour();
 	bool CheckTransitionToChargeBehaviour(int energyUnder);
 	bool CheckTransitionToHealBehaviour(int healthUnder);
 	bool CheckTransitionToAttackBehaviour();
-	bool CheckTransitionToWaitBehaviour();
+	bool CheckTransitionToAvoidToxicBehaviour();
 	void WanderBehaviour();
 	void ChargeBehaviour();
 	void HealBehaviour();
 	void AttackBehaviour();
-	void WaitBehaviour();
+	void AvoidToxicBehaviour();
 };

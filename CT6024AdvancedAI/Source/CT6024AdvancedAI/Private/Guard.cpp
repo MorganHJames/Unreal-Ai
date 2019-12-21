@@ -2,6 +2,7 @@
 
 #include "Guard.h"
 #include "Spy.h"
+#include "ToxicSpill.h"
 #include "Components/TextRenderComponent.h"
 
 // Sets default values.
@@ -66,6 +67,7 @@ void AGuard::UpdateAI()
 		CheckTransitionToAttackBehaviour();
 		CheckTransitionToChargeBehaviour(15);
 		CheckTransitionToHealBehaviour(25);
+		CheckTransitionToAvoidToxicBehaviour();
 		WanderBehaviour();
 		break;
 	case AGuard::Charge:
@@ -79,10 +81,12 @@ void AGuard::UpdateAI()
 		HealBehaviour();
 		break;
 	case AGuard::Attack:
+		CheckTransitionToWanderFromAttackBehaviour();
 		AttackBehaviour();
 		break;
-	case AGuard::Wait:
-		WaitBehaviour();
+	case AGuard::AvoidToixc:
+		CheckTransitionToWanderFromAvoidToxicBehaviour();
+		AvoidToxicBehaviour();
 		break;
 	default:
 		WanderBehaviour();
@@ -105,6 +109,17 @@ bool AGuard::CheckTransitionToWanderFromChargeBehaviour()
 
 bool AGuard::CheckTransitionToWanderFromAttackBehaviour()
 {
+	for (AActor* actor : ActorsInVison)
+	{
+		// Check if actor is spy.
+		ASpy* Spy = Cast<ASpy>(actor);
+		if (Spy)
+		{
+			return true;
+		}
+	}
+
+	CurrentState = Wander;
 	return false;
 }
 
@@ -119,6 +134,27 @@ bool AGuard::CheckTransitionToWanderFromHealBehaviour()
 	{
 		return false;
 	}
+}
+
+bool AGuard::CheckTransitionToWanderFromAvoidToxicBehaviour()
+{
+	for (AActor* actor : ActorsInVison)
+	{
+		// Check if actor is spy.
+		AToxicSpill* toxicSpill = Cast<AToxicSpill>(actor);
+		if (toxicSpill)
+		{
+			if (FVector::Dist(toxicSpill->GetActorLocation(), this->GetActorLocation()) < 300.0f)
+			{
+				return false;
+			}
+		}
+		break;
+	}
+
+	CurrentState = Wander;
+
+	return true;
 }
 
 bool AGuard::CheckTransitionToChargeBehaviour(int energyUnder)
@@ -163,8 +199,22 @@ bool AGuard::CheckTransitionToAttackBehaviour()
 	return false;
 }
 
-bool AGuard::CheckTransitionToWaitBehaviour()
+bool AGuard::CheckTransitionToAvoidToxicBehaviour()
 {
+	for (AActor* actor : ActorsInVison)
+	{
+		// Check if actor is spy.
+		AToxicSpill* toxicSpill = Cast<AToxicSpill>(actor);
+		if (toxicSpill)
+		{
+			if (FVector::Dist(toxicSpill->GetActorLocation(), this->GetActorLocation()) < 750.0f)
+			{
+				CurrentState = AvoidToixc;
+				return true;
+			}
+		}
+		break;
+	}
 	return false;
 }
 
@@ -192,7 +242,7 @@ void AGuard::ChargeBehaviour()
 void AGuard::HealBehaviour()
 {
 	FVector closestHealthKitLocation;
-	float shortestDistance = 0.0f;
+	float shortestDistance = 10000000.0f;
 
 	for (AActor* healthKit : healthKitLocations)
 	{
@@ -227,7 +277,9 @@ void AGuard::AttackBehaviour()
 	Shoot();
 }
 
-// The functionality of waiting.
-void AGuard::WaitBehaviour()
+// The functionality of avoiding toxic waste.
+void AGuard::AvoidToxicBehaviour()
 {
+	CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
+	MoveToLocation(CurrentPositionHeadingTo);
 }
