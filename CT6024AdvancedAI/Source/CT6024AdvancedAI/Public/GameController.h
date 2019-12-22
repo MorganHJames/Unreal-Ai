@@ -17,6 +17,7 @@ public:
 
 	static bool GuardVicory;
 	static bool SpyVicory;
+	static float currentTime;
 
 	bool GameEnded = false;
 	float EndTime = 5.0f;

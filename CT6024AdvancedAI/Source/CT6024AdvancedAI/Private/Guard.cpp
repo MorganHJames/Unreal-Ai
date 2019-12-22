@@ -12,6 +12,22 @@ AGuard::AGuard()
 	EnergyText = CreateDefaultSubobject<UTextRenderComponent>("EnergyText");
 }
 
+// If the guard can see the spy or not.
+bool AGuard::CanSeeSpy()
+{
+	for (AActor* actor : ActorsInVison)
+	{
+		// Check if actor is spy.
+		ASpy* Spy = Cast<ASpy>(actor);
+
+		if (Spy)
+		{
+			return true;
+		}
+	}
+	return false;
+}
+
 // Called when the game starts or when spawned.
 void AGuard::BeginPlay()
 {
@@ -148,8 +164,8 @@ bool AGuard::CheckTransitionToWanderFromAvoidToxicBehaviour()
 			{
 				return false;
 			}
+			break;
 		}
-		break;
 	}
 
 	CurrentState = Wander;
@@ -271,8 +287,8 @@ void AGuard::AttackBehaviour()
 		{
 			CurrentPositionHeadingTo = Spy->GetActorLocation();
 			MoveToLocation(CurrentPositionHeadingTo);
+			break;
 		}
-		break;
 	}
 	Shoot();
 }

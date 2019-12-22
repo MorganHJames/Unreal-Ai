@@ -24,10 +24,10 @@ AToxicSpill::AToxicSpill()
 	BarrelOfToxicWaste = CreateDefaultSubobject<AStaticMeshActor>("BarrelOfToxicWaste");
 
 	// Randomize the remaining spilled time.
-	RemainingSpilledTime = FMath::RandRange(50.0f, 300.0f);
+	RemainingSpilledTime = FMath::RandRange(5.0f, 30.0f);
 
 	// Randomize the remaining time between spills.
-	RemainingTimeBetweenSpills = FMath::RandRange(0.0f, 1.0f);
+	RemainingTimeBetweenSpills = FMath::RandRange(5.0f, 30.0f);
 }
 
 // Called when the game starts or when spawned

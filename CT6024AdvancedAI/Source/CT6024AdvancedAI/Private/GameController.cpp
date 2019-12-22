@@ -8,6 +8,7 @@
 // Initialize booleans.
 bool AGameController::GuardVicory = false;
 bool AGameController::SpyVicory = false;
+float AGameController::currentTime = 0.0f;
 
 // Sets default values
 AGameController::AGameController()

@@ -8,14 +8,59 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef CT6024ADVANCEDAI_Spy_generated_h
 #error "Spy.generated.h already included, missing '#pragma once' in Spy.h"
 #endif
 #define CT6024ADVANCEDAI_Spy_generated_h
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_RPC_WRAPPERS
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_INCLASS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnOverlapEnd2) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapEnd2(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin2) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapBegin2(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	}
+
+
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnOverlapEnd2) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapEnd2(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin2) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapBegin2(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	}
+
+
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASpy(); \
 	friend struct Z_Construct_UClass_ASpy_Statics; \
@@ -24,7 +69,7 @@ public: \
 	DECLARE_SERIALIZER(ASpy)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_INCLASS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesASpy(); \
 	friend struct Z_Construct_UClass_ASpy_Statics; \
@@ -33,7 +78,7 @@ public: \
 	DECLARE_SERIALIZER(ASpy)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_STANDARD_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASpy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASpy) \
@@ -46,7 +91,7 @@ private: \
 public:
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_ENHANCED_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASpy() { }; \
 private: \
@@ -59,26 +104,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASpy); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASpy)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_PRIVATE_PROPERTY_OFFSET
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_12_PROLOG
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_GENERATED_BODY_LEGACY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__GuardChecker() { return STRUCT_OFFSET(ASpy, GuardChecker); } \
+	FORCEINLINE static uint32 __PPO__startingLockerocation() { return STRUCT_OFFSET(ASpy, startingLockerocation); } \
+	FORCEINLINE static uint32 __PPO__startingHealthLocation() { return STRUCT_OFFSET(ASpy, startingHealthLocation); }
+
+
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_17_PROLOG
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_RPC_WRAPPERS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_INCLASS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_STANDARD_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_RPC_WRAPPERS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_INCLASS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_GENERATED_BODY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_INCLASS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_15_ENHANCED_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_INCLASS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Spy_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

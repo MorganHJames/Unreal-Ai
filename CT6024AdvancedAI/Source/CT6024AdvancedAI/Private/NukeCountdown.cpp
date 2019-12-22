@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "NukeCountdown.h"
+#include "GameController.h"
 #include "Components/TextRenderComponent.h"
 #include "SpectateAIGameMode.h"
 
@@ -55,6 +56,8 @@ void ANukeCountdown::Tick(float DeltaTime)
 				GM->GuardsWin();
 			}
 		}
+
+		AGameController::currentTime = TimeRemaining;
 
 		//Sets up the text string.
 		FString RemainingTimeString = FString::FromInt((int)TimeRemaining);

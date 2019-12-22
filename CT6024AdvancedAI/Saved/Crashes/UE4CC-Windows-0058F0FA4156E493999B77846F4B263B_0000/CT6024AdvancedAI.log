@@ -1,0 +1,1826 @@
+﻿Log file open, 12/22/19 01:47:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CT6024AdvancedAI
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.455532
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=mojoemandem -epicuserid=535e5acf315d4098a6b55e18cb49b508 -epiclocale=en-GB
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.22-00.47.14:856][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.22-00.47.14:857][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.22-00.47.14:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:858][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:866][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:866][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.22-00.47.14:866][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.22-00.47.14:866][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:866][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.22-00.47.14:866][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:866][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.22-00.47.14:866][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.22-00.47.14:866][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.22-00.47.14:867][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.22-00.47.14:868][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.22-00.47.14:869][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.22-00.47.14:870][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.22-00.47.14:870][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.22-00.47.14:870][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.22-00.47.14:915][  0]LogHAL: Display: Platform has ~ 16 GB [17101139968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.22-00.47.14:916][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.22-00.47.14:916][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.22-00.47.14:916][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.22-00.47.14:916][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.22-00.47.14:916][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.22-00.47.14:917][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.22-00.47.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.22-00.47.14:919][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.22-00.47.14:920][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Scalability.ini]
+[2019.12.22-00.47.14:920][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.22-00.47.14:921][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.22-00.47.14:921][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.22-00.47.14:921][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.22-00.47.14:921][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.22-00.47.14:921][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Config/Windows/Engine.ini]
+[2019.12.22-00.47.14:921][  0]LogInit: Computer: DESKTOP-718HLV6
+[2019.12.22-00.47.14:921][  0]LogInit: User: morga
+[2019.12.22-00.47.14:921][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.22-00.47.14:921][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.22-00.47.14:922][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.22-00.47.14:922][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.22-00.47.14:922][  0]LogMemory: Process Physical Memory: 98.16 MB used, 98.17 MB peak
+[2019.12.22-00.47.14:922][  0]LogMemory: Process Virtual Memory: 89.21 MB used, 89.21 MB peak
+[2019.12.22-00.47.14:922][  0]LogMemory: Physical Memory: 8880.38 MB used,  7428.54 MB free, 16308.92 MB total
+[2019.12.22-00.47.14:922][  0]LogMemory: Virtual Memory: 4642.23 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.22-00.47.14:976][  0]LogInit: Using OS detected language (en-GB).
+[2019.12.22-00.47.14:976][  0]LogInit: Using OS detected locale (en-GB).
+[2019.12.22-00.47.14:977][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.12.22-00.47.15:553][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.22-00.47.15:648][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.22-00.47.15:648][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.22-00.47.16:309][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.22-00.47.16:309][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.22-00.47.16:434][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.12.22-00.47.16:434][  0]LogD3D11RHI:       6054/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.22-00.47.16:469][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.12.22-00.47.16:469][  0]LogD3D11RHI:       128/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.22-00.47.16:476][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.22-00.47.16:476][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.22-00.47.16:476][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.22-00.47.16:575][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.22-00.47.16:575][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.22-00.47.16:575][  0]LogWindows: EnumDisplayDevices:
+[2019.12.22-00.47.16:576][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.12.22-00.47.16:576][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.12.22-00.47.16:577][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.12.22-00.47.16:577][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.22-00.47.16:577][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.12.22-00.47.16:577][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.22-00.47.16:577][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.22-00.47.16:577][  0]LogRHI: Texture pool is 4237 MB (70% of 6054 MB)
+[2019.12.22-00.47.16:671][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.22-00.47.16:681][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.22-00.47.16:682][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.22-00.47.16:683][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.22-00.47.16:701][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.22-00.47.17:663][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.22-00.47.17:708][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.22-00.47.17:761][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.22-00.47.17:816][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.22-00.47.17:868][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.22-00.47.17:907][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.22-00.47.17:953][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.22-00.47.18:000][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.22-00.47.18:025][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.22-00.47.18:323][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.22-00.47.18:328][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.22-00.47.18:439][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.22-00.47.18:439][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.22-00.47.18:513][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.22-00.47.18:513][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.22-00.47.18:552][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.22-00.47.18:581][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.22-00.47.18:613][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.22-00.47.18:650][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.22-00.47.18:790][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.22-00.47.18:790][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.22-00.47.18:791][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.22-00.47.18:811][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.22-00.47.18:976][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Intermediate/Shaders/WorkingDirectory/17964/).
+[2019.12.22-00.47.18:977][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morga/AppData/Local/Temp/UnrealShaderWorkingDir/37801E4F45292418CAE331A82EF98147/'.
+[2019.12.22-00.47.18:985][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.22-00.47.18:985][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.22-00.47.18:985][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.22-00.47.20:469][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.22-00.47.20:577][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.22-00.47.20:577][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.22-00.47.20:578][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.22-00.47.20:578][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.22-00.47.20:578][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.22-00.47.20:578][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.22-00.47.20:607][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.22-00.47.20:607][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.22-00.47.20:607][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.22-00.47.20:620][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.22-00.47.20:620][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.22-00.47.20:620][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.22-00.47.20:679][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.22-00.47.20:683][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.22-00.47.20:684][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.22-00.47.20:878][  0]LogAssetRegistry: FAssetRegistry took 0.0621 seconds to start up
+[2019.12.22-00.47.21:939][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.22-00.47.22:369][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.22-00.47.22:369][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.22-00.47.22:369][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.22-00.47.22:369][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.22-00.47.22:370][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.22-00.47.22:393][  0]LogNetVersion: CT6024AdvancedAI 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 379849778)
+[2019.12.22-00.47.23:530][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.108952 seconds
+[2019.12.22-00.47.23:547][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.22-00.47.23:547][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.22-00.47.23:547][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.22-00.47.25:741][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.22-00.47.25:756][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.22-00.47.25:999][  0]SourceControl: Source control is disabled
+[2019.12.22-00.47.26:000][  0]SourceControl: Source control is disabled
+[2019.12.22-00.47.26:004][  0]SourceControl: Source control is disabled
+[2019.12.22-00.47.26:006][  0]SourceControl: Source control is disabled
+[2019.12.22-00.47.26:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.22-00.47.26:406][  0]LogOcInput: OculusInput pre-init called
+[2019.12.22-00.47.27:978][  0]LogEngine: Initializing Engine...
+[2019.12.22-00.47.27:979][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.22-00.47.27:981][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.22-00.47.28:498][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.22-00.47.28:532][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.22-00.47.28:677][  0]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.22-00.47.28:734][  0]LogInit: FAudioDevice initialized.
+[2019.12.22-00.47.28:735][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.22-00.47.28:863][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/morga/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.22-00.47.28:876][  0]LogInit: Texture streaming: Enabled
+[2019.12.22-00.47.28:923][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.22-00.47.28:975][  0]LogInit: Transaction tracking system initialized
+[2019.12.22-00.47.29:053][  0]BlueprintLog: New page: Editor Load
+[2019.12.22-00.47.29:271][  0]LocalizationService: Localization service is disabled
+[2019.12.22-00.47.29:518][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2019.12.22-00.47.29:518][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2019.12.22-00.47.29:519][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2019.12.22-00.47.30:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/' took 0.02s
+[2019.12.22-00.47.30:031][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.22-00.47.30:031][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.22-00.47.30:587][  0]SourceControl: Source control is disabled
+[2019.12.22-00.47.30:588][  0]Cmd: MAP LOAD FILE="../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.22-00.47.30:588][  0]LightingResults: New page: Lighting Build
+[2019.12.22-00.47.30:595][  0]MapCheck: New page: Map Check
+[2019.12.22-00.47.30:595][  0]LightingResults: New page: Lighting Build
+[2019.12.22-00.47.30:657][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2019.12.22-00.47.32:055][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.22-00.47.32:179][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2019.12.22-00.47.32:180][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.22-00.47.32:180][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.384ms to complete.
+[2019.12.22-00.47.32:180][  0]LogFileHelpers: Loading map 'NukeLaunch' took 1.592
+[2019.12.22-00.47.32:454][  0]LogCollectionManager: Loaded 0 collections in 0.006364 seconds
+[2019.12.22-00.47.32:490][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Saved/Collections/' took 0.01s
+[2019.12.22-00.47.32:490][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Developers/morga/Collections/' took 0.01s
+[2019.12.22-00.47.32:490][  0]LogFileCache: Scanning file cache for directory 'C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Collections/' took 0.00s
+[2019.12.22-00.47.32:490][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.22-00.47.32:520][  0]LogContentBrowser: Native class hierarchy populated in 0.0290 seconds. Added 2747 classes and 664 folders.
+[2019.12.22-00.47.32:550][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2019.12.22-00.47.32:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:557][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:558][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:561][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:591][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.22-00.47.32:662][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.12.22-00.47.32:707][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.47.32:728][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.47.32:752][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.47.32:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.47.32:989][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.22-00.47.32:997][  0]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.22-00.47.32:998][  0]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.22-00.47.33:018][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.22-00.47.33:185][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.22-00.47.33:321][  0]LogRenderer: Reallocating scene render targets to support 1112x572 Format 10 NumSamples 1 (Frame:1).
+[2019.12.22-00.47.34:063][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.12.22-00.47.34:063][  0]LogLoad: (Engine Initialization) Total time: 23.32 seconds
+[2019.12.22-00.47.34:064][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.22-00.47.34:155][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.22-00.47.34:286][  1]LogRenderer: Reallocating scene render targets to support 1112x584 Format 10 NumSamples 1 (Frame:3).
+[2019.12.22-00.47.34:382][  1]LogAssetRegistry: Asset discovery search completed in 13.5266 seconds
+[2019.12.22-00.47.34:391][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.22-00.47.34:391][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000530 seconds (updated 0 objects)
+[2019.12.22-00.47.41:395][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.22-00.47.41:604][180]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.22-00.47.41:674][180]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.47.41:676][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.22-00.47.41:677][180]PIE: New page: PIE session: NukeLaunch (22 Dec 2019 02:47:41)
+[2019.12.22-00.47.41:691][180]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.22-00.47.41:989][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.296756s)
+[2019.12.22-00.47.41:990][180]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2019.12.22-00.47.41:991][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.300031s)
+[2019.12.22-00.47.42:046][180]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2019.12.22-00.47.42:070][180]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.22-00.47.42:119][180]LogInit: FAudioDevice initialized.
+[2019.12.22-00.47.42:171][180]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.22-00.47.42:189][180]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.22-01.47.42
+[2019.12.22-00.47.42:194][180]LogWorld: Bringing up level for play took: 0.019360
+[2019.12.22-00.47.42:210][180]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.12.22-00.47.42:226][180]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2019.12.22-00.47.42:227][180]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.47.42:227][180]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.47.42:227][180]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.47.42:230][180]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.47.42:231][180]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.402
+[2019.12.22-00.47.42:232][180]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.47.44:858][310]LogTemp: Warning: 2323
+[2019.12.22-00.47.44:883][311]LogTemp: Warning: 2323
+[2019.12.22-00.47.44:906][312]LogTemp: Warning: 2323
+[2019.12.22-00.47.44:927][313]LogTemp: Warning: 2323
+[2019.12.22-00.47.44:948][314]LogTemp: Warning: 2323
+[2019.12.22-00.47.44:972][315]LogTemp: Warning: 2323
+[2019.12.22-00.47.44:991][316]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:014][317]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:036][318]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:056][319]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:075][320]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:099][321]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:133][322]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:153][323]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:173][324]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:191][325]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:213][326]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:239][327]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:258][328]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:277][329]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:296][330]LogTemp: Warning: 2323
+[2019.12.22-00.47.45:311][331]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:744][445]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:762][446]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:788][447]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:806][448]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:828][449]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:854][450]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:874][451]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:897][452]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:925][453]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:945][454]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:969][455]LogTemp: Warning: 2323
+[2019.12.22-00.47.47:993][456]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:014][457]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:037][458]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:057][459]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:080][460]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:107][461]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:128][462]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:151][463]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:173][464]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:189][465]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:212][466]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:232][467]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:255][468]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:273][469]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:298][470]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:327][471]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:347][472]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:371][473]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:394][474]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:421][475]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:447][476]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:474][477]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:496][478]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:524][479]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:544][480]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:566][481]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:591][482]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:614][483]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:640][484]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:661][485]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:682][486]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:709][487]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:732][488]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:753][489]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:775][490]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:795][491]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:815][492]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:839][493]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:858][494]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:875][495]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:899][496]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:920][497]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:941][498]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:962][499]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:979][500]LogTemp: Warning: 2323
+[2019.12.22-00.47.48:997][501]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:022][502]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:050][503]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:078][504]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:103][505]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:125][506]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:145][507]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:168][508]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:190][509]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:205][510]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:224][511]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:246][512]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:262][513]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:279][514]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:300][515]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:320][516]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:345][517]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:360][518]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:378][519]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:402][520]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:424][521]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:442][522]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:464][523]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:481][524]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:501][525]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:522][526]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:543][527]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:566][528]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:600][529]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:619][530]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:641][531]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:659][532]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:679][533]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:698][534]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:719][535]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:742][536]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:770][537]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:789][538]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:809][539]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:828][540]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:850][541]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:872][542]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:887][543]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:907][544]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:928][545]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:948][546]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:967][547]LogTemp: Warning: 2323
+[2019.12.22-00.47.49:985][548]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:002][549]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:023][550]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:045][551]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:067][552]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:090][553]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:113][554]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:133][555]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:154][556]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:177][557]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:198][558]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:216][559]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:238][560]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:257][561]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:279][562]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:297][563]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:314][564]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:336][565]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:360][566]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:383][567]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:407][568]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:428][569]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:456][570]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:476][571]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:497][572]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:516][573]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:537][574]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:557][575]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:577][576]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:593][577]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:613][578]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:632][579]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:653][580]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:671][581]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:690][582]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:708][583]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:728][584]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:746][585]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:763][586]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:784][587]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:803][588]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:829][589]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:849][590]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:864][591]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:884][592]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:907][593]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:927][594]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:944][595]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:963][596]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:982][597]LogTemp: Warning: 2323
+[2019.12.22-00.47.50:999][598]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:017][599]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:035][600]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:055][601]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:082][602]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:099][603]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:119][604]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:133][605]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:152][606]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:171][607]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:193][608]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:213][609]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:232][610]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:251][611]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:270][612]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:287][613]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:303][614]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:324][615]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:341][616]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:357][617]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:375][618]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:393][619]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:410][620]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:428][621]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:446][622]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:469][623]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:483][624]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:502][625]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:520][626]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:538][627]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:553][628]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:573][629]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:594][630]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:612][631]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:630][632]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:647][633]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:663][634]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:680][635]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:697][636]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:717][637]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:732][638]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:750][639]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:766][640]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:783][641]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:800][642]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:817][643]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:834][644]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:851][645]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:870][646]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:888][647]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:905][648]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:922][649]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:938][650]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:958][651]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:976][652]LogTemp: Warning: 2323
+[2019.12.22-00.47.51:994][653]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:014][654]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:033][655]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:056][656]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:078][657]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:115][658]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:132][659]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:150][660]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:169][661]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:191][662]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:211][663]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:235][664]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:254][665]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:273][666]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:292][667]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:312][668]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:331][669]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:350][670]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:369][671]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:391][672]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:408][673]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:425][674]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:442][675]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:458][676]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:475][677]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:494][678]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:515][679]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:533][680]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:553][681]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:570][682]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:588][683]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:606][684]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:626][685]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:645][686]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:661][687]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:679][688]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:695][689]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:713][690]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:731][691]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:751][692]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:768][693]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:785][694]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:803][695]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:819][696]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:837][697]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:853][698]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:872][699]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:890][700]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:906][701]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:922][702]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:940][703]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:955][704]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:974][705]LogTemp: Warning: 2323
+[2019.12.22-00.47.52:990][706]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:010][707]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:031][708]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:049][709]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:070][710]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:086][711]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:108][712]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:130][713]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:147][714]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:166][715]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:186][716]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:201][717]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:218][718]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:236][719]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:251][720]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:268][721]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:286][722]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:308][723]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:327][724]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:345][725]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:361][726]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:378][727]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:395][728]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:410][729]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:428][730]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:446][731]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:463][732]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:479][733]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:495][734]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:513][735]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:530][736]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:547][737]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:565][738]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:581][739]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:597][740]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:615][741]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:631][742]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:651][743]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:670][744]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:688][745]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:706][746]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:722][747]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:742][748]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:761][749]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:777][750]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:796][751]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:823][752]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:856][753]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:875][754]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:892][755]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:909][756]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:927][757]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:946][758]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:964][759]LogTemp: Warning: 2323
+[2019.12.22-00.47.53:981][760]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:000][761]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:019][762]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:035][763]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:057][764]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:078][765]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:105][766]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:123][767]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:144][768]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:161][769]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:179][770]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:197][771]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:216][772]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:237][773]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:255][774]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:272][775]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:293][776]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:314][777]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:328][778]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:346][779]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:374][780]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:391][781]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:412][782]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:435][783]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:451][784]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:469][785]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:484][786]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:506][787]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:522][788]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:539][789]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:556][790]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:573][791]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:595][792]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:614][793]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:632][794]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:650][795]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:670][796]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:683][797]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:701][798]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:719][799]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:737][800]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:752][801]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:768][802]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:785][803]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:801][804]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:820][805]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:836][806]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:853][807]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:871][808]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:887][809]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:904][810]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:920][811]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:939][812]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:955][813]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:973][814]LogTemp: Warning: 2323
+[2019.12.22-00.47.54:992][815]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:009][816]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:026][817]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:047][818]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:067][819]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:082][820]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:099][821]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:119][822]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:137][823]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:154][824]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:172][825]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:187][826]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:204][827]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:223][828]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:239][829]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:257][830]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:275][831]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:295][832]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:313][833]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:331][834]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:351][835]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:370][836]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:392][837]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:411][838]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:433][839]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:453][840]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:472][841]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:493][842]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:512][843]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:533][844]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:553][845]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:571][846]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:591][847]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:608][848]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:626][849]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:643][850]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:658][851]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:674][852]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:694][853]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:710][854]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:728][855]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:746][856]LogTemp: Warning: 2323
+[2019.12.22-00.47.55:764][857]LogTemp: Warning: 2323
+[2019.12.22-00.48.00:773][130]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.22-00.48.00:774][130]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.22-00.48.00:777][130]LogGameMode: ProcessServerTravel: ?Restart
+[2019.12.22-00.48.00:790][131]LogEngine: Server switch level: ?Restart
+[2019.12.22-00.48.00:790][131]LogNet: Browse: /Game/Levels/NukeLaunch?Restart
+[2019.12.22-00.48.00:796][131]LogLoad: LoadMap: /Game/Levels/NukeLaunch
+[2019.12.22-00.48.00:859][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.12.22-00.48.00:859][131]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.22-00.48.01:140][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.278954s)
+[2019.12.22-00.48.01:142][131]LogPlayLevel: PIE: World Init took: (0.001558s)
+[2019.12.22-00.48.01:142][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.282131s)
+[2019.12.22-00.48.01:143][131]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.22-00.48.01:168][131]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.22-01.48.01
+[2019.12.22-00.48.01:173][131]LogWorld: Bringing up level for play took: 0.028937
+[2019.12.22-00.48.01:175][131]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.12.22-00.48.01:175][131]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.48.01:175][131]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.48.01:176][131]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.48.01:178][131]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.48.01:178][131]LogLoad: Took 0.381907 seconds to LoadMap(/Game/Levels/UEDPIE_0_NukeLaunch)
+[2019.12.22-00.48.06:810][428]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:833][429]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:853][430]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:873][431]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:894][432]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:915][433]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:936][434]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:956][435]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:976][436]LogTemp: Warning: 2323
+[2019.12.22-00.48.06:998][437]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:019][438]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:041][439]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:062][440]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:085][441]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:114][442]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:137][443]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:156][444]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:175][445]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:196][446]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:216][447]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:238][448]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:256][449]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:274][450]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:296][451]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:316][452]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:340][453]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:360][454]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:382][455]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:408][456]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:428][457]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:450][458]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:475][459]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:491][460]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:511][461]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:534][462]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:552][463]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:571][464]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:590][465]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:610][466]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:626][467]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:643][468]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:659][469]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:679][470]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:696][471]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:714][472]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:734][473]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:752][474]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:770][475]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:788][476]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:811][477]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:828][478]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:844][479]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:864][480]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:879][481]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:897][482]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:913][483]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:931][484]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:946][485]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:967][486]LogTemp: Warning: 2323
+[2019.12.22-00.48.07:983][487]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:002][488]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:025][489]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:043][490]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:063][491]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:081][492]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:100][493]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:119][494]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:140][495]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:160][496]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:178][497]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:196][498]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:212][499]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:229][500]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:246][501]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:265][502]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:282][503]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:301][504]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:317][505]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:337][506]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:357][507]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:375][508]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:396][509]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:416][510]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:437][511]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:457][512]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:475][513]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:493][514]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:511][515]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:530][516]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:547][517]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:567][518]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:583][519]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:602][520]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:619][521]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:640][522]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:661][523]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:682][524]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:708][525]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:725][526]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:748][527]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:770][528]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:791][529]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:810][530]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:827][531]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:847][532]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:867][533]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:885][534]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:904][535]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:922][536]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:940][537]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:958][538]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:975][539]LogTemp: Warning: 2323
+[2019.12.22-00.48.08:992][540]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:010][541]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:030][542]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:049][543]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:074][544]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:095][545]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:114][546]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:133][547]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:153][548]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:172][549]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:190][550]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:208][551]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:225][552]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:243][553]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:261][554]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:279][555]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:297][556]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:315][557]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:332][558]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:350][559]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:368][560]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:386][561]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:408][562]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:424][563]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:442][564]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:459][565]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:481][566]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:503][567]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:522][568]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:543][569]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:564][570]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:583][571]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:601][572]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:620][573]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:640][574]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:660][575]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:682][576]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:704][577]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:725][578]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:750][579]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:776][580]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:796][581]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:820][582]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:844][583]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:865][584]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:888][585]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:910][586]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:930][587]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:958][588]LogTemp: Warning: 2323
+[2019.12.22-00.48.09:980][589]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:001][590]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:024][591]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:047][592]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:070][593]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:093][594]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:118][595]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:142][596]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:165][597]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:190][598]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:211][599]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:232][600]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:256][601]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:277][602]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:298][603]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:321][604]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:345][605]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:366][606]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:391][607]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:411][608]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:435][609]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:458][610]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:479][611]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:499][612]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:521][613]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:546][614]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:569][615]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:592][616]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:610][617]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:633][618]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:656][619]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:680][620]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:702][621]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:726][622]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:750][623]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:775][624]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:797][625]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:820][626]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:841][627]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:864][628]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:889][629]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:911][630]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:935][631]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:959][632]LogTemp: Warning: 2323
+[2019.12.22-00.48.10:981][633]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:006][634]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:030][635]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:060][636]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:082][637]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:109][638]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:130][639]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:154][640]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:176][641]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:197][642]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:218][643]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:240][644]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:262][645]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:284][646]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:306][647]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:328][648]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:353][649]LogTemp: Warning: 2323
+[2019.12.22-00.48.11:357][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.48.11:359][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.48.11:411][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.22-00.48.11:412][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.48.11:479][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.48.11:491][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.12.22-00.48.11:562][650]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.12.22-00.48.33:096][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.22-00.48.33:344][926]Candidate modules for hot reload:
+[2019.12.22-00.48.33:345][926]  CT6024AdvancedAI
+[2019.12.22-00.48.33:345][926]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,3283 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.22-00.48.33:352][926]Warning: Starting HotReload took  0.1s.
+[2019.12.22-00.49.02:451][557]CompilerResultsLog: New page: Compilation - 22 Dec 2019 02:49:02
+[2019.12.22-00.49.02:451][557]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai).
+[2019.12.22-00.49.02:452][557]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.22-00.49.02:452][557]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.22-00.49.02:452][557]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.22-00.49.02:453][557]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 13.8835174 seconds
+[2019.12.22-00.49.02:453][557]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.22-00.49.02:454][557]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.12.22-00.49.02:454][557]CompilerResultsLog:   [1/8] Guard.cpp
+[2019.12.22-00.49.02:454][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:455][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:455][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:455][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:455][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:455][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:455][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Guard.cpp(71): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.22-00.49.02:457][557]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.22-00.49.02:458][557]CompilerResultsLog:   [2/8] Locker.cpp
+[2019.12.22-00.49.02:459][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:460][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:460][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:461][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:461][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:462][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:463][557]CompilerResultsLog:   [3/8] Spy.gen.cpp
+[2019.12.22-00.49.02:463][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:463][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:464][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:465][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:465][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:466][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:466][557]CompilerResultsLog:   [4/8] SelfDestructLever.cpp
+[2019.12.22-00.49.02:467][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:467][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:467][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:468][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:468][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:468][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:469][557]CompilerResultsLog:   [5/8] Spy.cpp
+[2019.12.22-00.49.02:469][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:469][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:469][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:470][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:470][557]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.49.02:470][557]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.49.02:470][557]CompilerResultsLog:   [6/8] UE4Editor-CT6024AdvancedAI-3283.lib
+[2019.12.22-00.49.02:471][557]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3283.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3283.exp
+[2019.12.22-00.49.02:471][557]CompilerResultsLog:   [7/8] UE4Editor-CT6024AdvancedAI-3283.dll
+[2019.12.22-00.49.02:471][557]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3283.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-3283.suppressed.exp
+[2019.12.22-00.49.02:474][557]CompilerResultsLog:   [8/8] CT6024AdvancedAIEditor.target
+[2019.12.22-00.49.02:474][557]CompilerResultsLog: Total time in Parallel executor: 7.91 seconds
+[2019.12.22-00.49.02:475][557]CompilerResultsLog: Total execution time: 28.48 seconds
+[2019.12.22-00.49.02:475][557]LogMainFrame: MainFrame: Module compiling took 29.136 seconds
+[2019.12.22-00.49.02:517][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.12.22-00.49.02:600][557]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.22-00.49.02:831][557]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.22-00.49.03:081][557]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.22-00.49.03:276][557]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0010 seconds. Added 14 classes and 3 folders.
+[2019.12.22-00.49.03:280][557]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2019.12.22-00.49.03:466][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.12.22-00.49.03:493][557]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2747 classes and 664 folders.
+[2019.12.22-00.49.03:494][557]Display: HotReload took 30.2s.
+[2019.12.22-00.49.09:762][629]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.22-00.49.09:844][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.49.09:846][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.22-00.49.09:846][629]PIE: New page: PIE session: NukeLaunch (22 Dec 2019 02:49:09)
+[2019.12.22-00.49.09:846][629]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.22-00.49.10:154][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307339s)
+[2019.12.22-00.49.10:156][629]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2019.12.22-00.49.10:156][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.309910s)
+[2019.12.22-00.49.10:208][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.12.22-00.49.10:229][629]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.22-00.49.10:275][629]LogInit: FAudioDevice initialized.
+[2019.12.22-00.49.10:312][629]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.22-00.49.10:331][629]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.22-01.49.10
+[2019.12.22-00.49.10:334][629]LogWorld: Bringing up level for play took: 0.021641
+[2019.12.22-00.49.10:349][629]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.12.22-00.49.10:349][629]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.49.10:349][629]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.49.10:350][629]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.49.10:351][629]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.49.10:351][629]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch 0.522
+[2019.12.22-00.49.10:352][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.49.49:803][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.22-00.49.50:319][704]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.22-00.49.50:319][704]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.22-00.49.50:326][704]LogGameMode: ProcessServerTravel: ?Restart
+[2019.12.22-00.49.50:341][705]LogEngine: Server switch level: ?Restart
+[2019.12.22-00.49.50:341][705]LogNet: Browse: /Game/Levels/NukeLaunch?Restart
+[2019.12.22-00.49.50:343][705]LogLoad: LoadMap: /Game/Levels/NukeLaunch
+[2019.12.22-00.49.50:401][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.12.22-00.49.50:401][705]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.22-00.49.50:554][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152944s)
+[2019.12.22-00.49.50:555][705]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.12.22-00.49.50:555][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.154374s)
+[2019.12.22-00.49.50:555][705]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.22-00.49.50:568][705]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.22-01.49.50
+[2019.12.22-00.49.50:570][705]LogWorld: Bringing up level for play took: 0.012607
+[2019.12.22-00.49.50:570][705]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.12.22-00.49.50:571][705]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.49.50:571][705]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.49.50:571][705]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.49.50:572][705]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.49.50:573][705]LogLoad: Took 0.229174 seconds to LoadMap(/Game/Levels/UEDPIE_0_NukeLaunch)
+[2019.12.22-00.49.58:656][168]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:673][169]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:693][170]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:710][171]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:727][172]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:742][173]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:760][174]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:777][175]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:796][176]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:813][177]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:830][178]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:847][179]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:869][180]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:888][181]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:910][182]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:926][183]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:944][184]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:965][185]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:982][186]LogTemp: Warning: 2323
+[2019.12.22-00.49.58:999][187]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:017][188]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:035][189]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:056][190]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:075][191]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:095][192]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:111][193]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:129][194]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:146][195]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:162][196]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:180][197]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:197][198]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:217][199]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:236][200]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:255][201]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:275][202]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:296][203]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:316][204]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:337][205]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:353][206]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:369][207]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:385][208]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:402][209]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:420][210]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:438][211]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:454][212]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:470][213]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:487][214]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:504][215]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:520][216]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:537][217]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:554][218]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:571][219]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:587][220]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:603][221]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:620][222]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:637][223]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:654][224]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:672][225]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:689][226]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:707][227]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:725][228]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:741][229]LogTemp: Warning: 2323
+[2019.12.22-00.49.59:741][229]LogTemp: Warning: daddddddddddddd
+[2019.12.22-00.49.59:774][231]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:776][231]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move it with CharacterMovementComponent. 
+[2019.12.22-00.49.59:790][232]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:807][233]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:825][234]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:843][235]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:859][236]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:876][237]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:894][238]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:910][239]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:927][240]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:943][241]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:959][242]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:976][243]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.49.59:995][244]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:016][245]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:035][246]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:051][247]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:073][248]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:090][249]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:110][250]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:131][251]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:149][252]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:165][253]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:183][254]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:200][255]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:221][256]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:239][257]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:254][258]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:271][259]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:288][260]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:307][261]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:324][262]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:341][263]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:358][264]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:377][265]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:395][266]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:412][267]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:428][268]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:447][269]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:468][270]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:486][271]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:507][272]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:531][273]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:550][274]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:568][275]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:588][276]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:606][277]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:625][278]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:643][279]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:661][280]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:677][281]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:694][282]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:709][283]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:729][284]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:747][285]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:766][286]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:788][287]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:809][288]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:828][289]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:844][290]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:865][291]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:881][292]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:898][293]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:917][294]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:939][295]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:958][296]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:973][297]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.00:990][298]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:007][299]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:027][300]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:045][301]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:062][302]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:084][303]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:100][304]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:117][305]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:133][306]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:151][307]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:167][308]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:184][309]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:203][310]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:221][311]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:238][312]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:257][313]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:276][314]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:293][315]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:308][316]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:325][317]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:342][318]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:359][319]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:376][320]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:393][321]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:409][322]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:426][323]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:442][324]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:459][325]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:478][326]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:493][327]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:511][328]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:529][329]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:547][330]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:566][331]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:582][332]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:599][333]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:617][334]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:633][335]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:650][336]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:665][337]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:682][338]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:704][339]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:719][340]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:738][341]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:754][342]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:771][343]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:788][344]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:804][345]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:821][346]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:841][347]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:859][348]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:878][349]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:894][350]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:909][351]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:926][352]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:943][353]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:961][354]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:978][355]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.01:994][356]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:014][357]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:034][358]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:050][359]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:075][360]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:100][361]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:130][362]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:148][363]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:167][364]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:188][365]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:205][366]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:222][367]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:238][368]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:258][369]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:277][370]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:296][371]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:313][372]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:329][373]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:347][374]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:364][375]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:381][376]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:402][377]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:421][378]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:441][379]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:459][380]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:476][381]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:492][382]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:510][383]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:527][384]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:544][385]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:561][386]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:579][387]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:595][388]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:613][389]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:627][390]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:645][391]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:660][392]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:678][393]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:694][394]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:711][395]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:727][396]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:744][397]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:761][398]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:778][399]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:794][400]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:811][401]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:828][402]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:845][403]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:861][404]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:879][405]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:895][406]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:912][407]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:928][408]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:945][409]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:961][410]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:979][411]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.02:995][412]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:011][413]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:029][414]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:045][415]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:062][416]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:079][417]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:102][418]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:120][419]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:139][420]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:157][421]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:173][422]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:189][423]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:206][424]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:224][425]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:241][426]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:259][427]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:282][428]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:298][429]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:314][430]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:331][431]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:348][432]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:363][433]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:381][434]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:397][435]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:417][436]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:433][437]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:451][438]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:468][439]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:485][440]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:501][441]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:519][442]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:534][443]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:551][444]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:571][445]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:588][446]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:607][447]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:626][448]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:644][449]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:663][450]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:685][451]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:705][452]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:725][453]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:742][454]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:762][455]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:780][456]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:798][457]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:815][458]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:834][459]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:851][460]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:869][461]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:888][462]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:904][463]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:924][464]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:941][465]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:961][466]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:980][467]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.03:997][468]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:017][469]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:035][470]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:054][471]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:074][472]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:096][473]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:114][474]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:134][475]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:151][476]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:168][477]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:187][478]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:205][479]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:226][480]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:245][481]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:262][482]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:278][483]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:296][484]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:314][485]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:328][486]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:347][487]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:369][488]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:386][489]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.04:403][490]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch:PersistentLevel.Spy_1 : CollisionCylinder has to be 'Movable' if you'd like to move. 
+[2019.12.22-00.50.39:514][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.50.39:516][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.50.39:556][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.22-00.50.39:556][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.50.39:615][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.22-00.50.39:621][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.12.22-00.50.39:632][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.22-00.50.39:946][575]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.22-00.51.11:199][783]Candidate modules for hot reload:
+[2019.12.22-00.51.11:199][783]  CT6024AdvancedAI
+[2019.12.22-00.51.11:200][783]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CT6024AdvancedAI,7432 Win64 Development -TargetType=Editor -Project="C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/CT6024AdvancedAI.uproject" "C:/Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/CT6024AdvancedAI.uproject"  -IgnoreJunk]
+[2019.12.22-00.51.11:239][783]Warning: Starting HotReload took  0.1s.
+[2019.12.22-00.51.29:472][629]LogSlate: Window 'Message Log' being destroyed
+[2019.12.22-00.51.29:496][629]LogSlate: Window 'Message Log' being destroyed
+[2019.12.22-00.51.45:248][500]CompilerResultsLog: New page: Compilation - 22 Dec 2019 02:51:45
+[2019.12.22-00.51.45:248][500]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai).
+[2019.12.22-00.51.45:249][500]CompilerResultsLog: Creating makefile for CT6024AdvancedAIEditor (ini files are newer than makefile)
+[2019.12.22-00.51.45:250][500]CompilerResultsLog: Parsing headers for CT6024AdvancedAIEditor
+[2019.12.22-00.51.45:250][500]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\CT6024AdvancedAI.uproject" "C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\CT6024AdvancedAIEditor\Development\CT6024AdvancedAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.22-00.51.45:252][500]CompilerResultsLog: Reflection code generated for CT6024AdvancedAIEditor in 17.6399325 seconds
+[2019.12.22-00.51.45:252][500]CompilerResultsLog: Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.22-00.51.45:253][500]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.12.22-00.51.45:254][500]CompilerResultsLog:   [1/8] Locker.cpp
+[2019.12.22-00.51.45:254][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:254][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:255][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:255][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:256][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:256][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:257][500]CompilerResultsLog:   [2/8] Guard.cpp
+[2019.12.22-00.51.45:257][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:258][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:258][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:259][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:259][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:260][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:260][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Private\Guard.cpp(71): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.12.22-00.51.45:261][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.12.22-00.51.45:262][500]CompilerResultsLog:   [3/8] SelfDestructLever.cpp
+[2019.12.22-00.51.45:262][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:263][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:264][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:264][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:265][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:266][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:267][500]CompilerResultsLog:   [4/8] Spy.gen.cpp
+[2019.12.22-00.51.45:267][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:268][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:268][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:269][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:270][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI/Public/Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:270][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:271][500]CompilerResultsLog:   [5/8] Spy.cpp
+[2019.12.22-00.51.45:271][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(84): warning C4265: 'ASpy::MultipleActions': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:272][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:272][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(123): warning C4265: 'ASpy::Selector': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:273][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:273][500]CompilerResultsLog:   C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Source\CT6024AdvancedAI\Public\Spy.h(162): warning C4265: 'ASpy::Sequence': class has virtual functions, but destructor is not virtual
+[2019.12.22-00.51.45:274][500]CompilerResultsLog:            instances of this class may not be destructed correctly
+[2019.12.22-00.51.45:274][500]CompilerResultsLog:   [6/8] UE4Editor-CT6024AdvancedAI-7432.lib
+[2019.12.22-00.51.45:274][500]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7432.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7432.exp
+[2019.12.22-00.51.45:275][500]CompilerResultsLog:   [7/8] UE4Editor-CT6024AdvancedAI-7432.dll
+[2019.12.22-00.51.45:276][500]CompilerResultsLog:      Creating library C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7432.suppressed.lib and object C:\Users\morga\Documents\University Level 6\CT6024 - AI\Unreal-Ai\CT6024AdvancedAI\Intermediate\Build\Win64\UE4Editor\Development\CT6024AdvancedAI\UE4Editor-CT6024AdvancedAI-7432.suppressed.exp
+[2019.12.22-00.51.45:277][500]CompilerResultsLog:   [8/8] CT6024AdvancedAIEditor.target
+[2019.12.22-00.51.45:278][500]CompilerResultsLog: Total time in Parallel executor: 9.44 seconds
+[2019.12.22-00.51.45:278][500]CompilerResultsLog: Total execution time: 33.69 seconds
+[2019.12.22-00.51.45:278][500]LogMainFrame: MainFrame: Module compiling took 34.082 seconds
+[2019.12.22-00.51.45:319][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.12.22-00.51.45:380][500]LogHotReload: Re-instancing ChargingArea after hot-reload.
+[2019.12.22-00.51.45:539][500]LogHotReload: Re-instancing Guard after hot-reload.
+[2019.12.22-00.51.45:716][500]LogHotReload: Re-instancing Spy after hot-reload.
+[2019.12.22-00.51.45:850][500]LogContentBrowser: Native class hierarchy updated for 'CT6024AdvancedAI' in 0.0005 seconds. Added 14 classes and 3 folders.
+[2019.12.22-00.51.45:853][500]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2019.12.22-00.51.45:921][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.12.22-00.51.45:937][500]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2747 classes and 664 folders.
+[2019.12.22-00.51.45:937][500]Display: HotReload took 34.8s.
+[2019.12.22-00.51.48:853][664]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.22-00.51.48:892][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.51.48:893][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.22-00.51.48:893][664]PIE: New page: PIE session: NukeLaunch (22 Dec 2019 02:51:48)
+[2019.12.22-00.51.48:893][664]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.22-00.51.49:086][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.192920s)
+[2019.12.22-00.51.49:087][664]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2019.12.22-00.51.49:087][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.194178s)
+[2019.12.22-00.51.49:120][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2019.12.22-00.51.49:131][664]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.22-00.51.49:162][664]LogInit: FAudioDevice initialized.
+[2019.12.22-00.51.49:192][664]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.22-00.51.49:203][664]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.22-01.51.49
+[2019.12.22-00.51.49:205][664]LogWorld: Bringing up level for play took: 0.012111
+[2019.12.22-00.51.49:219][664]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.12.22-00.51.49:219][664]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.51.49:219][664]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.51.49:220][664]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.51.49:221][664]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.51.49:222][664]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NukeLaunch -0.608
+[2019.12.22-00.51.49:222][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch' with GeneratedClass '/Game/Levels/NukeLaunch.NukeLaunch_C' with ClassGeneratedBy '/Game/Levels/NukeLaunch.NukeLaunch:PersistentLevel.NukeLaunch'
+[2019.12.22-00.52.11:063][961]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.22-00.52.11:064][961]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.22-00.52.11:067][961]LogGameMode: ProcessServerTravel: ?Restart
+[2019.12.22-00.52.11:080][962]LogEngine: Server switch level: ?Restart
+[2019.12.22-00.52.11:080][962]LogNet: Browse: /Game/Levels/NukeLaunch?Restart
+[2019.12.22-00.52.11:080][962]LogLoad: LoadMap: /Game/Levels/NukeLaunch
+[2019.12.22-00.52.11:125][962]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2019.12.22-00.52.11:126][962]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NukeLaunch
+[2019.12.22-00.52.11:310][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.183340s)
+[2019.12.22-00.52.11:310][962]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2019.12.22-00.52.11:311][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NukeLaunch.NukeLaunch to /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch (0.184937s)
+[2019.12.22-00.52.11:312][962]LogLoad: Game class is 'SpectateAIGameMode_C'
+[2019.12.22-00.52.11:327][962]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NukeLaunch.NukeLaunch up for play (max tick rate 60) at 2019.12.22-01.52.11
+[2019.12.22-00.52.11:329][962]LogWorld: Bringing up level for play took: 0.016005
+[2019.12.22-00.52.11:330][962]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.12.22-00.52.11:330][962]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.52.11:331][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.22-00.52.11:331][962]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.52.11:332][962]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.22-00.52.11:333][962]LogLoad: Took 0.251627 seconds to LoadMap(/Game/Levels/UEDPIE_0_NukeLaunch)
