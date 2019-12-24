@@ -1,9 +1,13 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+﻿////////////////////////////////////////////////////////////
+// File: GameManager.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎‎14 December ‎2019, ‏‎17:27:18
+// Brief: Doesn't really do anything I just needed a manager.
+//////////////////////////////////////////////////////////// 
 
 #include "GameManager.h"
 
-// Sets default values
+// Sets default values.
 AGameManager::AGameManager()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -11,17 +15,16 @@ AGameManager::AGameManager()
 
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned.
 void AGameManager::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
-// Called every frame
+// Called every frame.
 void AGameManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 

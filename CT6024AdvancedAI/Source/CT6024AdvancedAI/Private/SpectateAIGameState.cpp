@@ -1,5 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+﻿////////////////////////////////////////////////////////////
+// File: SpectateAIGameState.h
+// Author: Morgan Henry James
+// Date Created: ‎15 December ‎2019, ‏‎20:53:24
+// Brief: Used to replace the default game state.
+//////////////////////////////////////////////////////////// 
 
 #include "SpectateAIGameState.h"
 

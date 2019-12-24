@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: Humanoid.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎13 December ‎2019, ‏‎22:25:28
+// Brief: Controls the functionality of a humanoid.
+////////////////////////////////////////////////////////////
 
 #include "Humanoid.h"
 #include "Bullet.h"
@@ -10,25 +15,25 @@
 #include "GameFramework/Controller.h"
 
 
-// Sets default values
+// Sets default values.
 AHumanoid::AHumanoid()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	// The health text for the humanoid.
-	HealthText = CreateDefaultSubobject<UTextRenderComponent>("HealthText"); 
+	healthText = CreateDefaultSubobject<UTextRenderComponent>("healthText"); 
 
 	// The humanoids vision box.
-	VisionBox = CreateDefaultSubobject<ATriggerBox>("VisionBox");
+	visionBox = CreateDefaultSubobject<ATriggerBox>("visionBox");
 }
 
 // Called when the game starts or when spawned.
 void AHumanoid::BeginPlay()
 {
 	// Register Events
-	VisionBox->OnActorBeginOverlap.AddDynamic(this, &AHumanoid::OnOverlapBegin);
-	VisionBox->OnActorEndOverlap.AddDynamic(this, &AHumanoid::OnOverlapEnd);
+	visionBox->OnActorBeginOverlap.AddDynamic(this, &AHumanoid::OnOverlapBegin);
+	visionBox->OnActorEndOverlap.AddDynamic(this, &AHumanoid::OnOverlapEnd);
 	Super::BeginPlay();
 }
 
@@ -36,10 +41,14 @@ void AHumanoid::BeginPlay()
 void AHumanoid::Shoot()
 {
 	// If a bullet has been set.
-	if (BulletClass && CanShoot)
+	if (bulletClass && canShoot)
 	{
-		CanShoot = false;
-		CurrentChargeTimeRemaining = ChargeTime;
+		// Indicate that the humanoid can no longer shoot.
+		canShoot = false;
+
+		// Set the charge time remaining to the charge time.
+		currentChargeTimeRemaining = chargeTime;
+
 		// Set up spawning parameters.
 		FActorSpawnParameters SpawnParameters;
 		SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
@@ -53,70 +62,85 @@ void AHumanoid::Shoot()
 		BulletSpawnTransform.SetRotation(GetActorRotation().Quaternion());
 
 		// Spawn the bullet.
-		GetWorld()->SpawnActor<ABullet>(BulletClass, BulletSpawnTransform, SpawnParameters);
+		GetWorld()->SpawnActor<ABullet>(bulletClass, BulletSpawnTransform, SpawnParameters);
 	}
 }
 
 // Called every frame.
-void AHumanoid::Tick(float DeltaTime)
+void AHumanoid::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
 
 	// Stops rapid fire.
-	CurrentChargeTimeRemaining -= DeltaTime;
+	currentChargeTimeRemaining -= a_deltaTime;
 
-	if (CurrentChargeTimeRemaining < 0.0f)
+	if (currentChargeTimeRemaining < 0.0f)
 	{
-		CanShoot = true;
+		canShoot = true;
 	}
 
 	// Update actors in vision.
-	for (AActor* Actor : ActorsInVisonBox)
+	for (AActor* Actor : actorsInVisonBox)
 	{
 		FHitResult hit;
+
+		// Ray cast actor.
 		AHumanoid::Trace(GetWorld(), this, GetActorLocation(), Actor->GetActorLocation(), hit);
+		
+		// If there is a direct hit to the actor.
 		if (hit.Actor == Actor)
 		{
-			if (!ActorsInVison.Contains(Actor))
+			// If the actor is not in the actors in vision array.
+			if (!actorsInVison.Contains(Actor))
 			{
-				ActorsInVison.Add(Actor);
+				// Add the actor to the actors in vision array.
+				actorsInVison.Add(Actor);
 
-				if (!ActorsSeen.Contains(Actor))
+				// If the actor is not in the actors seen array.
+				if (!actorsSeen.Contains(Actor))
 				{
-					ActorsSeen.Add(Actor);
+					// Add the actor to the array of seen actors.
+					actorsSeen.Add(Actor);
 				}
 			}
 		}
+		// If the ray does not make a direct hit.
 		else
 		{
-			if (ActorsInVison.Contains(Actor))
+			// If the actor it was supposed to hit was in previously in the actors in vision array.
+			if (actorsInVison.Contains(Actor))
 			{
-				ActorsInVison.Remove(Actor);
+				// Remove the actor from the actors in vision array.
+				actorsInVison.Remove(Actor);
 			}
 		}
 	}
 }
 
 // Changes the health of the humanoid.
-void AHumanoid::ChangeHealth(float HealthChange)
+void AHumanoid::ChangeHealth(float a_healthChange)
 {
-	Health += HealthChange;
+	// Add the health change to the health.
+	health += a_healthChange;
 
-	if (Health > MaxHealth)
+	// Clamp the health.
+	if (health > maxHealth)
 	{
-		Health = MaxHealth;
+		health = maxHealth;
 	}
 
-	if (Health <= 0.0f)
+	// If the health is 0 or lower.
+	if (health <= 0.0f)
 	{
+		// Kill the humanoid.
 		Die();
 	}
 
-	//Sets up the text string.
-	FString RemainingHealth = FString::FromInt((int)Health);
+	// Sets up the text string.
+	FString RemainingHealth = FString::FromInt((int)health);
 
-	//Sets the text.
-	HealthText->SetText(RemainingHealth);
+	// Sets the text.
+	healthText->SetText(RemainingHealth);
 }
 
 // Kills the humanoid.
@@ -126,45 +150,45 @@ void AHumanoid::Die()
 }
 
 // Moves the humanoid to the specified location.
-void AHumanoid::MoveToLocation(FVector LocationToGoTo)
+void AHumanoid::MoveToLocation(FVector a_locationToGoTo)
 {
 	AController* pController = this->GetController();
-	UAIBlueprintHelperLibrary::SimpleMoveToLocation(pController, LocationToGoTo);
+	UAIBlueprintHelperLibrary::SimpleMoveToLocation(pController, a_locationToGoTo);
 }
 
 // Called when an actor starts overlapping.
-void AHumanoid::OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor)
+void AHumanoid::OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it overlaps something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Add to actors in vision box.
-		ActorsInVisonBox.Add(OtherActor);
+		actorsInVisonBox.Add(a_otherActor);
 
 		// If can see add to actors in vision.
 		FHitResult hit;
-		AHumanoid::Trace(GetWorld(), this, GetActorLocation(), OtherActor->GetActorLocation(), hit);
-		if (hit.Actor == OtherActor)
+		AHumanoid::Trace(GetWorld(), this, GetActorLocation(), a_otherActor->GetActorLocation(), hit);
+		if (hit.Actor == a_otherActor)
 		{
-			ActorsInVison.Add(OtherActor);
-			ActorsSeen.Add(OtherActor);
+			actorsInVison.Add(a_otherActor);
+			actorsSeen.Add(a_otherActor);
 		}
 	}
 }
 
 // Called when an actor stops overlapping.
-void AHumanoid::OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor)
+void AHumanoid::OnOverlapEnd(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it stops overlapping something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Remove from actors in vision box.
-		ActorsInVisonBox.Remove(OtherActor);
+		actorsInVisonBox.Remove(a_otherActor);
 
 		// If in seen actors remove.
-		if (ActorsInVison.Contains(OtherActor))
+		if (actorsInVison.Contains(a_otherActor))
 		{
-			ActorsInVison.Remove(OtherActor);
+			actorsInVison.Remove(a_otherActor);
 		}
 	}
 }

@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: ToxicSpill.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎‎16 December ‎2019, ‏‎18:22:52
+// Brief: Controls the toxic spills on the map turning them on and off randomly.
+//////////////////////////////////////////////////////////// 
 
 #include "ToxicSpill.h"
 #include "Engine/TriggerBox.h"
@@ -6,137 +11,137 @@
 #include "Humanoid.h"
 #include "Engine/StaticMeshActor.h"
 
-// Sets default values
+// Sets default values.
 AToxicSpill::AToxicSpill()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	// The trigger box.
-	TriggerBox = CreateDefaultSubobject<ATriggerBox>("TriggerBox");
+	triggerBox = CreateDefaultSubobject<ATriggerBox>("triggerBox");
 
 	// The toxic spillage.
-	ToxicSpill = CreateDefaultSubobject<UStaticMeshComponent>("ToxicSpill");
+	toxicSpill = CreateDefaultSubobject<UStaticMeshComponent>("ToxicSpill");
 
-	SetRootComponent(ToxicSpill);
+	SetRootComponent(toxicSpill);
 
 	// The barrel of toxic waste.
-	BarrelOfToxicWaste = CreateDefaultSubobject<AStaticMeshActor>("BarrelOfToxicWaste");
+	barrelOfToxicWaste = CreateDefaultSubobject<AStaticMeshActor>("BarrelOfToxicWaste");
 
 	// Randomize the remaining spilled time.
-	RemainingSpilledTime = FMath::RandRange(5.0f, 30.0f);
+	remainingSpilledTime = FMath::RandRange(5.0f, 30.0f);
 
 	// Randomize the remaining time between spills.
-	RemainingTimeBetweenSpills = FMath::RandRange(5.0f, 30.0f);
+	remainingTimeBetweenSpills = FMath::RandRange(5.0f, 30.0f);
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned.
 void AToxicSpill::BeginPlay()
 {
 	// Register Events
-	TriggerBox->OnActorBeginOverlap.AddDynamic(this, &AToxicSpill::OnOverlapBegin);
-	TriggerBox->OnActorEndOverlap.AddDynamic(this, &AToxicSpill::OnOverlapEnd);
+	triggerBox->OnActorBeginOverlap.AddDynamic(this, &AToxicSpill::OnOverlapBegin);
+	triggerBox->OnActorEndOverlap.AddDynamic(this, &AToxicSpill::OnOverlapEnd);
 	Super::BeginPlay();
 }
 
-// Called every frame
-void AToxicSpill::Tick(float DeltaTime)
+// Called every frame.
+void AToxicSpill::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
 
 	// If the barrel is spilled.
-	if (IsSpilled)
+	if (isSpilled)
 	{
-		RemainingSpilledTime -= DeltaTime;
+		remainingSpilledTime -= a_deltaTime;
 
 		// Spill barrel over.
 		FRotator NewRotation = FRotator(2.0f, 0.0f, 0.0f);
 		FQuat QuatRotation = FQuat(NewRotation);
-		BarrelOfToxicWaste->AddActorLocalRotation(QuatRotation);
-		FRotator CurrentBarrelRotation = BarrelOfToxicWaste->GetActorRotation();
+		barrelOfToxicWaste->AddActorLocalRotation(QuatRotation);
+		FRotator CurrentBarrelRotation = barrelOfToxicWaste->GetActorRotation();
 		if (CurrentBarrelRotation.Pitch > 87.0f)
 		{
 			FRotator NewLeverRotation = FRotator(87.0f, 0.0f, 0.0f);
-			BarrelOfToxicWaste->SetActorRotation(NewLeverRotation);
+			barrelOfToxicWaste->SetActorRotation(NewLeverRotation);
 		}
 
 		// Rise the toxic waste.
-		FVector NewLocation = ToxicSpill->GetComponentLocation();
+		FVector NewLocation = toxicSpill->GetComponentLocation();
 		NewLocation.Z = -5.0f;
-		ToxicSpill->SetWorldLocation(NewLocation);
+		toxicSpill->SetWorldLocation(NewLocation);
 
 		// For each humanoid damage health by DeltaTime.
-		for (AHumanoid* Humanoid : Humanoids)
+		for (AHumanoid* Humanoid : humanoids)
 		{
-			Humanoid->ChangeHealth(-DeltaTime);
+			Humanoid->ChangeHealth(-a_deltaTime);
 		}
 
 		// Stop spilling.
-		if (RemainingSpilledTime <= 0.0f)
+		if (remainingSpilledTime <= 0.0f)
 		{
-			RemainingSpilledTime = FMath::RandRange(5.0f, 30.0f);
-			IsSpilled = false;
+			remainingSpilledTime = FMath::RandRange(5.0f, 30.0f);
+			isSpilled = false;
 		}
 	}
 
 	// If the barrel is not spilled.
-	if (!IsSpilled)
+	if (!isSpilled)
 	{
-		RemainingTimeBetweenSpills -= DeltaTime;
+		remainingTimeBetweenSpills -= a_deltaTime;
 
 		// Unspill barrel over.
 		FRotator NewRotation = FRotator(-2.0f, 0.0f, 0.0f);
 		FQuat QuatRotation = FQuat(NewRotation);
-		BarrelOfToxicWaste->AddActorLocalRotation(QuatRotation);
-		FRotator CurrentBarrelRotation = BarrelOfToxicWaste->GetActorRotation();
+		barrelOfToxicWaste->AddActorLocalRotation(QuatRotation);
+		FRotator CurrentBarrelRotation = barrelOfToxicWaste->GetActorRotation();
 		if (CurrentBarrelRotation.Pitch < 0.0f)
 		{
 			FRotator NewLeverRotation = FRotator(0.0f, 0.0f, 0.0f);
-			BarrelOfToxicWaste->SetActorRotation(NewLeverRotation);
+			barrelOfToxicWaste->SetActorRotation(NewLeverRotation);
 		}
 
 		// Lower the toxic waste.
-		FVector NewLocation = ToxicSpill->GetComponentLocation();
+		FVector NewLocation = toxicSpill->GetComponentLocation();
 		NewLocation.Z = -15.0f;
-		ToxicSpill->SetWorldLocation(NewLocation);
+		toxicSpill->SetWorldLocation(NewLocation);
 
 		// Start spilling.
-		if (RemainingTimeBetweenSpills <= 0.0f)
+		if (remainingTimeBetweenSpills <= 0.0f)
 		{
-			RemainingTimeBetweenSpills = FMath::RandRange(20.0f, 50.0f);;
-			IsSpilled = true;
+			remainingTimeBetweenSpills = FMath::RandRange(20.0f, 50.0f);;
+			isSpilled = true;
 		}
 	}
 }
 
 // Called when an actor starts overlapping.
-void AToxicSpill::OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor)
+void AToxicSpill::OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it overlaps something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Check if it overlaps with a humanoid.
-		AHumanoid* Humanoid = Cast<AHumanoid>(OtherActor);
+		AHumanoid* Humanoid = Cast<AHumanoid>(a_otherActor);
 		if (Humanoid)
 		{
 			// Add humanoid to array of humanoids.
-			Humanoids.Add(Humanoid);
+			humanoids.Add(Humanoid);
 		}
 	}
 }
 
 // Called when an actor stops overlapping.
-void AToxicSpill::OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor)
+void AToxicSpill::OnOverlapEnd(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it stops overlapping something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Check if it overlaps with a humanoid.
-		AHumanoid* Humanoid = Cast<AHumanoid>(OtherActor);
+		AHumanoid* Humanoid = Cast<AHumanoid>(a_otherActor);
 		if (Humanoid)
 		{
 			// Remove humanoid from list of humanoids.
-			Humanoids.Remove(Humanoid);
+			humanoids.Remove(Humanoid);
 		}
 	}
 }

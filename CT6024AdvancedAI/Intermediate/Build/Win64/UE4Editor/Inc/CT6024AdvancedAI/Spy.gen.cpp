@@ -35,27 +35,27 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 	{
 		struct Spy_eventOnOverlapBegin2_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapBegin2_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapBegin2_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapBegin2_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapBegin2_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Spy.h" },
-		{ "ToolTip", "declare overlap begin function." },
+		{ "ToolTip", "Declare overlap begin function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpy, nullptr, "OnOverlapBegin2", sizeof(Spy_eventOnOverlapBegin2_Parms), Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASpy_OnOverlapBegin2_Statics::Function_MetaDataParams)) };
@@ -72,27 +72,27 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 	{
 		struct Spy_eventOnOverlapEnd2_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapEnd2_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapEnd2_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapEnd2_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Spy_eventOnOverlapEnd2_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Spy.h" },
-		{ "ToolTip", "declare overlap end function." },
+		{ "ToolTip", "Declare overlap end function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASpy, nullptr, "OnOverlapEnd2", sizeof(Spy_eventOnOverlapEnd2_Parms), Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASpy_OnOverlapEnd2_Statics::Function_MetaDataParams)) };
@@ -125,9 +125,9 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_startingLockerocation;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GuardChecker_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_guardChecker_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GuardChecker;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_guardChecker;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -137,8 +137,8 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASpy_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASpy_OnOverlapBegin2, "OnOverlapBegin2" }, // 606702826
-		{ &Z_Construct_UFunction_ASpy_OnOverlapEnd2, "OnOverlapEnd2" }, // 504498652
+		{ &Z_Construct_UFunction_ASpy_OnOverlapBegin2, "OnOverlapBegin2" }, // 3055817615
+		{ &Z_Construct_UFunction_ASpy_OnOverlapEnd2, "OnOverlapEnd2" }, // 626502335
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpy_Statics::Class_MetaDataParams[] = {
@@ -149,29 +149,32 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpy_Statics::NewProp_startingHealthLocation_MetaData[] = {
-		{ "Category", "Locations" },
+		{ "Category", "locations" },
 		{ "ModuleRelativePath", "Public/Spy.h" },
+		{ "ToolTip", "The first health kit that the spy can see." },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpy_Statics::NewProp_startingHealthLocation = { "startingHealthLocation", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpy, startingHealthLocation), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpy_Statics::NewProp_startingHealthLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASpy_Statics::NewProp_startingHealthLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpy_Statics::NewProp_startingLockerocation_MetaData[] = {
-		{ "Category", "Locations" },
+		{ "Category", "locations" },
 		{ "ModuleRelativePath", "Public/Spy.h" },
+		{ "ToolTip", "The first locker that the spy can see." },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpy_Statics::NewProp_startingLockerocation = { "startingLockerocation", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpy, startingLockerocation), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpy_Statics::NewProp_startingLockerocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASpy_Statics::NewProp_startingLockerocation_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpy_Statics::NewProp_GuardChecker_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASpy_Statics::NewProp_guardChecker_MetaData[] = {
 		{ "Category", "References" },
 		{ "ModuleRelativePath", "Public/Spy.h" },
+		{ "ToolTip", "The box in which the spy can see guards looking at itself." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpy_Statics::NewProp_GuardChecker = { "GuardChecker", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpy, GuardChecker), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpy_Statics::NewProp_GuardChecker_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASpy_Statics::NewProp_GuardChecker_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASpy_Statics::NewProp_guardChecker = { "guardChecker", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASpy, guardChecker), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASpy_Statics::NewProp_guardChecker_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASpy_Statics::NewProp_guardChecker_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASpy_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpy_Statics::NewProp_startingHealthLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpy_Statics::NewProp_startingLockerocation,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpy_Statics::NewProp_GuardChecker,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASpy_Statics::NewProp_guardChecker,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASpy_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASpy>::IsAbstract,
@@ -200,7 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeSpy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASpy, 4248551287);
+	IMPLEMENT_CLASS(ASpy, 2532915653);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<ASpy>()
 	{
 		return ASpy::StaticClass();

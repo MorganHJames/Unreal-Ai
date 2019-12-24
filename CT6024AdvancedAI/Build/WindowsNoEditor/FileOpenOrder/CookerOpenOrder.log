@@ -3,544 +3,545 @@
 "../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Geometry/Meshes/TemplateFloor.uasset" 2
 "../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 3
 "../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 4
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/ProtoMaleColors_Masks.uasset" 5
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeMale_D.uasset" 6
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeMale_M.uasset" 7
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeMale_N.uasset" 8
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/M_CharacterMaster.uasset" 9
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/ProtoFemaleColors_Masks.uasset" 10
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeFemale_D.uasset" 11
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeFemale_M.uasset" 12
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeFemale_N.uasset" 13
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset" 14
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset" 15
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset" 16
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset" 17
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Basic_Wall.uasset" 18
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Pillar_50x500.uasset" 19
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_400x300.uasset" 20
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_400x400.uasset" 21
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_500x500.uasset" 22
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 23
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 24
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Collapse01.uasset" 25
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Collapse02.uasset" 26
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Explosion01.uasset" 27
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Explosion02.uasset" 28
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire01.uasset" 29
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire_Sparks01.uasset" 30
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light01.uasset" 31
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light01_Cue.uasset" 32
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light02.uasset" 33
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light02_Cue.uasset" 34
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Smoke01.uasset" 35
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Birds01.uasset" 36
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Music01.uasset" 37
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Wind05.uasset" 38
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Wind06.uasset" 39
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Steam01.uasset" 40
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Explosion_Cue.uasset" 41
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Burst_M.uasset" 42
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Burst.uasset" 43
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 44
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 45
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 46
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 47
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 48
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 49
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 50
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 51
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Explosion.uasset" 52
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 53
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 54
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 55
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Bush_D.uasset" 56
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Bush_N.uasset" 57
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Bush.uasset" 58
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Bush.uasset" 59
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Chair_M.uasset" 60
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Chair_N.uasset" 61
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Chair.uasset" 62
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Couch.uasset" 63
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Glass.uasset" 64
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Door_M.uasset" 65
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Door_N.uasset" 66
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Door.uasset" 67
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Door.uasset" 68
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 69
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 70
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 71
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 72
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 73
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 74
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_RockMesh_M.uasset" 75
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_RockMesh_N.uasset" 76
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Rock.uasset" 77
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Rock.uasset" 78
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Shelf_M.uasset" 79
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Shelf_N.uasset" 80
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Shelf.uasset" 81
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Shelf.uasset" 82
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Basic_Floor.uasset" 83
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Stairs.uasset" 84
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Cone.uasset" 85
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 86
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 87
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Pipe.uasset" 88
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 89
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 90
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Plane.uasset" 91
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Torus.uasset" 92
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Trim.uasset" 93
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 94
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 95
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 96
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Tube.uasset" 97
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 98
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 99
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 100
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 101
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 102
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 103
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 104
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 105
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 106
-"../../../Engine/Content/BasicShapes/Plane.uasset" 107
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 108
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 109
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 110
-"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 111
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 112
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 113
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 114
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 115
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 116
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 117
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 118
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 119
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 120
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 121
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 122
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 123
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 124
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 125
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 126
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 127
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 128
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 129
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 130
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 131
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 132
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 133
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 134
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 135
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 136
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 137
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 138
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 139
-"../../../Engine/Content/EditorResources/S_Note.uasset" 140
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 141
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 142
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 143
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 144
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 145
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 146
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 147
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 148
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 149
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 150
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 151
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 152
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 153
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 154
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 155
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 156
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 157
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 158
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 159
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 160
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 161
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 162
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 163
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 164
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 165
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 166
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 167
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 168
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 169
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 170
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 171
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 172
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 173
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 174
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 175
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 176
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 177
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 178
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 179
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 180
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 181
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 182
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 183
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 184
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 185
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 186
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 187
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 188
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 189
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 190
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 191
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 192
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 193
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 194
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 195
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 196
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 197
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 198
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 199
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 200
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 201
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 202
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 203
-"../../../Engine/Content/EngineResources/Black.uasset" 204
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 205
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 206
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 207
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 208
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 209
-"../../../Engine/Content/EngineSounds/Master.uasset" 210
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 211
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 212
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 213
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 214
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 215
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 216
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 217
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 218
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 219
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 220
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 221
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 222
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 223
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 224
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 225
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 226
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 227
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 228
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 229
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 230
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 231
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 232
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 233
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 234
-"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 235
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 236
-"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 237
-"../../../Engine/Content/Tutorial/Code/AddingCode.uasset" 238
-"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 239
-"../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset" 240
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 241
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 242
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 243
-"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 244
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 245
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 246
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 247
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 248
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 249
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 250
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 251
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 252
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 253
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 254
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 255
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 256
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 257
-"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 258
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 259
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 260
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 261
-"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 262
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 263
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 264
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 265
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 266
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 267
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 268
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 269
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 270
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 271
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 272
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 273
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 274
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 275
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 276
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 277
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 278
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 279
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 280
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 281
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 282
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 283
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 284
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 285
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonRun.uasset" 286
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 287
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 288
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 289
-"../../../Engine/Content/EditorMeshes/ArcadeEditorSphere.uasset" 290
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Blueprints/ABullet.uasset" 291
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Blueprints/SpectateAIGameMode.uasset" 292
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Levels/NukeLaunch_BuiltData.uasset" 293
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_GreenOnly.uasset" 294
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_RedOnly.uasset" 295
-"../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset" 296
-"../../../Engine/Content/EngineResources/M_StreamingPause.uasset" 297
-"../../../Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset" 298
-"../../../Engine/Content/MaterialTemplates/Gradients/Gradient_Star.uasset" 299
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 300
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 301
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 302
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_MacroVariation.uasset" 303
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 304
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 305
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 306
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 307
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 308
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 309
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 310
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 311
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ground_Grass.uasset" 312
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 313
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 314
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 315
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 316
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 317
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 318
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 319
-"../../../Engine/Content/BasicShapes/Cone.uasset" 320
-"../../../Engine/Content/BasicShapes/Cube.uasset" 321
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 322
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 323
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Geometry/Meshes/1M_Cube.uasset" 324
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 325
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 326
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 327
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 328
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 329
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 330
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 331
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 332
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 333
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 334
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 335
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 336
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 337
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 338
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 339
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 340
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 341
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 342
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_400x200.uasset" 343
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap" 344
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 345
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 346
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 347
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 348
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 349
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 350
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 351
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 352
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 353
-"../../../Engine/Content/MapTemplates/Materials/BasicTemplateMaterial.uasset" 354
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeFemale.uasset" 355
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/HeroTPP_Skeleton.uasset" 356
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeF_PhysicsAsset.uasset" 357
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeF.uasset" 358
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" 359
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeM_PhysicsAsset.uasset" 360
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeM.uasset" 361
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Showcase.umap" 362
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 363
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 364
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 365
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 366
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 367
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 368
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 369
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 370
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 371
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 372
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_AssetPlatform.uasset" 373
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 374
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 375
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 376
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 377
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 378
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 379
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 380
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 381
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Advanced_Lighting.umap" 382
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 383
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 384
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 385
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 386
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 387
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 388
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Copper.uasset" 389
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Statue_M.uasset" 390
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Statue_N.uasset" 391
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 392
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Floor_400x400.uasset" 393
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 394
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Chair.uasset" 395
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Statue.uasset" 396
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Statue.uasset" 397
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_TableRound_M.uasset" 398
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_TableRound_N.uasset" 399
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_TableRound.uasset" 400
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_TableRound.uasset" 401
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Minimal_Default.umap" 402
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire01_Cue.uasset" 403
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 404
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 405
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 406
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Water_N.uasset" 407
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 408
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 409
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Fire.uasset" 410
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 411
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Smoke01_Cue.uasset" 412
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Smoke.uasset" 413
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 414
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 415
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Spark_Core.uasset" 416
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Spark.uasset" 417
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Sparks.uasset" 418
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 419
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Steam01_Cue.uasset" 420
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Steam_Lit.uasset" 421
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 422
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Lamp_M.uasset" 423
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Lamp_N.uasset" 424
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Lamp.uasset" 425
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 426
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 427
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 428
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 429
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 430
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 431
-"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 432
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 433
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 434
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 435
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 436
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 437
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 438
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 439
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 440
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 441
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 442
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 443
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 444
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 445
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 446
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 447
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 448
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 449
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 450
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 451
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 452
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Gradinet_01.uasset" 453
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 454
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 455
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 456
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 457
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 458
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 459
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 460
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 461
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 462
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 463
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 464
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 465
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 466
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 467
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 468
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 469
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 470
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 471
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 472
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 473
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 474
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 475
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 476
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 477
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 478
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ground_Moss.uasset" 479
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 480
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 481
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Gold.uasset" 482
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 483
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Rust.uasset" 484
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 485
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 486
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Steel.uasset" 487
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 488
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 489
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 490
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 491
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 492
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 493
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 494
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 495
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Slate.uasset" 496
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 497
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 498
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 499
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 500
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 501
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 502
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 503
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Panel.uasset" 504
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Water_Lake.uasset" 505
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Water_M.uasset" 506
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Water_Ocean.uasset" 507
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 508
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 509
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 510
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 511
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 512
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 513
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 514
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 515
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Oak.uasset" 516
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 517
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 518
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Pine.uasset" 519
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 520
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 521
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 522
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 523
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 524
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Collapse_Cue.uasset" 525
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 526
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 527
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 528
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 529
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/MaterialSphere.uasset" 530
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Frame_M.uasset" 531
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Frame_N.uasset" 532
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Frame.uasset" 533
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_CornerFrame.uasset" 534
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_DoorFrame.uasset" 535
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_GlassWindow.uasset" 536
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_PillarFrame.uasset" 537
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_PillarFrame300.uasset" 538
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_WindowFrame.uasset" 539
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Cube.uasset" 540
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 541
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Sphere.uasset" 542
-"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/StarterMap.umap" 543
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 544
-"../../../Engine/Content/Maps/Entry.umap" 545
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_RedOnly.uasset" 5
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Meshes/StaticMesh.uasset" 6
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/ProtoMaleColors_Masks.uasset" 7
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeMale_D.uasset" 8
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeMale_M.uasset" 9
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeMale_N.uasset" 10
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/M_CharacterMaster.uasset" 11
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/ProtoFemaleColors_Masks.uasset" 12
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeFemale_D.uasset" 13
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeFemale_M.uasset" 14
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Textures/T_PrototypeFemale_N.uasset" 15
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset" 16
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset" 17
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset" 18
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset" 19
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Basic_Wall.uasset" 20
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Pillar_50x500.uasset" 21
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_400x300.uasset" 22
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_400x400.uasset" 23
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_500x500.uasset" 24
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 25
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 26
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Collapse01.uasset" 27
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Collapse02.uasset" 28
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Explosion01.uasset" 29
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Explosion02.uasset" 30
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire01.uasset" 31
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire_Sparks01.uasset" 32
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light01.uasset" 33
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light01_Cue.uasset" 34
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light02.uasset" 35
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Light02_Cue.uasset" 36
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Smoke01.uasset" 37
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Birds01.uasset" 38
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Music01.uasset" 39
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Wind05.uasset" 40
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Wind06.uasset" 41
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Steam01.uasset" 42
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Explosion_Cue.uasset" 43
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Burst_M.uasset" 44
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Burst.uasset" 45
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 46
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 47
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 48
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 49
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 50
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 51
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 52
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 53
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Explosion.uasset" 54
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 55
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 56
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 57
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Bush_D.uasset" 58
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Bush_N.uasset" 59
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Bush.uasset" 60
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Bush.uasset" 61
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Chair_M.uasset" 62
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Chair_N.uasset" 63
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Chair.uasset" 64
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Couch.uasset" 65
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Glass.uasset" 66
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Door_M.uasset" 67
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Door_N.uasset" 68
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Door.uasset" 69
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Door.uasset" 70
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 71
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 72
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 73
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 74
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 75
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 76
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_RockMesh_M.uasset" 77
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_RockMesh_N.uasset" 78
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Rock.uasset" 79
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Rock.uasset" 80
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Shelf_M.uasset" 81
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Shelf_N.uasset" 82
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Shelf.uasset" 83
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Shelf.uasset" 84
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Basic_Floor.uasset" 85
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Stairs.uasset" 86
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Cone.uasset" 87
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 88
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 89
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Pipe.uasset" 90
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 91
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 92
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Plane.uasset" 93
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Torus.uasset" 94
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Trim.uasset" 95
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 96
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 97
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 98
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Tube.uasset" 99
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 100
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 101
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 102
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 103
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 104
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 105
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 106
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 107
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 108
+"../../../Engine/Content/BasicShapes/Plane.uasset" 109
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 110
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 111
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 112
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 113
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 114
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 115
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 116
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 117
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 118
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 119
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 120
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 121
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 122
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 123
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 124
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 125
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 126
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 127
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 128
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 129
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 130
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 131
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 132
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 133
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 134
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 135
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 136
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 137
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 138
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 139
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 140
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 141
+"../../../Engine/Content/EditorResources/S_Note.uasset" 142
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 143
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 144
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 145
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 146
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 147
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 148
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 149
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 150
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 151
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 152
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 153
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 154
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 155
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 156
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 157
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 158
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 159
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 160
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 161
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 162
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 163
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 164
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 165
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 166
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 167
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 168
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 169
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 170
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 171
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 172
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 173
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 174
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 175
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 176
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 177
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 178
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 179
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 180
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 181
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 182
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 183
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 184
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 185
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 186
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 187
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 188
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 189
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 190
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 191
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 192
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 193
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 194
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 195
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 196
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 197
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 198
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 199
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 200
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 201
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 202
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 203
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 204
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 205
+"../../../Engine/Content/EngineResources/Black.uasset" 206
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 207
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 208
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 209
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 210
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 211
+"../../../Engine/Content/EngineSounds/Master.uasset" 212
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 213
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 214
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 215
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 216
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 217
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 218
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 219
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 220
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 221
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 222
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 223
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 224
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 225
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 226
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 227
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 228
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 229
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 230
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 231
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 232
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 233
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 234
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 235
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 236
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 237
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 238
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 239
+"../../../Engine/Content/Tutorial/Code/AddingCode.uasset" 240
+"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset" 241
+"../../../Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset" 242
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Manage_Mode.uasset" 243
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 244
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Painting_Mode.uasset" 245
+"../../../Engine/Content/Tutorial/Landscape/Landscape_Sculpt_Mode.uasset" 246
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 247
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 248
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 249
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 250
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 251
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 252
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 253
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 254
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 255
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 256
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 257
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 258
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 259
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 260
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 261
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 262
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 263
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 264
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 265
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 266
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 267
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 268
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 269
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 270
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 271
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 272
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 273
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 274
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 275
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 276
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 277
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 278
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 279
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 280
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 281
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 282
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 283
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 284
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 285
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 286
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 287
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonRun.uasset" 288
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 289
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 290
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 291
+"../../../Engine/Content/EditorMeshes/ArcadeEditorSphere.uasset" 292
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Blueprints/ABullet.uasset" 293
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Blueprints/SpectateAIGameMode.uasset" 294
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Levels/NukeLaunch_BuiltData.uasset" 295
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_GreenOnly.uasset" 296
+"../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset" 297
+"../../../Engine/Content/EngineResources/M_StreamingPause.uasset" 298
+"../../../Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset" 299
+"../../../Engine/Content/MaterialTemplates/Gradients/Gradient_Star.uasset" 300
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 301
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 302
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 303
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_MacroVariation.uasset" 304
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 305
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 306
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 307
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 308
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 309
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 310
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 311
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 312
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ground_Grass.uasset" 313
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 314
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 315
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 316
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 317
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 318
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 319
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 320
+"../../../Engine/Content/BasicShapes/Cone.uasset" 321
+"../../../Engine/Content/BasicShapes/Cube.uasset" 322
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 323
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 324
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Geometry/Meshes/1M_Cube.uasset" 325
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 326
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 327
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 328
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 329
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 330
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 331
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 332
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 333
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 334
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 335
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 336
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 337
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 338
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 339
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 340
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 341
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 342
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 343
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_400x200.uasset" 344
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/Levels/NukeLaunch.umap" 345
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 346
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 347
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 348
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 349
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 350
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 351
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 352
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 353
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 354
+"../../../Engine/Content/MapTemplates/Materials/BasicTemplateMaterial.uasset" 355
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeFemale.uasset" 356
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/HeroTPP_Skeleton.uasset" 357
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeF_PhysicsAsset.uasset" 358
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeF.uasset" 359
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" 360
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeM_PhysicsAsset.uasset" 361
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/SK_PrototypeM.uasset" 362
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/ProtoCharacters/Showcase.umap" 363
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 364
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 365
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 366
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 367
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 368
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 369
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 370
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 371
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 372
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 373
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_AssetPlatform.uasset" 374
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 375
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 376
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 377
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 378
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 379
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 380
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 381
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 382
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Advanced_Lighting.umap" 383
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 384
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 385
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 386
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 387
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 388
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 389
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Copper.uasset" 390
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Statue_M.uasset" 391
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Statue_N.uasset" 392
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 393
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Floor_400x400.uasset" 394
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 395
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Chair.uasset" 396
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Statue.uasset" 397
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Statue.uasset" 398
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_TableRound_M.uasset" 399
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_TableRound_N.uasset" 400
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_TableRound.uasset" 401
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_TableRound.uasset" 402
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/Minimal_Default.umap" 403
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire01_Cue.uasset" 404
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 405
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 406
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 407
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Water_N.uasset" 408
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 409
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 410
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Fire.uasset" 411
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 412
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Smoke01_Cue.uasset" 413
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Smoke.uasset" 414
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 415
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 416
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Spark_Core.uasset" 417
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Spark.uasset" 418
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Sparks.uasset" 419
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 420
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Steam01_Cue.uasset" 421
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Steam_Lit.uasset" 422
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 423
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Lamp_M.uasset" 424
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Lamp_N.uasset" 425
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Lamp.uasset" 426
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 427
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 428
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 429
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 430
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 431
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 432
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 433
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 434
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 435
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 436
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 437
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 438
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 439
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 440
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 441
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 442
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 443
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 444
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 445
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 446
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 447
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 448
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 449
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 450
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 451
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 452
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 453
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Gradinet_01.uasset" 454
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 455
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 456
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 457
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 458
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 459
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 460
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 461
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 462
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 463
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 464
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 465
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 466
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 467
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 468
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 469
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 470
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 471
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 472
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 473
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 474
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 475
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 476
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 477
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 478
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 479
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Ground_Moss.uasset" 480
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 481
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 482
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Gold.uasset" 483
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 484
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Rust.uasset" 485
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 486
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 487
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Metal_Steel.uasset" 488
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 489
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 490
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 491
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 492
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 493
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 494
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 495
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 496
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Rock_Slate.uasset" 497
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 498
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 499
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 500
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 501
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 502
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 503
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 504
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Tech_Panel.uasset" 505
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Water_Lake.uasset" 506
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Water_M.uasset" 507
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Water_Ocean.uasset" 508
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 509
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 510
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 511
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 512
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 513
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 514
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 515
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 516
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Oak.uasset" 517
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 518
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 519
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Pine.uasset" 520
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 521
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 522
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 523
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 524
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 525
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Collapse_Cue.uasset" 526
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 527
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 528
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 529
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 530
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/MaterialSphere.uasset" 531
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Frame_M.uasset" 532
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Textures/T_Frame_N.uasset" 533
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/Materials/M_Frame.uasset" 534
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_CornerFrame.uasset" 535
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_DoorFrame.uasset" 536
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_GlassWindow.uasset" 537
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_PillarFrame.uasset" 538
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_PillarFrame300.uasset" 539
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Props/SM_WindowFrame.uasset" 540
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Cube.uasset" 541
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 542
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Shapes/Shape_Sphere.uasset" 543
+"../../../../../../Users/morga/Documents/University Level 6/CT6024 - AI/Unreal-Ai/CT6024AdvancedAI/Content/StarterContent/Maps/StarterMap.umap" 544
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 545
+"../../../Engine/Content/Maps/Entry.umap" 546

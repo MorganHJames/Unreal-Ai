@@ -1,87 +1,104 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: Locker.cpp
+// Author: Morgan Henry James
+// Date Created: ‎16 December ‎2019, ‏‎04:58:49
+// Brief: Controls the interactions between the spy and the locker.
+//////////////////////////////////////////////////////////// 
 
 #include "Locker.h"
 #include "Spy.h"
 #include "Engine/TriggerBox.h"
 #include "Components/StaticMeshComponent.h" 
 
+// Turns ticks on and sets up the trigger and the locker mesh.
 ALocker::ALocker()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//The trigger box.
-	TriggerBox = CreateDefaultSubobject<ATriggerBox>("TriggerBox");
+	// The trigger box.
+	triggerBox = CreateDefaultSubobject<ATriggerBox>("triggerBox");
 
-	//The locker.
-	Locker = CreateDefaultSubobject<UStaticMeshComponent>("Locker");
+	// The locker.
+	locker = CreateDefaultSubobject<UStaticMeshComponent>("locker");
 }
 
 // Called when the game starts or when spawned
 void ALocker::BeginPlay()
 {
-	//Register Events
-	TriggerBox->OnActorBeginOverlap.AddDynamic(this, &ALocker::OnOverlapBegin);
-	TriggerBox->OnActorEndOverlap.AddDynamic(this, &ALocker::OnOverlapEnd);
+	// Register Events.
+	triggerBox->OnActorBeginOverlap.AddDynamic(this, &ALocker::OnOverlapBegin);
+	triggerBox->OnActorEndOverlap.AddDynamic(this, &ALocker::OnOverlapEnd);
 	Super::BeginPlay();
 }
 
 // Called when an actor starts overlapping.
-void ALocker::OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor)
+void ALocker::OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it overlaps something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Check if it overlaps with a spy.
-		ASpy* Spy = Cast<ASpy>(OtherActor);
+		ASpy* Spy = Cast<ASpy>(a_otherActor);
+
+		// If the actor is a spy.
 		if (Spy)
 		{
-			TheSpy = Spy;
-			TheSpy->CanHide = true;
+			// Set the lockers reference to the spy.
+			spy = Spy;
+
+			// Indicates to the spy that it can hide.
+			spy->canHide = true;
 		}
 	}
 }
 
 // Called when an actor stops overlapping.
-void ALocker::OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor)
+void ALocker::OnOverlapEnd(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it stops overlapping something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Check if it stops overlapping with a spy.
-		ASpy* Spy = Cast<ASpy>(OtherActor);
-		if (Spy && Spy == TheSpy)
+		ASpy* Spy = Cast<ASpy>(a_otherActor);
+
+		// If the spy leaves lockers trigger box.
+		if (Spy && Spy == spy)
 		{
-			TheSpy->CanHide = false;
-			TheSpy = nullptr;
+			// Indicates to the spy that it can no longer hide.
+			spy->canHide = false;
+
+			// Removes the reference to the spy.
+			spy = nullptr;
 		}
 	}
 }
 
-// Called every frame
-void ALocker::Tick(float DeltaTime)
+// Called every frame.
+void ALocker::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
 
-	if (TheSpy)
+	// If the locker has a reference to the spy.
+	if (spy)
 	{
-		// Moves the spy in the locker.
-		if (TheSpy->CanHide && TheSpy->IsHiding && !LockerFull)
+		// Moves the spy in the locker if the spy indicates it wants to hide.
+		if (spy->canHide && spy->isHiding && !lockerFull)
 		{
-			LockerFull = true;
-			SpyPreviousLocation = TheSpy->GetTransform();
-			TheSpy->SetActorLocation(Locker->GetComponentLocation());
-			TheSpy->GetRootComponent()->SetMobility(EComponentMobility::Type::Static);
-			TheSpy->CanHide = false;
+			lockerFull = true;
+			spyPreviousLocation = spy->GetTransform();
+			spy->SetActorLocation(locker->GetComponentLocation());
+			spy->GetRootComponent()->SetMobility(EComponentMobility::Type::Static);
+			spy->canHide = false;
 		}
 
-		// Moves the spy out of the locker.
-		if (!TheSpy->CanHide && !TheSpy->IsHiding && LockerFull)
+		// Moves the spy out of the locker if the spy indicates it wants to leave.
+		if (!spy->canHide && !spy->isHiding && lockerFull)
 		{
-			LockerFull = false;
-			TheSpy->GetRootComponent()->SetMobility(EComponentMobility::Type::Movable);
-			TheSpy->SetActorTransform(SpyPreviousLocation);
-			TheSpy->CanHide = true;
+			lockerFull = false;
+			spy->GetRootComponent()->SetMobility(EComponentMobility::Type::Movable);
+			spy->SetActorTransform(spyPreviousLocation);
+			spy->canHide = true;
 		}
 	}
 }

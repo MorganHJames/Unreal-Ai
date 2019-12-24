@@ -1,98 +1,113 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: GameController.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎16 December ‎2019, ‏‎00:20:58
+// Brief: Controls how the game ends.
+//////////////////////////////////////////////////////////// 
 
 #include "GameController.h"
 #include "Engine/StaticMeshActor.h"
 #include "NukeCountdown.h"
 #include "SpectateAIGameMode.h"
 
-// Initialize booleans.
-bool AGameController::GuardVicory = false;
-bool AGameController::SpyVicory = false;
+// Initialize static variables.
+bool AGameController::guardVictory = false;
+bool AGameController::spyVictory = false;
 float AGameController::currentTime = 0.0f;
 
-// Sets default values
+// Sets default values.
 AGameController::AGameController()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned.
 void AGameController::BeginPlay()
 {
 	Super::BeginPlay();
 }
 
-// Called every frame
-void AGameController::Tick(float DeltaTime)
+// Called every frame.
+void AGameController::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
 
-	if (SpyVicory && !GameEnded)
+	// If the spy won and the game hasn't been indicated that it's over.
+	if (spyVictory && !gameEnded)
 	{
-		GameEnded = true;
+		// Indicate that the game is ending.
+		gameEnded = true;
+
+		// Play the spy victory sequence.
 		SpyVicorySequence();
 	}
-	
-	if (GuardVicory && !GameEnded)
+
+	// If the guards won and the game hasn't been indicated that it's over.
+	if (guardVictory && !gameEnded)
 	{
-		GameEnded = true;
+		// Indicate that the game is ending.
+		gameEnded = true;
+
+		// Play the guard victory sequence.
 		GuardVicorySequence();
 	}
 
 	// Launch Rocket.
-	if (GuardVicory && GameEnded)
+	if (guardVictory && gameEnded)
 	{
 		// Decreases the end time so you can see the result of the simulation.
-		EndTime -= DeltaTime;
+		endTime -= a_deltaTime;
 
 		// Launch the rocket.
-		FVector NewLocation = Rocket->GetActorLocation();
-		NewLocation.Z += (DeltaTime * 300.0f);
-		Rocket->SetActorLocation(NewLocation);
+		FVector NewLocation = rocket->GetActorLocation();
+		NewLocation.Z += (a_deltaTime * 300.0f);
+		rocket->SetActorLocation(NewLocation);
 
 		// Ends the game.
-		if (EndTime <= 0.0f)
+		if (endTime <= 0.0f)
 		{
+			// Resets the game.
 			ResetGame();
 		}
 	}
 
 	// Tilt Rocket and lever.
-	if (SpyVicory && GameEnded)
+	if (spyVictory && gameEnded)
 	{
 		// Decreases the end time so you can see the result of the simulation.
-		EndTime -= DeltaTime;
+		endTime -= a_deltaTime;
 
 		// Rotate the rocket.
 		FRotator NewRotation = FRotator(5.0f, 5.0f, 5.0f);
 		FQuat QuatRotation = FQuat(NewRotation);
-		Rocket->AddActorLocalRotation(QuatRotation, false, 0, ETeleportType::None);
+		rocket->AddActorLocalRotation(QuatRotation, false, 0, ETeleportType::None);
 
 		// Scale the rocket.
-		FVector RocketScale = Rocket->GetActorScale3D();
-		float ScaleStep = DeltaTime * 2.0f;
+		FVector RocketScale = rocket->GetActorScale3D();
+		float ScaleStep = a_deltaTime * 2.0f;
 		RocketScale = FVector(RocketScale.X - ScaleStep, RocketScale.Y - (ScaleStep * 1.5f) , RocketScale.Z - ScaleStep);
 		if (RocketScale.X < 0.0f || RocketScale.Y < 0.0f || RocketScale.Z < 0.0f)
 		{
 			RocketScale = FVector(0.0f, 0.0f, 0.0f);
 		}
-		Rocket->SetActorScale3D(RocketScale);
+		rocket->SetActorScale3D(RocketScale);
 
 		// Pull the lever.
 		NewRotation = FRotator(1.0f, 0.0f, 0.0f);
 		QuatRotation = FQuat(NewRotation);
-		Lever->AddActorLocalRotation(QuatRotation);
-		FRotator CurrentLeverRotation = Lever->GetActorRotation();
+		lever->AddActorLocalRotation(QuatRotation);
+		FRotator CurrentLeverRotation = lever->GetActorRotation();
 		if (CurrentLeverRotation.Pitch > 50.0f)
 		{
 			FRotator NewLeverRotation = FRotator(50.0f, 0.0f, 0.0f);
-			Lever->SetActorRotation(NewLeverRotation);
+			lever->SetActorRotation(NewLeverRotation);
 		}
 
 		// Ends the game.
-		if (EndTime <= 0.0f)
+		if (endTime <= 0.0f)
 		{
+			// Resets the game.
 			ResetGame();
 		}
 	}
@@ -101,13 +116,13 @@ void AGameController::Tick(float DeltaTime)
 // Makes the billboard indicate that the guards won.
 void AGameController::GuardVicorySequence()
 {
-	CountDownBillboard->DisplayGuardWin();
+	countDownBillboard->DisplayGuardWin();
 }
 
 // Makes the billboard indicate that the spy won.
 void AGameController::SpyVicorySequence()
 {
-	CountDownBillboard->DisplaySpyWin();
+	countDownBillboard->DisplaySpyWin();
 }
 
 // Resets the game.
@@ -115,8 +130,8 @@ void AGameController::ResetGame()
 {
 	if (ASpectateAIGameMode* GM = Cast<ASpectateAIGameMode>(GetWorld()->GetAuthGameMode()))
 	{
-		AGameController::GuardVicory = false;
-		AGameController::SpyVicory = false;
+		AGameController::guardVictory = false;
+		AGameController::spyVictory = false;
 		GM->RestartGame();
 	}
 }

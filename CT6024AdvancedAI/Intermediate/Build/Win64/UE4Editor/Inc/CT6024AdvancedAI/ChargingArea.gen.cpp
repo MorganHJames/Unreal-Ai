@@ -34,27 +34,27 @@ void EmptyLinkFunctionForGeneratedCodeChargingArea() {}
 	{
 		struct ChargingArea_eventOnOverlapBegin_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapBegin_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapBegin_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapBegin_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapBegin_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/ChargingArea.h" },
-		{ "ToolTip", "declare overlap begin function" },
+		{ "ToolTip", "Declare overlap begin function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AChargingArea, nullptr, "OnOverlapBegin", sizeof(ChargingArea_eventOnOverlapBegin_Parms), Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AChargingArea_OnOverlapBegin_Statics::Function_MetaDataParams)) };
@@ -71,27 +71,27 @@ void EmptyLinkFunctionForGeneratedCodeChargingArea() {}
 	{
 		struct ChargingArea_eventOnOverlapEnd_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapEnd_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapEnd_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapEnd_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ChargingArea_eventOnOverlapEnd_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/ChargingArea.h" },
-		{ "ToolTip", "declare overlap end function" },
+		{ "ToolTip", "Declare overlap end function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AChargingArea, nullptr, "OnOverlapEnd", sizeof(ChargingArea_eventOnOverlapEnd_Parms), Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AChargingArea_OnOverlapEnd_Statics::Function_MetaDataParams)) };
@@ -123,8 +123,8 @@ void EmptyLinkFunctionForGeneratedCodeChargingArea() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AChargingArea_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AChargingArea_OnOverlapBegin, "OnOverlapBegin" }, // 69495622
-		{ &Z_Construct_UFunction_AChargingArea_OnOverlapEnd, "OnOverlapEnd" }, // 3168240192
+		{ &Z_Construct_UFunction_AChargingArea_OnOverlapBegin, "OnOverlapBegin" }, // 1922886862
+		{ &Z_Construct_UFunction_AChargingArea_OnOverlapEnd, "OnOverlapEnd" }, // 3699822974
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AChargingArea_Statics::Class_MetaDataParams[] = {
@@ -159,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeChargingArea() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AChargingArea, 1139962638);
+	IMPLEMENT_CLASS(AChargingArea, 3796060395);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AChargingArea>()
 	{
 		return AChargingArea::StaticClass();

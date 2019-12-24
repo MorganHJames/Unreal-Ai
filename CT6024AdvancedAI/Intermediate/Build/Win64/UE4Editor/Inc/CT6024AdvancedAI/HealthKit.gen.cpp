@@ -35,18 +35,18 @@ void EmptyLinkFunctionForGeneratedCodeHealthKit() {}
 	{
 		struct HealthKit_eventOnHealthKitHit_Parms
 		{
-			AActor* SelfActor;
-			AActor* OtherActor;
-			FVector NormalImpulse;
-			FHitResult Hit;
+			AActor* a_selfActor;
+			AActor* a_otherActor;
+			FVector a_normalImpulse;
+			FHitResult a_hit;
 		};
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_a_hit_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelfActor;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_a_hit;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_a_normalImpulse;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_selfActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -54,23 +54,24 @@ void EmptyLinkFunctionForGeneratedCodeHealthKit() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_Hit_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_hit_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_Hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_Hit_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_SelfActor = { "SelfActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, SelfActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_hit = { "a_hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, a_hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_hit_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_hit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_normalImpulse = { "a_normalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, a_normalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_selfActor = { "a_selfActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealthKit_eventOnHealthKitHit_Parms, a_selfActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_Hit,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_NormalImpulse,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_SelfActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_hit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_normalImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::NewProp_a_selfActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/HealthKit.h" },
+		{ "ToolTip", "The on hit functionality of the health kit." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHealthKit, nullptr, "OnHealthKitHit", sizeof(HealthKit_eventOnHealthKitHit_Parms), Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AHealthKit_OnHealthKitHit_Statics::Function_MetaDataParams)) };
@@ -95,13 +96,13 @@ void EmptyLinkFunctionForGeneratedCodeHealthKit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VerticalMesh_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_verticalMesh_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VerticalMesh;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_verticalMesh;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HorizontalMesh_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_horizontalMesh_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HorizontalMesh;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_horizontalMesh;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -111,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthKit() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AHealthKit_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AHealthKit_OnHealthKitHit, "OnHealthKitHit" }, // 105986619
+		{ &Z_Construct_UFunction_AHealthKit_OnHealthKitHit, "OnHealthKitHit" }, // 1873465954
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealthKit_Statics::Class_MetaDataParams[] = {
@@ -120,26 +121,26 @@ void EmptyLinkFunctionForGeneratedCodeHealthKit() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealthKit_Statics::NewProp_VerticalMesh_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealthKit_Statics::NewProp_verticalMesh_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/HealthKit.h" },
 		{ "ToolTip", "The vertical part of the health kit." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHealthKit_Statics::NewProp_VerticalMesh = { "VerticalMesh", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealthKit, VerticalMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHealthKit_Statics::NewProp_VerticalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealthKit_Statics::NewProp_VerticalMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHealthKit_Statics::NewProp_verticalMesh = { "verticalMesh", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealthKit, verticalMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHealthKit_Statics::NewProp_verticalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealthKit_Statics::NewProp_verticalMesh_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealthKit_Statics::NewProp_HorizontalMesh_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealthKit_Statics::NewProp_horizontalMesh_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/HealthKit.h" },
 		{ "ToolTip", "The horizontal part of the health kit." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHealthKit_Statics::NewProp_HorizontalMesh = { "HorizontalMesh", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealthKit, HorizontalMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHealthKit_Statics::NewProp_HorizontalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealthKit_Statics::NewProp_HorizontalMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHealthKit_Statics::NewProp_horizontalMesh = { "horizontalMesh", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealthKit, horizontalMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHealthKit_Statics::NewProp_horizontalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealthKit_Statics::NewProp_horizontalMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHealthKit_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealthKit_Statics::NewProp_VerticalMesh,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealthKit_Statics::NewProp_HorizontalMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealthKit_Statics::NewProp_verticalMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealthKit_Statics::NewProp_horizontalMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHealthKit_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHealthKit>::IsAbstract,
@@ -168,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthKit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHealthKit, 1721536918);
+	IMPLEMENT_CLASS(AHealthKit, 2713758379);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AHealthKit>()
 	{
 		return AHealthKit::StaticClass();

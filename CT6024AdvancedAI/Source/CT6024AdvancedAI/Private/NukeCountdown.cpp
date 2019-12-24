@@ -1,27 +1,32 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: NukeCountdown.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎14 December ‎2019, ‏‎03:19:43
+// Brief: Controls the billboard that indicates the nuke launch status.
+//////////////////////////////////////////////////////////// 
 
 #include "NukeCountdown.h"
 #include "GameController.h"
 #include "Components/TextRenderComponent.h"
 #include "SpectateAIGameMode.h"
 
-// Sets default values
+// Sets default values.
 ANukeCountdown::ANukeCountdown()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//The background object for the countdown.
-	Background = CreateDefaultSubobject<UStaticMeshComponent>("Background");
+	// The background object for the countdown.
+	background = CreateDefaultSubobject<UStaticMeshComponent>("Background");
 
-	//The text that counts down.
-	CountDownText = CreateDefaultSubobject<UTextRenderComponent>("CountDownText");
+	// The text that counts down.
+	countDownText = CreateDefaultSubobject<UTextRenderComponent>("CountDownText");
 
-	//The info text explaining what the timer indicates.
-	InfoText = CreateDefaultSubobject<UTextRenderComponent>("InfoText");
+	// The info text explaining what the timer indicates.
+	infoText = CreateDefaultSubobject<UTextRenderComponent>("InfoText");
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned.
 void ANukeCountdown::BeginPlay()
 {
 	Super::BeginPlay();
@@ -31,69 +36,80 @@ void ANukeCountdown::BeginPlay()
 void ANukeCountdown::DisplayRestartingText()
 {
 	FString RestartText = FString("Simulation Restarting Soon!");
-	InfoText->SetText(RestartText);
+	infoText->SetText(RestartText);
 }
 
-// Called every frame
-void ANukeCountdown::Tick(float DeltaTime)
+// Called every frame.
+void ANukeCountdown::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
 
-	if (Countdown)
+	// If the billboard should be counting down.
+	if (countdown)
 	{
-		//Counts down the timer.
-		TimeRemaining -= DeltaTime;
+		// Counts down the timer.
+		timeRemaining -= a_deltaTime;
 
-		if (TimeRemaining < 0.0f)
+		// Clamp timer.
+		if (timeRemaining < 0.0f)
 		{
-			TimeRemaining = 0.0f;
+			timeRemaining = 0.0f;
 		}
 
-		if (TimeRemaining == 0.0f)
+		// If the time is up.
+		if (timeRemaining == 0.0f)
 		{
 			if (ASpectateAIGameMode* GM = Cast<ASpectateAIGameMode>(GetWorld()->GetAuthGameMode()))
 			{
+				// Indicated for the guards to win.
 				GM->GuardsWin();
 			}
 		}
 
-		AGameController::currentTime = TimeRemaining;
+		// Sets the game controller time to the remaining time.
+		AGameController::currentTime = timeRemaining;
 
-		//Sets up the text string.
-		FString RemainingTimeString = FString::FromInt((int)TimeRemaining);
+		// Sets up the text string.
+		FString RemainingTimeString = FString::FromInt((int)timeRemaining);
 
-		//Sets the text.
-		CountDownText->SetText(RemainingTimeString);
+		// Sets the text.
+		countDownText->SetText(RemainingTimeString);
 	}
 }
 
 // Display that the guards won.
 void ANukeCountdown::DisplayGuardWin()
 {
-	Countdown = false;
+	// Stops the count down.
+	countdown = false;
+
+	// Shows the text that indicates a reset will take place soon.
 	DisplayRestartingText();
 
-	//Sets up the text string.
+	// Sets up the text string.
 	FString GuardsWonText = FString("Guards Won");
 
-	//Sets the text.
-	CountDownText->SetText(GuardsWonText);
-	CountDownText->SetXScale(0.35f);
-	CountDownText->SetYScale(0.35f);
+	// Sets the text.
+	countDownText->SetText(GuardsWonText);
+	countDownText->SetXScale(0.35f);
+	countDownText->SetYScale(0.35f);
 }
 
 // Display that the spy won.
 void ANukeCountdown::DisplaySpyWin()
 {
-	Countdown = false;
+	// Stops the count down.
+	countdown = false;
+
+	// Shows the text that indicates a reset will take place soon.
 	DisplayRestartingText();
 
-	//Sets up the text string.
+	// Sets up the text string.
 	FString SpyWinText = FString("Spy Won");
 
-	//Sets the text.
-	CountDownText->SetText(SpyWinText);
-	CountDownText->SetXScale(0.4f);
-	CountDownText->SetYScale(0.4f);
+	// Sets the text.
+	countDownText->SetText(SpyWinText);
+	countDownText->SetXScale(0.4f);
+	countDownText->SetYScale(0.4f);
 }
 

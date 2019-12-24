@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CT6024ADVANCEDAI_Guard_generated_h
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_RPC_WRAPPERS
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_INCLASS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_RPC_WRAPPERS
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGuard(); \
 	friend struct Z_Construct_UClass_AGuard_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AGuard)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_INCLASS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAGuard(); \
 	friend struct Z_Construct_UClass_AGuard_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AGuard)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_STANDARD_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGuard(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGuard) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_ENHANCED_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGuard(AGuard&&); \
@@ -57,31 +57,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGuard); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGuard)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__EnergyText() { return STRUCT_OFFSET(AGuard, EnergyText); } \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__energyText() { return STRUCT_OFFSET(AGuard, energyText); } \
 	FORCEINLINE static uint32 __PPO__healthKitLocations() { return STRUCT_OFFSET(AGuard, healthKitLocations); } \
-	FORCEINLINE static uint32 __PPO__ChargingLocation() { return STRUCT_OFFSET(AGuard, ChargingLocation); }
+	FORCEINLINE static uint32 __PPO__chargingLocation() { return STRUCT_OFFSET(AGuard, chargingLocation); }
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_12_PROLOG
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_GENERATED_BODY_LEGACY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_PROLOG
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_RPC_WRAPPERS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_INCLASS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_STANDARD_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_RPC_WRAPPERS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_INCLASS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_GENERATED_BODY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_INCLASS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_15_ENHANCED_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_INCLASS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Guard_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

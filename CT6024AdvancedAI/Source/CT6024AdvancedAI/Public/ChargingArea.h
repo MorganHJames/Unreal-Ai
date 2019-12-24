@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: ChargingArea.h
+// Author: Morgan Henry James
+// Date Created: ‎15 December ‎2019, ‏‎19:37:20
+// Brief: Declaration of the charging area class.
+//////////////////////////////////////////////////////////// 
 
 #pragma once
 
@@ -6,29 +11,25 @@
 #include "Engine/TriggerBox.h"
 #include "ChargingArea.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class CT6024ADVANCEDAI_API AChargingArea : public ATriggerBox
 {
 	GENERATED_BODY()
 
 protected:
-
-	// Called when the game starts or when spawned
+	// Called when the game starts or when spawned.
 	virtual void BeginPlay() override;
 
 public:
-	// constructor sets default values for this actor's properties
+	// Constructor sets default values for this actor's properties.
 	AChargingArea();
 
-	// declare overlap begin function
+	// Declare overlap begin function.
 	UFUNCTION()
-	void OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor);
+	void OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor);
 
-	// declare overlap end function
+	// Declare overlap end function.
 	UFUNCTION()
-	void OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor);
+	void OnOverlapEnd(class AActor* a_overlappedActor, class AActor* a_otherActor);
 	
 };

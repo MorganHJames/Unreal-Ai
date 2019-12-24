@@ -1,15 +1,21 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+﻿////////////////////////////////////////////////////////////
+// File: SpectateAIGameMode.cpp
+// Author: Morgan Henry James
+// Date Created: ‎15 December ‎2019, ‏‎21:03:26
+// Brief: Sets the states of victory.
+//////////////////////////////////////////////////////////// 
 
 #include "SpectateAIGameMode.h"
 #include "GameController.h"
 
+// Indicates that the guards have won.
 void ASpectateAIGameMode::GuardsWin()
 {
-	AGameController::GuardVicory = true;
+	AGameController::guardVictory = true;
 }
 
+// Indicates that the spy won.
 void ASpectateAIGameMode::SpyWin()
 {
-	AGameController::SpyVicory = true;
+	AGameController::spyVictory = true;
 }

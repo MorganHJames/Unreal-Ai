@@ -34,17 +34,17 @@ void EmptyLinkFunctionForGeneratedCodeNukeCountdown() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InfoText_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_infoText_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InfoText;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_infoText;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountDownText_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_countDownText_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CountDownText;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_countDownText;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Background_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_background_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Background;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_background;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -60,33 +60,36 @@ void EmptyLinkFunctionForGeneratedCodeNukeCountdown() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANukeCountdown_Statics::NewProp_InfoText_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANukeCountdown_Statics::NewProp_infoText_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/NukeCountdown.h" },
+		{ "ToolTip", "The text that indicates what the timer indicates." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANukeCountdown_Statics::NewProp_InfoText = { "InfoText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANukeCountdown, InfoText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_InfoText_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_InfoText_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANukeCountdown_Statics::NewProp_infoText = { "infoText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANukeCountdown, infoText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_infoText_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_infoText_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANukeCountdown_Statics::NewProp_CountDownText_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANukeCountdown_Statics::NewProp_countDownText_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/NukeCountdown.h" },
+		{ "ToolTip", "The text that has the number indicating the time left until a rocket launch happens." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANukeCountdown_Statics::NewProp_CountDownText = { "CountDownText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANukeCountdown, CountDownText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_CountDownText_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_CountDownText_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANukeCountdown_Statics::NewProp_countDownText = { "countDownText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANukeCountdown, countDownText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_countDownText_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_countDownText_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANukeCountdown_Statics::NewProp_Background_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANukeCountdown_Statics::NewProp_background_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/NukeCountdown.h" },
+		{ "ToolTip", "The background mesh for the bill board." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANukeCountdown_Statics::NewProp_Background = { "Background", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANukeCountdown, Background), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_Background_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_Background_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANukeCountdown_Statics::NewProp_background = { "background", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANukeCountdown, background), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_background_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANukeCountdown_Statics::NewProp_background_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANukeCountdown_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANukeCountdown_Statics::NewProp_InfoText,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANukeCountdown_Statics::NewProp_CountDownText,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANukeCountdown_Statics::NewProp_Background,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANukeCountdown_Statics::NewProp_infoText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANukeCountdown_Statics::NewProp_countDownText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANukeCountdown_Statics::NewProp_background,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANukeCountdown_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANukeCountdown>::IsAbstract,
@@ -115,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeNukeCountdown() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANukeCountdown, 3814180177);
+	IMPLEMENT_CLASS(ANukeCountdown, 3514268763);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<ANukeCountdown>()
 	{
 		return ANukeCountdown::StaticClass();

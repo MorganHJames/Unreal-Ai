@@ -38,27 +38,27 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 	{
 		struct Humanoid_eventOnOverlapBegin_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapBegin_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapBegin_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapBegin_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapBegin_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
-		{ "ToolTip", "declare overlap begin function." },
+		{ "ToolTip", "Declare overlap begin function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHumanoid, nullptr, "OnOverlapBegin", sizeof(Humanoid_eventOnOverlapBegin_Parms), Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AHumanoid_OnOverlapBegin_Statics::Function_MetaDataParams)) };
@@ -75,27 +75,27 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 	{
 		struct Humanoid_eventOnOverlapEnd_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapEnd_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapEnd_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapEnd_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Humanoid_eventOnOverlapEnd_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
-		{ "ToolTip", "declare overlap end function." },
+		{ "ToolTip", "Declare overlap end function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHumanoid, nullptr, "OnOverlapEnd", sizeof(Humanoid_eventOnOverlapEnd_Parms), Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AHumanoid_OnOverlapEnd_Statics::Function_MetaDataParams)) };
@@ -120,27 +120,27 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VisionBox_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_visionBox_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VisionBox;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_visionBox;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Locations_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_locations_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Locations;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Locations_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_locations;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_locations_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthText_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_healthText_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthText;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_healthText;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorsSeen_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_actorsSeen_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ActorsSeen;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorsSeen_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_actorsSeen;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actorsSeen_Inner;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletClass_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletClass_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BulletClass;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_bulletClass;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -150,8 +150,8 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AHumanoid_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AHumanoid_OnOverlapBegin, "OnOverlapBegin" }, // 2744663362
-		{ &Z_Construct_UFunction_AHumanoid_OnOverlapEnd, "OnOverlapEnd" }, // 395970640
+		{ &Z_Construct_UFunction_AHumanoid_OnOverlapBegin, "OnOverlapBegin" }, // 3663817632
+		{ &Z_Construct_UFunction_AHumanoid_OnOverlapEnd, "OnOverlapEnd" }, // 2423795595
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::Class_MetaDataParams[] = {
@@ -161,51 +161,56 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_visionBox_MetaData[] = {
 		{ "Category", "References" },
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
+		{ "ToolTip", "A reference to the vision box that humanoid should use for it's vision." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox = { "VisionBox", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, VisionBox), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_visionBox = { "visionBox", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, visionBox), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_visionBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_visionBox_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_MetaData[] = {
-		{ "Category", "Locations" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_locations_MetaData[] = {
+		{ "Category", "locations" },
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
+		{ "ToolTip", "The locations that the humanoid can wander to." },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations = { "Locations", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, Locations), METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_Inner = { "Locations", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_locations = { "locations", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, locations), METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_locations_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_locations_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_locations_Inner = { "locations", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_healthText_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
+		{ "ToolTip", "The text that indicates the humanoids current health above it's head." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText = { "HealthText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, HealthText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_healthText = { "healthText", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, healthText), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_healthText_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_healthText_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen_MetaData[] = {
 		{ "Category", "References" },
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
+		{ "ToolTip", "The actors that the humanoid has seen." },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen = { "ActorsSeen", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, ActorsSeen), METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_Inner = { "ActorsSeen", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen = { "actorsSeen", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, actorsSeen), METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen_Inner = { "actorsSeen", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHumanoid_Statics::NewProp_bulletClass_MetaData[] = {
 		{ "Category", "Shooting" },
 		{ "ModuleRelativePath", "Public/Humanoid.h" },
+		{ "ToolTip", "The bullet to spawn in front of the humanoid." },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass = { "BulletClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, BulletClass), Z_Construct_UClass_ABullet_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AHumanoid_Statics::NewProp_bulletClass = { "bulletClass", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHumanoid, bulletClass), Z_Construct_UClass_ABullet_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AHumanoid_Statics::NewProp_bulletClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHumanoid_Statics::NewProp_bulletClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHumanoid_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_VisionBox,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_Locations_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_HealthText,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_ActorsSeen_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_BulletClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_visionBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_locations,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_locations_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_healthText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_actorsSeen_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHumanoid_Statics::NewProp_bulletClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHumanoid_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHumanoid>::IsAbstract,
@@ -234,7 +239,7 @@ void EmptyLinkFunctionForGeneratedCodeHumanoid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHumanoid, 2089669105);
+	IMPLEMENT_CLASS(AHumanoid, 2171762169);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<AHumanoid>()
 	{
 		return AHumanoid::StaticClass();

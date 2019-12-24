@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: Locker.h
+// Author: Morgan Henry James
+// Date Created: ‎16 December ‎2019, ‏‎04:58:49
+// Brief: Declaration of the locker class.
+//////////////////////////////////////////////////////////// 
 
 #pragma once
 
@@ -6,9 +11,6 @@
 #include "GameFramework/Actor.h"
 #include "Locker.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class CT6024ADVANCEDAI_API ALocker : public AActor
 {
@@ -18,31 +20,35 @@ public:
 	ALocker();
 
 protected:
-	// Called when the game starts or when spawned
+	// Called when the game starts or when spawned.
 	virtual void BeginPlay() override;
 
-	class ASpy* TheSpy;
+	// The spy.
+	class ASpy* spy;
 
-	FTransform SpyPreviousLocation;
+	// The location of the spy when entering the locker.
+	FTransform spyPreviousLocation;
 
-	bool LockerFull = false;
+	// True when the spy is in the locker.
+	bool lockerFull = false;
 
+	// The area of which the spy can enter the locker.
 	UPROPERTY(EditAnywhere, Category = "Reference")
-	class ATriggerBox* TriggerBox;
+	class ATriggerBox* triggerBox;
 
+	// The mesh of the locker.
 	UPROPERTY(EditAnywhere, Category = "Components")
-	class UStaticMeshComponent* Locker;
+	class UStaticMeshComponent* locker;
 	
 public:
+	// Called every frame.
+	virtual void Tick(float a_deltaTime) override;
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// declare overlap begin function
+	// Declare overlap begin function.
 	UFUNCTION()
-	void OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor);
+	void OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor);
 
-	// declare overlap end function
+	// Declare overlap end function.
 	UFUNCTION()
-	void OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor);
+	void OnOverlapEnd(class AActor* a_overlappedActor, class AActor* a_otherActor);
 };

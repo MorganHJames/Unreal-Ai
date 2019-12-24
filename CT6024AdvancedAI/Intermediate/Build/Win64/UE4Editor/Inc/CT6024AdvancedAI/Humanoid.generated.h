@@ -14,53 +14,53 @@ class AActor;
 #endif
 #define CT6024ADVANCEDAI_Humanoid_generated_h
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_overlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlapEnd(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_THIS->OnOverlapEnd(Z_Param_a_overlappedActor,Z_Param_a_otherActor); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_overlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlapBegin(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_THIS->OnOverlapBegin(Z_Param_a_overlappedActor,Z_Param_a_otherActor); \
 		P_NATIVE_END; \
 	}
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_overlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlapEnd(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_THIS->OnOverlapEnd(Z_Param_a_overlappedActor,Z_Param_a_otherActor); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_overlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnOverlapBegin(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_THIS->OnOverlapBegin(Z_Param_a_overlappedActor,Z_Param_a_otherActor); \
 		P_NATIVE_END; \
 	}
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHumanoid(); \
 	friend struct Z_Construct_UClass_AHumanoid_Statics; \
@@ -69,7 +69,7 @@ public: \
 	DECLARE_SERIALIZER(AHumanoid)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAHumanoid(); \
 	friend struct Z_Construct_UClass_AHumanoid_Statics; \
@@ -78,7 +78,7 @@ public: \
 	DECLARE_SERIALIZER(AHumanoid)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_STANDARD_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHumanoid(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHumanoid) \
@@ -91,7 +91,7 @@ private: \
 public:
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_ENHANCED_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AHumanoid(AHumanoid&&); \
@@ -102,33 +102,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHumanoid); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHumanoid)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__BulletClass() { return STRUCT_OFFSET(AHumanoid, BulletClass); } \
-	FORCEINLINE static uint32 __PPO__ActorsSeen() { return STRUCT_OFFSET(AHumanoid, ActorsSeen); } \
-	FORCEINLINE static uint32 __PPO__HealthText() { return STRUCT_OFFSET(AHumanoid, HealthText); } \
-	FORCEINLINE static uint32 __PPO__Locations() { return STRUCT_OFFSET(AHumanoid, Locations); } \
-	FORCEINLINE static uint32 __PPO__VisionBox() { return STRUCT_OFFSET(AHumanoid, VisionBox); }
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__bulletClass() { return STRUCT_OFFSET(AHumanoid, bulletClass); } \
+	FORCEINLINE static uint32 __PPO__actorsSeen() { return STRUCT_OFFSET(AHumanoid, actorsSeen); } \
+	FORCEINLINE static uint32 __PPO__healthText() { return STRUCT_OFFSET(AHumanoid, healthText); } \
+	FORCEINLINE static uint32 __PPO__locations() { return STRUCT_OFFSET(AHumanoid, locations); } \
+	FORCEINLINE static uint32 __PPO__visionBox() { return STRUCT_OFFSET(AHumanoid, visionBox); }
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_10_PROLOG
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_GENERATED_BODY_LEGACY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_15_PROLOG
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_STANDARD_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_RPC_WRAPPERS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_INCLASS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_GENERATED_BODY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_INCLASS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_13_ENHANCED_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_INCLASS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_Humanoid_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -16,37 +16,37 @@ struct FHitResult;
 #endif
 #define CT6024ADVANCEDAI_HealthKit_generated_h
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_RPC_WRAPPERS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHealthKitHit) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_SelfActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_GET_OBJECT(AActor,Z_Param_a_selfActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_STRUCT(FVector,Z_Param_a_normalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_a_hit); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnHealthKitHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_THIS->OnHealthKitHit(Z_Param_a_selfActor,Z_Param_a_otherActor,Z_Param_a_normalImpulse,Z_Param_Out_a_hit); \
 		P_NATIVE_END; \
 	}
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHealthKitHit) \
 	{ \
-		P_GET_OBJECT(AActor,Z_Param_SelfActor); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_GET_OBJECT(AActor,Z_Param_a_selfActor); \
+		P_GET_OBJECT(AActor,Z_Param_a_otherActor); \
+		P_GET_STRUCT(FVector,Z_Param_a_normalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_a_hit); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->OnHealthKitHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_THIS->OnHealthKitHit(Z_Param_a_selfActor,Z_Param_a_otherActor,Z_Param_a_normalImpulse,Z_Param_Out_a_hit); \
 		P_NATIVE_END; \
 	}
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_INCLASS_NO_PURE_DECLS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHealthKit(); \
 	friend struct Z_Construct_UClass_AHealthKit_Statics; \
@@ -55,7 +55,7 @@ public: \
 	DECLARE_SERIALIZER(AHealthKit)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_INCLASS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAHealthKit(); \
 	friend struct Z_Construct_UClass_AHealthKit_Statics; \
@@ -64,7 +64,7 @@ public: \
 	DECLARE_SERIALIZER(AHealthKit)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_STANDARD_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHealthKit(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHealthKit) \
@@ -77,7 +77,7 @@ private: \
 public:
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_ENHANCED_CONSTRUCTORS \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AHealthKit(AHealthKit&&); \
@@ -88,30 +88,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHealthKit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHealthKit)
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__HorizontalMesh() { return STRUCT_OFFSET(AHealthKit, HorizontalMesh); } \
-	FORCEINLINE static uint32 __PPO__VerticalMesh() { return STRUCT_OFFSET(AHealthKit, VerticalMesh); }
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__horizontalMesh() { return STRUCT_OFFSET(AHealthKit, horizontalMesh); } \
+	FORCEINLINE static uint32 __PPO__verticalMesh() { return STRUCT_OFFSET(AHealthKit, verticalMesh); }
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_9_PROLOG
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_GENERATED_BODY_LEGACY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_14_PROLOG
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_RPC_WRAPPERS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_INCLASS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_STANDARD_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_RPC_WRAPPERS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_INCLASS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_GENERATED_BODY \
+#define CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_PRIVATE_PROPERTY_OFFSET \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_INCLASS_NO_PURE_DECLS \
-	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_12_ENHANCED_CONSTRUCTORS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_PRIVATE_PROPERTY_OFFSET \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_INCLASS_NO_PURE_DECLS \
+	CT6024AdvancedAI_Source_CT6024AdvancedAI_Public_HealthKit_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

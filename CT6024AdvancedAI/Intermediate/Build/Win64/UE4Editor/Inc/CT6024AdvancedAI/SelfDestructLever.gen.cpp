@@ -34,27 +34,27 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 	{
 		struct SelfDestructLever_eventOnOverlapBegin_Parms
 		{
-			AActor* OverlappedActor;
-			AActor* OtherActor;
+			AActor* a_overlappedActor;
+			AActor* a_otherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_otherActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a_overlappedActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SelfDestructLever_eventOnOverlapBegin_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SelfDestructLever_eventOnOverlapBegin_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_a_otherActor = { "a_otherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SelfDestructLever_eventOnOverlapBegin_Parms, a_otherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_a_overlappedActor = { "a_overlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SelfDestructLever_eventOnOverlapBegin_Parms, a_overlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_OtherActor,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_a_otherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::NewProp_a_overlappedActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/SelfDestructLever.h" },
-		{ "ToolTip", "declare overlap begin function" },
+		{ "ToolTip", "Declare overlap begin function." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASelfDestructLever, nullptr, "OnOverlapBegin", sizeof(SelfDestructLever_eventOnOverlapBegin_Parms), Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin_Statics::Function_MetaDataParams)) };
@@ -79,13 +79,13 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerBox_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_triggerBox_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerBox;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_triggerBox;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LeverBase_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_leverBase_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LeverBase;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_leverBase;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CT6024AdvancedAI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASelfDestructLever_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin, "OnOverlapBegin" }, // 3551610708
+		{ &Z_Construct_UFunction_ASelfDestructLever_OnOverlapBegin, "OnOverlapBegin" }, // 1140711529
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::Class_MetaDataParams[] = {
@@ -104,23 +104,25 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_triggerBox_MetaData[] = {
 		{ "Category", "Reference" },
 		{ "ModuleRelativePath", "Public/SelfDestructLever.h" },
+		{ "ToolTip", "The trigger box for the lever activation." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox = { "TriggerBox", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASelfDestructLever, TriggerBox), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_triggerBox = { "triggerBox", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASelfDestructLever, triggerBox), Z_Construct_UClass_ATriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_triggerBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_triggerBox_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_leverBase_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/SelfDestructLever.h" },
+		{ "ToolTip", "The base of the lever." },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase = { "LeverBase", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASelfDestructLever, LeverBase), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_leverBase = { "leverBase", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASelfDestructLever, leverBase), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_leverBase_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_leverBase_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASelfDestructLever_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_TriggerBox,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_LeverBase,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_triggerBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASelfDestructLever_Statics::NewProp_leverBase,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASelfDestructLever_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASelfDestructLever>::IsAbstract,
@@ -149,7 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeSelfDestructLever() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASelfDestructLever, 2169620672);
+	IMPLEMENT_CLASS(ASelfDestructLever, 4019687864);
 	template<> CT6024ADVANCEDAI_API UClass* StaticClass<ASelfDestructLever>()
 	{
 		return ASelfDestructLever::StaticClass();

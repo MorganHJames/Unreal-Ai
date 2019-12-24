@@ -1,65 +1,89 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: HealthKit.cpp
+// Author: Morgan Henry James
+// Date Created: ‎15 December ‎2019, ‏‎18:00:57
+// Brief: Controls how health kits can be interacted with.
+//////////////////////////////////////////////////////////// 
 
 #include "HealthKit.h"
 #include "Components/StaticMeshComponent.h" 
 #include "Humanoid.h"
 
-// Sets default values
+// Sets default values.
 AHealthKit::AHealthKit()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	HorizontalMesh = CreateDefaultSubobject<UStaticMeshComponent>("HorizontalMesh");
+	// The horizontal mesh of the health kit.
+	horizontalMesh = CreateDefaultSubobject<UStaticMeshComponent>("horizontalMesh");
 
 	// Set the root.
-	SetRootComponent(HorizontalMesh);
+	SetRootComponent(horizontalMesh);
 
-	VerticalMesh = CreateDefaultSubobject<UStaticMeshComponent>("VerticalMesh");
+	// The vertical mesh of the health kit.
+	verticalMesh = CreateDefaultSubobject<UStaticMeshComponent>("verticalMesh");
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned.
 void AHealthKit::BeginPlay()
 {
+	// Add the on health kit hit event to the health kit.
 	OnActorHit.AddDynamic(this, &AHealthKit::OnHealthKitHit);
-	StartingLocation = GetActorLocation();
+
+	// Set the starting location of the health kit.
+	startingLocation = GetActorLocation();
 	Super::BeginPlay();
 }
 
-// Called every frame
-void AHealthKit::Tick(float DeltaTime)
+// Called every frame.
+void AHealthKit::Tick(float a_deltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(a_deltaTime);
+
+	// Sets the new location to the actors current location.
 	FVector NewLocation = GetActorLocation();
 
-	if (GoingUp)
+	// If the health should be going up.
+	if (goingUp)
 	{
-		NewLocation.Z += (DeltaTime * FloatingSpeed);
-		if (NewLocation.Z - StartingLocation.Z > FloatingDistance)
+		// Move the health kit up.
+		NewLocation.Z += (a_deltaTime * floatingSpeed);
+
+		// If the health kit is too high.
+		if (NewLocation.Z - startingLocation.Z > floatingDistance)
 		{
-			GoingUp = false;
+			// Indicate for the health kit to go down.
+			goingUp = false;
 		}
 	}
 	else
 	{
-		NewLocation.Z -= (DeltaTime * FloatingSpeed);
-		if (NewLocation.Z - StartingLocation.Z < -FloatingDistance)
+		// Move the health kit down.
+		NewLocation.Z -= (a_deltaTime * floatingSpeed);
+
+		// If the health kit is too low.
+		if (NewLocation.Z - startingLocation.Z < -floatingDistance)
 		{
-			GoingUp = true;
+			// Indicate for the health kit to go up.
+			goingUp = true;
 		}
 	}
 
+	// Set the actors location to the new location.
 	SetActorLocation(NewLocation);
 }
 
 // Heal the player if they collide with the health kit.
-void AHealthKit::OnHealthKitHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
+void AHealthKit::OnHealthKitHit(AActor* a_selfActor, AActor* a_otherActor, FVector a_normalImpulse, const FHitResult& a_hit)
 {
 	// Check if it hits something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Check if it hits a human.
-		AHumanoid* humanoid = Cast<AHumanoid>(OtherActor);
+		AHumanoid* humanoid = Cast<AHumanoid>(a_otherActor);
+
+		// If the actor is a humanoid.
 		if (humanoid)
 		{
 			// Increase the hit humans health.

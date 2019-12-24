@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: GameController.h
+// Author: Morgan Henry James
+// Date Created: ‎‎16 December ‎2019, ‏‎00:20:58
+// Brief: Declaration of the game controller class.
+//////////////////////////////////////////////////////////// 
 
 #pragma once
 
@@ -15,33 +20,47 @@ public:
 	// Sets default values for this actor's properties
 	AGameController();
 
-	static bool GuardVicory;
-	static bool SpyVicory;
+	// True when the guards win.
+	static bool guardVictory;
+
+	// True when the spy wins.
+	static bool spyVictory;
+
+	// The current time for level.
 	static float currentTime;
 
-	bool GameEnded = false;
-	float EndTime = 5.0f;
+	// True when the game has ended.
+	bool gameEnded = false;
+
+	// The time between ending the gaming and restarting the game.
+	float endTime = 5.0f;
 
 protected:
-	// Called when the game starts or when spawned
+	// Called when the game starts or when spawned.
 	virtual void BeginPlay() override;
 
 	// The rocket.
 	UPROPERTY(EditAnywhere, Category = "References")
-	class AStaticMeshActor* Rocket;
+	class AStaticMeshActor* rocket;
 
+	// The lever the spy needs to pull.
 	UPROPERTY(EditAnywhere, Category = "References")
-	class AStaticMeshActor* Lever;
+	class AStaticMeshActor* lever;
 
 	// The count down billboard.
 	UPROPERTY(EditAnywhere, Category = "References")
-	class ANukeCountdown* CountDownBillboard;
+	class ANukeCountdown* countDownBillboard;
 
 public:	
-	// Called every frame
+	// Called every frame.
 	virtual void Tick(float DeltaTime) override;
 
+	// Called when the guards win.
 	void GuardVicorySequence();
+
+	// Called when the spy wins.
 	void SpyVicorySequence();
+
+	// Resets the game.
 	void ResetGame();
 };

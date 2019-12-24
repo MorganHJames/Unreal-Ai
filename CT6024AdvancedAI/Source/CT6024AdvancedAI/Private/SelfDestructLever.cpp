@@ -1,5 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+﻿////////////////////////////////////////////////////////////
+// File: SelfDestructLever.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎‎15 December ‎2019, ‏‎22:36:28
+// Brief: Controls the lever trigger box.
+//////////////////////////////////////////////////////////// 
 
 #include "SelfDestructLever.h"
 #include "Spy.h"
@@ -7,35 +11,39 @@
 #include "SpectateAIGameMode.h"
 #include "Components/StaticMeshComponent.h" 
 
+// Sets up the components.
 ASelfDestructLever::ASelfDestructLever()
 {
 	//The lever base.
-	LeverBase = CreateDefaultSubobject<UStaticMeshComponent>("LeverBase");
+	leverBase = CreateDefaultSubobject<UStaticMeshComponent>("LeverBase");
 
 	//The trigger box.
-	TriggerBox = CreateDefaultSubobject<ATriggerBox>("TriggerBox");
+	triggerBox = CreateDefaultSubobject<ATriggerBox>("triggerBox");
 }
 
-// Called when the game starts or when spawned
+// Called when the game starts or when spawned.
 void ASelfDestructLever::BeginPlay()
 {
-	//Register Events
-	TriggerBox->OnActorBeginOverlap.AddDynamic(this, &ASelfDestructLever::OnOverlapBegin);
+	// Register Events.
+	triggerBox->OnActorBeginOverlap.AddDynamic(this, &ASelfDestructLever::OnOverlapBegin);
 	Super::BeginPlay();
 }
 
 // Called when an actor starts overlapping.
-void ASelfDestructLever::OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor)
+void ASelfDestructLever::OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor)
 {
 	// Check if it overlaps something.
-	if (OtherActor)
+	if (a_otherActor)
 	{
 		// Check if it overlaps with a spy.
-		ASpy* Spy = Cast<ASpy>(OtherActor);
+		ASpy* Spy = Cast<ASpy>(a_otherActor);
+
+		// If the actor is a spy.
 		if (Spy)
 		{
 			if (ASpectateAIGameMode* GM = Cast<ASpectateAIGameMode>(GetWorld()->GetAuthGameMode()))
 			{
+				// Indicate that the spy won.
 				GM->SpyWin();
 			}
 		}

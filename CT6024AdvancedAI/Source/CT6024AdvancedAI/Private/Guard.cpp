@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: Guard.cpp
+// Author: Morgan Henry James
+// Date Created: ‎‎‎‎13 December ‎2019, ‏‎23:54:43
+// Brief: Controls the guard AI with a finite state machine.
+//////////////////////////////////////////////////////////// 
 
 #include "Guard.h"
 #include "Spy.h"
@@ -9,22 +14,27 @@
 AGuard::AGuard()
 {
 	// The energy text for the guard.
-	EnergyText = CreateDefaultSubobject<UTextRenderComponent>("EnergyText");
+	energyText = CreateDefaultSubobject<UTextRenderComponent>("energyText");
 }
 
 // If the guard can see the spy or not.
 bool AGuard::CanSeeSpy()
 {
-	for (AActor* actor : ActorsInVison)
+	// For all actors in the guards vision
+	for (AActor* actor : actorsInVison)
 	{
 		// Check if actor is spy.
 		ASpy* Spy = Cast<ASpy>(actor);
 
+		// If the actor is a spy.
 		if (Spy)
 		{
+			// Indicate that the guard can see the spy.
 			return true;
 		}
 	}
+
+	// Indicate that the guard can not see the spy.
 	return false;
 }
 
@@ -32,9 +42,9 @@ bool AGuard::CanSeeSpy()
 void AGuard::BeginPlay()
 {
 	// Set a random position to go to.
-	Energy -= FMath::RandRange(0, 80);
-	CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
-	MoveToLocation(CurrentPositionHeadingTo);
+	energy -= FMath::RandRange(0, 80);
+	currentPositionHeadingTo = locations[FMath::RandRange(0, locations.IndexOfByKey(locations.Last()))]->GetActorLocation();
+	MoveToLocation(currentPositionHeadingTo);
 	AHumanoid::BeginPlay();
 }
 
@@ -43,41 +53,46 @@ void AGuard::Tick(float DeltaTime)
 {
 	AHumanoid::Tick(DeltaTime);
 
-	if (Charging)
+	// If the guard is charging.
+	if (charging)
 	{
-		// Decreases the energy of the guard.
-		Energy += DeltaTime * 5.0f;
+		// Increase the energy of the guard.
+		energy += DeltaTime * 5.0f;
 	}
+	// Drain the energy of the guard over time.
 	else
 	{
 		// Decreases the energy of the guard.
-		Energy -= DeltaTime;
+		energy -= DeltaTime;
 	}
 
-	if (Energy > MaxEnergy)
+	// Clamp the energy.
+	if (energy > maxEnergy)
 	{
-		Energy = MaxEnergy;
+		energy = maxEnergy;
 	}
 
-	if (Energy <= 0)
+	// If the guard runs out of energy.
+	if (energy <= 0)
 	{
+		// Kill the guard.
 		Die();
 	}
 
-	//Sets up the text string.
-	FString EnergyRemaining = FString::FromInt((int)Energy);
+	// Sets up the text string.
+	FString EnergyRemaining = FString::FromInt((int)energy);
 
-	//Sets the text.
-	EnergyText->SetText(EnergyRemaining);
+	// Sets the text.
+	energyText->SetText(EnergyRemaining);
 
 	// Updates the AI.
 	UpdateAI();
 }
 
-// Holds the state machine for the guard AI.
+// Contains the state machine for the guard AI behavior.
 void AGuard::UpdateAI()
 {
-	switch (CurrentState)
+	switch (currentState)
 	{
 	case AGuard::Wander:
 		CheckTransitionToAttackBehaviour();
@@ -110,11 +125,14 @@ void AGuard::UpdateAI()
 	}
 }
 
+// Checks the transition to wander from charging.
 bool AGuard::CheckTransitionToWanderFromChargeBehaviour()
 {
-	if (Energy >= 100)
+	// If the guard is charged.
+	if (energy >= 100)
 	{
-		CurrentState = Wander;
+		// Go back to wandering.
+		currentState = Wander;
 		return true;
 	}
 	else
@@ -123,27 +141,35 @@ bool AGuard::CheckTransitionToWanderFromChargeBehaviour()
 	}
 }
 
+// Checks the transitions to wanter from attacking.
 bool AGuard::CheckTransitionToWanderFromAttackBehaviour()
 {
-	for (AActor* actor : ActorsInVison)
+	// For all the actors in the guards vision.
+	for (AActor* actor : actorsInVison)
 	{
 		// Check if actor is spy.
 		ASpy* Spy = Cast<ASpy>(actor);
+
+		// If the actor is a spy.
 		if (Spy)
 		{
 			return true;
 		}
 	}
 
-	CurrentState = Wander;
+	// Go back to wandering.
+	currentState = Wander;
 	return false;
 }
 
+// Checks the transition from wander to healing.
 bool AGuard::CheckTransitionToWanderFromHealBehaviour()
 {
-	if (Health >= 100)
+	// If the guard is at full health.
+	if (health >= 100)
 	{
-		CurrentState = Wander;
+		// go back to wandering.
+		currentState = Wander;
 		return true;
 	}
 	else
@@ -152,14 +178,19 @@ bool AGuard::CheckTransitionToWanderFromHealBehaviour()
 	}
 }
 
+// Checks the transition from wander to avoiding toxic waste.
 bool AGuard::CheckTransitionToWanderFromAvoidToxicBehaviour()
 {
-	for (AActor* actor : ActorsInVison)
+	// For all actors in the guards vision.
+	for (AActor* actor : actorsInVison)
 	{
-		// Check if actor is spy.
+		// Check if actor is a toxic spill.
 		AToxicSpill* toxicSpill = Cast<AToxicSpill>(actor);
+
+		// If the actor is a toxic spill.
 		if (toxicSpill)
 		{
+			// If the guard is close to the spill.
 			if (FVector::Dist(toxicSpill->GetActorLocation(), this->GetActorLocation()) < 300.0f)
 			{
 				return false;
@@ -168,16 +199,20 @@ bool AGuard::CheckTransitionToWanderFromAvoidToxicBehaviour()
 		}
 	}
 
-	CurrentState = Wander;
+	// Go back to wandering.
+	currentState = Wander;
 
 	return true;
 }
 
-bool AGuard::CheckTransitionToChargeBehaviour(int energyUnder)
+// Checks the transition to the charging behavior.
+bool AGuard::CheckTransitionToChargeBehaviour(int a_energyUnder)
 {
-	if (Energy < energyUnder)
+	// If the guards energy level is below the energy under value.
+	if (energy < a_energyUnder)
 	{
-		CurrentState = Charge;
+		// Go charge.
+		currentState = Charge;
 		return true;
 	}
 	else
@@ -186,11 +221,14 @@ bool AGuard::CheckTransitionToChargeBehaviour(int energyUnder)
 	}
 }
 
-bool AGuard::CheckTransitionToHealBehaviour(int healthUnder)
+// Checks the transition to the healing behavior.
+bool AGuard::CheckTransitionToHealBehaviour(int a_healthUnder)
 {
-	if (Health <= healthUnder)
+	// If the guards health is under or equal to the health under value.
+	if (health <= a_healthUnder)
 	{
-		CurrentState = Heal;
+		// go heal.
+		currentState = Heal;
 		return true;
 	}
 	else
@@ -199,15 +237,20 @@ bool AGuard::CheckTransitionToHealBehaviour(int healthUnder)
 	}
 }
 
+// Checks the transition to the attack behavior.
 bool AGuard::CheckTransitionToAttackBehaviour()
 {
-	for (AActor* actor : ActorsInVison)
+	// For all actors in the guards vision.
+	for (AActor* actor : actorsInVison)
 	{
 		// Check if actor is spy.
 		ASpy* Spy = Cast<ASpy>(actor);
+
+		// If the actor is a spy.
 		if (Spy)
 		{
-			CurrentState = Attack;
+			// Go to attack.
+			currentState = Attack;
 			return true;
 		}
 	}
@@ -215,17 +258,24 @@ bool AGuard::CheckTransitionToAttackBehaviour()
 	return false;
 }
 
+
+// Checks the transition to the avoiding toxic waste behavior.
 bool AGuard::CheckTransitionToAvoidToxicBehaviour()
 {
-	for (AActor* actor : ActorsInVison)
+	// For all actors in the guards vision.
+	for (AActor* actor : actorsInVison)
 	{
-		// Check if actor is spy.
+		// Check if actor is toxic spill.
 		AToxicSpill* toxicSpill = Cast<AToxicSpill>(actor);
+
+		// If the actor is a toxic spill.
 		if (toxicSpill)
 		{
+			// If the guard is close to the spill.
 			if (FVector::Dist(toxicSpill->GetActorLocation(), this->GetActorLocation()) < 750.0f)
 			{
-				CurrentState = AvoidToixc;
+				// Go to avoid the toxic.
+				currentState = AvoidToixc;
 				return true;
 			}
 		}
@@ -234,68 +284,91 @@ bool AGuard::CheckTransitionToAvoidToxicBehaviour()
 	return false;
 }
 
-// The functionality of wandering.
+// What the guard should do whilst wandering.
 void AGuard::WanderBehaviour()
 {
-	if (FVector::Dist(CurrentPositionHeadingTo, this->GetActorLocation()) < 100.0f)
+	// If the guard is almost at the location it is headed to.
+	if (FVector::Dist(currentPositionHeadingTo, this->GetActorLocation()) < 100.0f)
 	{
-		CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
-		MoveToLocation(CurrentPositionHeadingTo);
+		// Set a new random location to go to.
+		currentPositionHeadingTo = locations[FMath::RandRange(0, locations.IndexOfByKey(locations.Last()))]->GetActorLocation();
+		MoveToLocation(currentPositionHeadingTo);
 	}
 }
 
-// The functionality of charging.
+// What the guard should do when charging.
 void AGuard::ChargeBehaviour()
 {
-	if (CurrentPositionHeadingTo != ChargingLocation->GetActorLocation())
+	// If the guard is not headed to the charging location.
+	if (currentPositionHeadingTo != chargingLocation->GetActorLocation())
 	{
-		CurrentPositionHeadingTo = ChargingLocation->GetActorLocation();
-		MoveToLocation(CurrentPositionHeadingTo);
+		// Set the guard to go to the charging location.
+		currentPositionHeadingTo = chargingLocation->GetActorLocation();
+		MoveToLocation(currentPositionHeadingTo);
 	}
 }
 
-// The functionality of healing.
+// What the guard does when healing.
 void AGuard::HealBehaviour()
 {
+	// The closest health kit location.
 	FVector closestHealthKitLocation;
+
+	// The shortest distance to a health kit.
 	float shortestDistance = 10000000.0f;
 
+	// For all the health kits on the map.
 	for (AActor* healthKit : healthKitLocations)
 	{
+		// If the distance from the guard to the health kit is shorter than the current shortest distance.
 		if (FVector::Distance(healthKit->GetActorLocation(), this->GetActorLocation()) < shortestDistance)
 		{
+			// Set the shortest distance to be the distance to the new health kit.
 			shortestDistance = FVector::Distance(healthKit->GetActorLocation(), this->GetActorLocation());
+			
+			// Set the closest health kit location to be that of the new closest health kit.
 			closestHealthKitLocation = healthKit->GetActorLocation();
 		}
 	}
 
-	if (CurrentPositionHeadingTo != closestHealthKitLocation)
+	// If the guard is not currently headed to the location of the closest health kit.
+	if (currentPositionHeadingTo != closestHealthKitLocation)
 	{
-		CurrentPositionHeadingTo = closestHealthKitLocation;
-		MoveToLocation(CurrentPositionHeadingTo);
+		// Make the guard head to the location of the closest health kit.
+		currentPositionHeadingTo = closestHealthKitLocation;
+		MoveToLocation(currentPositionHeadingTo);
 	}
 }
 
-// The functionality of attacking.
+// What the guard does when attacking.
 void AGuard::AttackBehaviour()
 {
-	for (AActor* actor : ActorsInVison)
+	// For all actors in the vision of the guard.
+	for (AActor* actor : actorsInVison)
 	{
 		// Check if actor is spy.
 		ASpy* Spy = Cast<ASpy>(actor);
+
+		// If the actor is a spy.
 		if (Spy)
 		{
-			CurrentPositionHeadingTo = Spy->GetActorLocation();
-			MoveToLocation(CurrentPositionHeadingTo);
+			// Move to the spy.
+			currentPositionHeadingTo = Spy->GetActorLocation();
+			MoveToLocation(currentPositionHeadingTo);
+
+			// Early out.
 			break;
 		}
 	}
+
+	// Shoot the spy.
 	Shoot();
 }
 
-// The functionality of avoiding toxic waste.
+// What the guard does when avoiding toxic waste.
 void AGuard::AvoidToxicBehaviour()
 {
-	CurrentPositionHeadingTo = Locations[FMath::RandRange(0, Locations.IndexOfByKey(Locations.Last()))]->GetActorLocation();
-	MoveToLocation(CurrentPositionHeadingTo);
+	// Set a new random location to head towards.
+	currentPositionHeadingTo = locations[FMath::RandRange(0, locations.IndexOfByKey(locations.Last()))]->GetActorLocation();
+	MoveToLocation(currentPositionHeadingTo);
 }

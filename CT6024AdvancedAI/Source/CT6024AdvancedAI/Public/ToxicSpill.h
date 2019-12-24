@@ -1,4 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿////////////////////////////////////////////////////////////
+// File: ToxicSpill.h
+// Author: Morgan Henry James
+// Date Created: ‎‎‎16 December ‎2019, ‏‎18:22:52
+// Brief: Declaration of the toxic spill class.
+//////////////////////////////////////////////////////////// 
 
 #pragma once
 
@@ -16,35 +21,42 @@ public:
 	AToxicSpill();
 
 protected:
-	// Called when the game starts or when spawned
+	// Called when the game starts or when spawned.
 	virtual void BeginPlay() override;
 
+	// The area of effect for the spillage.
 	UPROPERTY(EditAnywhere, Category = "References")
-	class ATriggerBox* TriggerBox;
+	class ATriggerBox* triggerBox;
 
+	// The green mesh that indicates a spill damages.
 	UPROPERTY(EditAnywhere, Category = "Components")
-	class UStaticMeshComponent* ToxicSpill;
+	class UStaticMeshComponent* toxicSpill;
 
+	// The barrel of toxic waste that falls over.
 	UPROPERTY(EditAnywhere, Category = "References")
-	class AStaticMeshActor* BarrelOfToxicWaste;
+	class AStaticMeshActor* barrelOfToxicWaste;
 
-	TArray<class AHumanoid*> Humanoids;
+	// All of the humanoids within the trigger box of the toxic spill.
+	TArray<class AHumanoid*> humanoids;
 
-	bool IsSpilled = false;
+	// True when the toxic waste is damaging.
+	bool isSpilled = false;
 
-	float RemainingSpilledTime;
+	// The time left that the spillage remains.
+	float remainingSpilledTime;
 
-	float RemainingTimeBetweenSpills;
+	// The time remaining until the next spill.
+	float remainingTimeBetweenSpills;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	// Called every frame.
+	virtual void Tick(float a_deltaTime) override;
 
-	// declare overlap begin function.
+	// Declare overlap begin function.
 	UFUNCTION()
-	void OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor);
+	void OnOverlapBegin(class AActor* a_overlappedActor, class AActor* a_otherActor);
 
-	// declare overlap end function.
+	// Declare overlap end function.
 	UFUNCTION()
-	void OnOverlapEnd(class AActor* OverlappedActor, class AActor* OtherActor);
+	void OnOverlapEnd(class AActor* a_overlappedActor, class AActor* a_otherActor);
 };
